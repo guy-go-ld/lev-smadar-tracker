@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28 18:04",
+ "generated_at": "2026-09-28 18:32",
  "screenings_total": 6,
  "screenings_final": 1,
  "based_on": "final",
@@ -47,14 +47,14 @@
    "weekday": "ב'",
    "start": "18:40",
    "film": "עצמאות",
-   "sold_so_far": 37
+   "sold_so_far": 51
   },
   {
    "date": "2026-09-28",
    "weekday": "ב'",
    "start": "21:00",
    "film": "פרימוורה",
-   "sold_so_far": 12
+   "sold_so_far": 18
   },
   {
    "date": "2026-09-29",
@@ -128,8 +128,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 10,
-  "ok": 10,
+  "runs": 11,
+  "ok": 11,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
