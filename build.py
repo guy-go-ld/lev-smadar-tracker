@@ -7,7 +7,7 @@ Outputs:
 - data/snapshots-flat.csv : the same data in the old local format (tools/lev_attendance.py reads it)
 - README.md               : the latest numbers, between the AUTO markers
 
-Estimate: tickets = round((1 - availRatio) * 267) - 2 blocked seats, taken from the last time the
+Estimate: tickets = round((1 - availRatio) * 267) (no blocked-seat deduction: a hall count on 28.9 matched the raw number), taken from the last time the
 screening was seen before it started. "final" when that was at most 20 minutes before the start.
 """
 import csv
@@ -22,7 +22,7 @@ from zoneinfo import ZoneInfo
 TZ = ZoneInfo("Asia/Jerusalem")
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(ROOT, "data")
-SEATS, BLOCKED, FINAL_MIN = 267, 2, 20
+SEATS, BLOCKED, FINAL_MIN = 267, 0, 20  # BLOCKED was 2 until 28.9; Omaha 16:45 hall count = 14 = raw
 DAYS = ["א'", "ב'", "ג'", "ד'", "ה'", "ו'", "ש'"]
 PY2HEB = {6: "א'", 0: "ב'", 1: "ג'", 2: "ד'", 3: "ה'", 4: "ו'", 5: "ש'"}
 SLOTS = ["בוקר (<12)", "צהריים (12-16)", "ערב מוקדם (16-19)", "ערב (19+)"]

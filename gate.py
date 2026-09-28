@@ -23,7 +23,9 @@ def parse(s):
     return datetime.strptime(s, FMT).replace(tzinfo=TZ)
 
 
-def decide(now, pre_show_min=PRE_SHOW_MIN, force=False):
+def decide(now, pre_show_min=PRE_SHOW_MIN, force=False, every_minute=False):
+    """every_minute: in the pre-show window, collect on every call (the loop calls once a minute),
+    so the last snapshot lands ~1 minute before the start. Otherwise collect once per window."""
     if force:
         return True, "manual run"
     catalog = os.path.join(DATA, "presentations.csv")
@@ -32,7 +34,8 @@ def decide(now, pre_show_min=PRE_SHOW_MIN, force=False):
             for r in csv.DictReader(f):
                 start = parse(r["dateTime"])
                 if now < start <= now + timedelta(minutes=pre_show_min):
-                    if parse(r["last_seen"]) < start - timedelta(minutes=pre_show_min):
+                    since = now - timedelta(seconds=30) if every_minute else start - timedelta(minutes=pre_show_min)
+                    if parse(r["last_seen"]) < since:
                         return True, f"pre-show: {r['featureName']} at {r['dateTime']}"
     last_ok = None
     for path in sorted(glob.glob(os.path.join(DATA, "runs", "*.csv")))[-2:]:

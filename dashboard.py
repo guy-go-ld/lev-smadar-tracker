@@ -109,14 +109,14 @@ td.n,th.n{text-align:left;white-space:nowrap}
   <div class="status" id="status" data-state="unknown" role="status">
     <span class="pill"><i aria-hidden="true"></i><span id="state">טוען נתונים…</span></span>
     <div class="facts"><span>צילום אחרון: <b id="last">–</b></span><span>הצילום הבא: <b id="next">–</b></span></div>
-    <p id="explain">האיסוף רץ ב-GitHub Actions: צילום כל חצי שעה, ועוד צילום 5 דקות לפני כל הקרנה. הצילום הזה נותן את האומדן הסופי.</p>
+    <p id="explain">האיסוף רץ ב-GitHub Actions: צילום כל חצי שעה, ועוד צילום בכל דקה ב-5 הדקות שלפני כל הקרנה. הצילום האחרון, כדקה לפני ההתחלה, נותן את האומדן הסופי.</p>
   </div>
   <div class="stats" id="stats"></div>
   <h2>הקרנות קרובות <small>כרטיסים שנמכרו עד הצילום האחרון</small></h2>
   <div id="up"></div>
   <h2>הקרנות שהתקיימו <small>החדשות למעלה</small></h2>
   <div class="tw"><table><thead><tr><th>תאריך</th><th>יום</th><th class="n">שעה</th><th>סרט</th><th class="n">כרטיסים</th><th>סטטוס</th><th class="n">הצילום האחרון נלקח</th></tr></thead><tbody id="past"></tbody></table></div>
-  <p class="note">שיטה: כרטיסים = (1 − אחוז הזמינות) × 267 מושבים, פחות 2 מושבים חסומים, לפי הצילום האחרון לפני שההקרנה התחילה. <b>סופי</b> = הצילום האחרון עד 20 דקות לפני ההתחלה. <b>חלקי</b> = צילום מוקדם יותר, ולכן המספר הוא רצפה. מקור: ה-API הציבורי של מערכת הכרטוס של לב. <a href="https://github.com/guy-go-ld/lev-smadar-tracker">הנתונים הגולמיים</a>.</p>
+  <p class="note">שיטה: כרטיסים = (1 − אחוז הזמינות) × 267 מושבים, לפי הצילום האחרון לפני שההקרנה התחילה. <b>סופי</b> = הצילום האחרון עד 20 דקות לפני ההתחלה. <b>חלקי</b> = צילום מוקדם יותר, ולכן המספר הוא רצפה. מקור: ה-API הציבורי של מערכת הכרטוס של לב. <a href="https://github.com/guy-go-ld/lev-smadar-tracker">הנתונים הגולמיים</a>.</p>
 </div>
 <script>
 (function(){
@@ -136,7 +136,7 @@ td.n,th.n{text-align:left;white-space:nowrap}
     $("state").textContent=st==="ok"?"האיסוף פעיל":st==="late"?"האיסוף מתעכב":"האיסוף נעצר";
     $("last").textContent=d.generated_at.slice(11)+" ("+ago(age)+")";
     var next=up.filter(function(u){return u.t>now;})[0], half=new Date(last.getTime()+30*60e3);
-    $("next").textContent=(next&&next.snap<=half)?hm(next.snap)+", לפני "+next.film+" ("+next.start+")":(half>now?hm(half):"בכל רגע")+" (צילום חצי-שעתי)";
+    $("next").textContent=(next&&next.first<=half)?hm(next.first)+"-"+hm(next.snap)+" כל דקה, לפני "+next.film+" ("+next.start+")":(half>now?hm(half):"בכל רגע")+" (צילום חצי-שעתי)";
     if(st==="stopped") $("explain").textContent="אין צילום חדש כבר יותר משעה וחצי. כנראה ששרשרת האיסוף נעצרה. הפעלה מחדש: gh workflow run loop.yml -R guy-go-ld/lev-smadar-tracker";
     var nextT=next&&next.t.getTime(), byDay={}, order=[], mx=Math.max(20,Math.max.apply(null,[0].concat(up.map(function(u){return u.sold_so_far;}))));
     up.forEach(function(u){if(!byDay[u.date]){byDay[u.date]=[];order.push(u.date);}byDay[u.date].push(u);});
@@ -149,7 +149,7 @@ td.n,th.n{text-align:left;white-space:nowrap}
   }
   function render(data){
     d=data;
-    up=(d.upcoming||[]).map(function(u){var s=il(u.date+" "+u.start);return Object.assign({},u,{t:s,snap:new Date(s.getTime()-5*60e3)});});
+    up=(d.upcoming||[]).map(function(u){var s=il(u.date+" "+u.start);return Object.assign({},u,{t:s,snap:new Date(s.getTime()-60e3),first:new Date(s.getTime()-5*60e3)});});
     var past=d.past||[], fin=d.screenings_final;
     $("stats").innerHTML=[[past.length,"הקרנות שהתקיימו בנתונים"],[fin,"מתוכן עם אומדן סופי"],[d.avg_per_screening==null?"–":d.avg_per_screening,fin>0?"כרטיסים בממוצע להקרנה (סופי)":"כרטיסים בממוצע (רצפה, אין עדיין סופי)"]]
       .map(function(t){return '<div class="stat"><span class="v">'+esc(t[0])+'</span><span class="k">'+esc(t[1])+'</span></div>';}).join("");

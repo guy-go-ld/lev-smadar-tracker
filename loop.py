@@ -2,7 +2,8 @@
 """Continuous collector for GitHub Actions (.github/workflows/loop.yml).
 
 GitHub's cron trigger proved unreliable, so this job stays up for ~5.5 hours, checks every minute,
-and collects exactly when gate.py says so: 5 minutes before each screening, plus half-hourly.
+and collects when gate.py says so: every minute in the last 5 minutes before each screening (the API
+drops a screening when it starts, so the last snapshot is ~1 minute before), plus half-hourly.
 When it ends, the workflow dispatches the next run of itself, so the chain never stops.
 """
 import subprocess
@@ -37,7 +38,7 @@ def main():
     end = datetime.now(TZ) + RUN_FOR
     while datetime.now(TZ) < end:
         sh("git", "pull", "-q", "--rebase")  # pick up snapshots from other runs, so the gate sees them
-        go, why = decide(datetime.now(TZ), pre_show_min=PRE_SHOW_MIN)
+        go, why = decide(datetime.now(TZ), pre_show_min=PRE_SHOW_MIN, every_minute=True)
         if go:
             print(f"{datetime.now(TZ):%H:%M} COLLECT: {why}", flush=True)
             sh(sys.executable, "collect.py")
