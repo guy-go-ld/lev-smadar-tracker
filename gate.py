@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Decide whether this wake-up should collect. The workflow wakes every 5 minutes, but collects only:
+"""Decide whether this wake-up should collect. The workflow wakes every 5 minutes (GitHub schedule and/or an
+external repository_dispatch "tick"), but collects only:
 1. Pre-show: a known screening starts within PRE_SHOW_MIN minutes and hasn't been captured in that window.
    The API drops a screening when it starts, so this is the snapshot that gives the final estimate.
 2. Baseline: the last successful run was at least BASELINE_MIN minutes ago (roughly every half hour).

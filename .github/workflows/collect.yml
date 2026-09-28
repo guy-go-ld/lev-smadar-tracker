@@ -3,6 +3,8 @@ name: collect
 on:
   schedule:
     - cron: "4-59/5 * * * *"   # wake every 5 min (~6 min before each :x0/:x5 start); gate.py decides whether to collect
+  repository_dispatch:       # external 5-minute tick (cron-job.org), gated like the schedule
+    types: [tick]
   workflow_dispatch:
 
 permissions:
