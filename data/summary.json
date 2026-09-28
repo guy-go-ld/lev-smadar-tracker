@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28 11:37",
+ "generated_at": "2026-09-28 12:39",
  "screenings_total": 4,
  "screenings_final": 0,
  "based_on": "all (no final estimates yet)",
@@ -77,21 +77,21 @@
    "weekday": "ב'",
    "start": "14:30",
    "film": "פרימוורה",
-   "sold_so_far": 8
+   "sold_so_far": 9
   },
   {
    "date": "2026-09-28",
    "weekday": "ב'",
    "start": "16:45",
    "film": "אומהה",
-   "sold_so_far": 0
+   "sold_so_far": 1
   },
   {
    "date": "2026-09-28",
    "weekday": "ב'",
    "start": "18:40",
    "film": "עצמאות",
-   "sold_so_far": 13
+   "sold_so_far": 17
   },
   {
    "date": "2026-09-28",
@@ -172,10 +172,16 @@
   }
  ],
  "coverage_7d": {
-  "runs": 3,
-  "ok": 3,
+  "runs": 4,
+  "ok": 4,
   "expected": 2016,
-  "gaps_over_30min": []
+  "gaps_over_30min": [
+   {
+    "start": "2026-09-28 11:37",
+    "end": "2026-09-28 12:39",
+    "minutes": 62
+   }
+  ]
  },
  "method": "tickets = round((1-availRatio)*267) - 2; final = last seen <= 20 min before start"
 }
