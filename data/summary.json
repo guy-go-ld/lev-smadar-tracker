@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28 16:17",
+ "generated_at": "2026-09-28 16:40",
  "screenings_total": 5,
  "screenings_final": 0,
  "based_on": "all (no final estimates yet)",
@@ -92,14 +92,14 @@
    "weekday": "ב'",
    "start": "16:45",
    "film": "אומהה",
-   "sold_so_far": 4
+   "sold_so_far": 12
   },
   {
    "date": "2026-09-28",
    "weekday": "ב'",
    "start": "18:40",
    "film": "עצמאות",
-   "sold_so_far": 25
+   "sold_so_far": 29
   },
   {
    "date": "2026-09-28",
@@ -180,8 +180,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 6,
-  "ok": 6,
+  "runs": 7,
+  "ok": 7,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
