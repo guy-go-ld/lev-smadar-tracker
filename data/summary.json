@@ -172,8 +172,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 2,
-  "ok": 2,
+  "runs": 3,
+  "ok": 3,
   "expected": 2016,
   "gaps_over_30min": []
  },
