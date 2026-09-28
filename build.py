@@ -165,6 +165,9 @@ def main():
         open(readme, "w", encoding="utf-8").write(txt)
     print(f"built: {len(rows)} past screenings ({len(final)} final), {len(upcoming)} upcoming")
 
+    import dashboard  # GitHub Pages dashboard (docs/)
+    dashboard.main()
+
 
 if __name__ == "__main__":
     main()

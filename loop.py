@@ -21,7 +21,7 @@ def sh(*cmd):
 
 
 def commit():
-    sh("git", "add", "-A", "data", "README.md")
+    sh("git", "add", "-A", "data", "docs", "README.md")
     if sh("git", "diff", "--cached", "--quiet") == 0:
         return
     stamp = datetime.now(TZ).strftime("%Y-%m-%d %H:%M")
