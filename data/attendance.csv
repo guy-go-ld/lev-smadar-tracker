@@ -1,0 +1,5 @@
+date,week,weekday,start,slot,film,tickets_est,last_seen_min_before,status,film_en,duration_min,language,hall,source
+2026-09-27,2026-W39,א',14:15,צהריים (12-16),עצמאות,0,28,partial,,109,,,legacy
+2026-09-27,2026-W39,א',16:30,ערב מוקדם (16-19),שנת הבגידה שלי,2,70,partial,,98,,,legacy
+2026-09-27,2026-W39,א',18:40,ערב מוקדם (16-19),פרימוורה,23,200,partial,,110,,,legacy
+2026-09-27,2026-W39,א',21:00,ערב (19+),עצמאות,6,340,partial,,109,,,legacy
