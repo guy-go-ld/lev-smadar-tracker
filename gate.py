@@ -23,16 +23,16 @@ def parse(s):
     return datetime.strptime(s, FMT).replace(tzinfo=TZ)
 
 
-def decide(now):
-    if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
+def decide(now, pre_show_min=PRE_SHOW_MIN, force=False):
+    if force:
         return True, "manual run"
     catalog = os.path.join(DATA, "presentations.csv")
     if os.path.exists(catalog):
         with open(catalog, encoding="utf-8") as f:
             for r in csv.DictReader(f):
                 start = parse(r["dateTime"])
-                if now < start <= now + timedelta(minutes=PRE_SHOW_MIN):
-                    if parse(r["last_seen"]) < start - timedelta(minutes=PRE_SHOW_MIN):
+                if now < start <= now + timedelta(minutes=pre_show_min):
+                    if parse(r["last_seen"]) < start - timedelta(minutes=pre_show_min):
                         return True, f"pre-show: {r['featureName']} at {r['dateTime']}"
     last_ok = None
     for path in sorted(glob.glob(os.path.join(DATA, "runs", "*.csv")))[-2:]:
@@ -46,7 +46,7 @@ def decide(now):
 
 
 if __name__ == "__main__":
-    go, why = decide(datetime.now(TZ))
+    go, why = decide(datetime.now(TZ), force=os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch")
     print(f"{'COLLECT' if go else 'SKIP'}: {why}")
     out = os.environ.get("GITHUB_OUTPUT")
     if out:

@@ -1,0 +1,31 @@
+name: loop
+
+# Always-on collector: one job at a time runs loop.py for ~5.5 hours, then starts the next run of
+# this workflow. Start it once with: gh workflow run loop.yml -R guy-go-ld/lev-smadar-tracker
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write   # lets the job dispatch the next run (allowed for workflow_dispatch with GITHUB_TOKEN)
+
+concurrency:
+  group: loop       # at most one running + one queued, so the chain can't multiply
+  cancel-in-progress: false
+
+jobs:
+  loop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect around the clock
+        run: |
+          git config user.name "lev-tracker-bot"
+          git config user.email "lev-tracker-bot@users.noreply.github.com"
+          python3 loop.py
+      - name: Hand off to the next run
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run loop.yml --ref main -R ${{ github.repository }}
