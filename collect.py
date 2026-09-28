@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Collect Lev Smadar screenings from the public ticketing API (runs every 5 minutes on GitHub Actions).
+"""Collect Lev Smadar screenings from the public ticketing API (GitHub Actions; gate.py decides when).
 
 What it keeps, and why:
 - data/presentations.csv : one row per screening, with every field the API returns, plus

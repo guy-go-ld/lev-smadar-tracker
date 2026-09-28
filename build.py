@@ -128,7 +128,7 @@ def main():
     gaps = []
     times = sorted(datetime.strptime(r["run_at"], FMT) for r in ok_runs)
     for a, b_ in zip(times, times[1:]):
-        if (b_ - a) > timedelta(minutes=30):
+        if (b_ - a) > timedelta(minutes=45):
             gaps.append(dict(start=a.strftime(FMT), end=b_.strftime(FMT), minutes=int((b_ - a).total_seconds() // 60)))
 
     summary = dict(
@@ -143,8 +143,8 @@ def main():
         by_week=dict(sorted(agg(lambda r: r["week"]).items())),
         by_film=dict(sorted(agg(lambda r: r["film"]).items(), key=lambda x: -x[1]["total"])),
         upcoming=upcoming[:40],
-        coverage_7d=dict(runs=len(recent_runs), ok=len(ok_runs), expected=7 * 24 * 12,
-                         gaps_over_30min=gaps[-10:]),
+        coverage_7d=dict(runs=len(recent_runs), ok=len(ok_runs), expected_baseline=7 * 24 * 2,
+                         gaps_over_45min=gaps[-10:]),
         method=f"tickets = round((1-availRatio)*{SEATS}) - {BLOCKED}; final = last seen <= {FINAL_MIN} min before start",
     )
     with open(os.path.join(DATA, "summary.json"), "w", encoding="utf-8") as f:
@@ -157,7 +157,7 @@ def main():
                  f"- הקרנות שהסתיימו בנתונים: {len(rows)} (מתוכן {len(final)} עם אומדן סופי)",
                  f"- ממוצע כרטיסים להקרנה: {summary['avg_per_screening']}",
                  f"- ריצות ב-7 הימים האחרונים: {len(ok_runs)} מוצלחות מתוך {len(recent_runs)} "
-                 f"(מקסימום אפשרי {7 * 24 * 12})", "", "| יום | הקרנות | ממוצע כרטיסים |", "|---|---|---|"]
+                 f"(בסיס של כל חצי שעה: {7 * 24 * 2}, ועוד ריצה לפני כל הקרנה)", "", "| יום | הקרנות | ממוצע כרטיסים |", "|---|---|---|"]
         lines += [f"| {d} | {v['screenings']} | {v['avg']} |" for d, v in summary["by_weekday"].items()]
         txt = open(readme, encoding="utf-8").read()
         txt = re.sub(r"(<!-- AUTO-START -->).*(<!-- AUTO-END -->)", lambda m: m.group(1) + "\n" + "\n".join(lines)
