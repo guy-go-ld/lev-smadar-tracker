@@ -62,7 +62,16 @@ td.n,th.n{text-align:left;white-space:nowrap}
 .tag{font-size:13px;font-weight:700;padding:1px 8px;white-space:nowrap}
 .tag.final{background:var(--teal);color:#fff} .tag.partial{background:var(--yellow);color:#1F2426}
 .note{font-size:14.5px;color:var(--muted);margin:0;max-width:78ch}
+.avg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.avg > div{min-width:0}
+.avg h3{margin:0 0 4px;font-size:16px}
+.avg table,.heat{font-size:15px}
+.cellbar{display:inline-block;height:8px;background:var(--teal);vertical-align:middle;margin-inline-start:6px}
+.heat td.n{min-width:92px}
+.heat td.empty{color:var(--muted)}
+.heat .sc{font-size:12.5px;color:var(--muted);font-weight:400}
 @media (max-width:640px){
+  .avg{grid-template-columns:1fr}
   .status{grid-template-columns:1fr} .stat .v{font-size:34px}
   .row{grid-template-columns:48px minmax(0,1fr)} .row .bar,.row .chip{grid-column:2;justify-self:start}
   .row .bar{width:100%}
@@ -80,6 +89,14 @@ td.n,th.n{text-align:left;white-space:nowrap}
   <div class="stats" id="stats"></div>
   <h2>הקרנות קרובות <small>כרטיסים שנמכרו עד הצילום האחרון</small></h2>
   <div id="up"></div>
+  <h2>ממוצע כרטיסים להקרנה <small id="avgnote"></small></h2>
+  <div class="avg">
+    <div><h3>לפי יום</h3><div class="tw"><table><thead><tr><th>יום</th><th class="n">הקרנות</th><th class="n">ממוצע</th></tr></thead><tbody id="bywd"></tbody></table></div></div>
+    <div><h3>לפי שעה ביום</h3><div class="tw"><table><thead><tr><th>שעות</th><th class="n">הקרנות</th><th class="n">ממוצע</th></tr></thead><tbody id="byslot"></tbody></table></div></div>
+    <div><h3>לפי שבוע</h3><div class="tw"><table><thead><tr><th>שבוע</th><th class="n">הקרנות</th><th class="n">ממוצע</th></tr></thead><tbody id="byweek"></tbody></table></div></div>
+  </div>
+  <h3 style="margin:0;font-size:16px">יום ושעה ביחד <small style="font-weight:600;color:var(--muted)">ממוצע כרטיסים, ובסוגריים כמה הקרנות נמדדו</small></h3>
+  <div class="tw"><table class="heat"><thead><tr><th>יום</th><th class="n">בוקר (עד 12)</th><th class="n">צהריים (12-16)</th><th class="n">ערב מוקדם (16-19)</th><th class="n">ערב (19 ואילך)</th></tr></thead><tbody id="grid"></tbody></table></div>
   <h2>הקרנות שהתקיימו <small>החדשות למעלה</small></h2>
   <div class="tw"><table><thead><tr><th>תאריך</th><th>יום</th><th class="n">שעה</th><th>סרט</th><th class="n">כרטיסים</th><th>סטטוס</th><th class="n">הצילום האחרון נלקח</th></tr></thead><tbody id="past"></tbody></table></div>
   <p class="note">שיטה: כרטיסים = (1 − אחוז הזמינות) × 267 מושבים, לפי הצילום האחרון לפני שההקרנה התחילה. <b>סופי</b> = הצילום האחרון עד 20 דקות לפני ההתחלה. <b>חלקי</b> = צילום מוקדם יותר, ולכן המספר הוא רצפה. מקור: ה-API הציבורי של מערכת הכרטוס של לב. <a href="https://github.com/guy-go-ld/lev-smadar-tracker">הנתונים הגולמיים</a>.</p>
@@ -121,6 +138,21 @@ td.n,th.n{text-align:left;white-space:nowrap}
       .map(function(t){return '<div class="stat"><span class="v">'+esc(t[0])+'</span><span class="k">'+esc(t[1])+'</span></div>';}).join("");
     $("past").innerHTML=past.map(function(r){var f=r.status==="final";
       return "<tr><td>"+esc(r.date)+"</td><td>"+esc(r.weekday)+'</td><td class="n">'+esc(r.start)+"</td><td>"+esc(r.film)+'</td><td class="n"><b>'+esc(r.tickets)+'</b></td><td><span class="tag '+(f?"final":"partial")+'">'+(f?"סופי":"חלקי (רצפה)")+'</span></td><td class="n">'+esc(r.lag)+" דק' לפני</td></tr>";}).join("")||'<tr><td colspan="7" class="note">אין עדיין הקרנות שהתקיימו</td></tr>';
+    var DAYS=["א'","ב'","ג'","ד'","ה'","ו'","ש'"], SL=["בוקר (<12)","צהריים (12-16)","ערב מוקדם (16-19)","ערב (19+)"];
+    var SLN={"בוקר (<12)":"בוקר (עד 12)","צהריים (12-16)":"צהריים (12-16)","ערב מוקדם (16-19)":"ערב מוקדם (16-19)","ערב (19+)":"ערב (19 ואילך)"};
+    function wkLabel(k){var m=/^(\d{4})-W(\d{2})$/.exec(k);if(!m)return k;var y=+m[1],w=+m[2],j4=new Date(Date.UTC(y,0,4)),mon=new Date(j4.getTime()-((j4.getUTCDay()+6)%7)*864e5+(w-1)*7*864e5),end=new Date(mon.getTime()+6*864e5);return mon.getUTCDate()+"."+(mon.getUTCMonth()+1)+"-"+end.getUTCDate()+"."+(end.getUTCMonth()+1);}
+    var allv=[].concat.apply([],[d.by_weekday,d.by_slot,d.by_week].map(function(o){return Object.keys(o||{}).map(function(k){return o[k].avg;});}));
+    var amx=Math.max.apply(null,[1].concat(allv));
+    function rows(obj,keys,label){keys=keys.filter(function(k){return obj&&obj[k];});
+      return keys.map(function(k){var v=obj[k];return "<tr><td>"+esc(label?label(k):k)+'</td><td class="n">'+v.screenings+'</td><td class="n"><b>'+v.avg+'</b><span class="cellbar" style="width:'+Math.round(v.avg/amx*60)+'px"></span></td></tr>';}).join("")||'<tr><td colspan="3" class="note">אין עדיין נתונים</td></tr>';}
+    $("bywd").innerHTML=rows(d.by_weekday,DAYS,function(k){return "יום "+k;});
+    $("byslot").innerHTML=rows(d.by_slot,SL,function(k){return SLN[k];});
+    $("byweek").innerHTML=rows(d.by_week,Object.keys(d.by_week||{}).sort(),wkLabel);
+    var g=d.by_weekday_slot||{}, gmx=Math.max.apply(null,[1].concat(Object.keys(g).map(function(k){return g[k].avg;})));
+    $("grid").innerHTML=DAYS.map(function(day){return "<tr><td><b>"+esc(day)+"</b></td>"+SL.map(function(sl){var v=g[day+"|"+sl];
+      if(!v)return '<td class="n empty">–</td>';var a=Math.round((v.avg/gmx*0.55+0.08)*100);
+      return '<td class="n" style="background:color-mix(in srgb,var(--teal) '+a+'%,transparent)"><b>'+v.avg+'</b> <span class="sc">('+v.screenings+')</span></td>';}).join("")+"</tr>";}).join("");
+    $("avgnote").textContent=d.based_on==="final"?"רק מהקרנות עם ספירה סופית ("+fin+")":"מכל ההקרנות (עדיין אין ספירה סופית, ולכן זו רצפה)";
     tick();
   }
   function load(){
