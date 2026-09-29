@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-29 13:09",
- "screenings_total": 9,
- "screenings_final": 4,
+ "generated_at": "2026-09-29 13:37",
+ "screenings_total": 10,
+ "screenings_final": 5,
  "based_on": "final",
  "first_screening": "2026-09-27",
  "last_screening": "2026-09-29",
- "avg_per_screening": 37.0,
+ "avg_per_screening": 34.8,
  "by_weekday": {
   "ב'": {
    "screenings": 3,
@@ -13,9 +13,9 @@
    "total": 100
   },
   "ג'": {
-   "screenings": 1,
-   "avg": 48.0,
-   "total": 48
+   "screenings": 2,
+   "avg": 37.0,
+   "total": 74
   }
  },
  "by_slot": {
@@ -23,6 +23,11 @@
    "screenings": 1,
    "avg": 48.0,
    "total": 48
+  },
+  "צהריים (12-16)": {
+   "screenings": 1,
+   "avg": 26.0,
+   "total": 26
   },
   "ערב מוקדם (16-19)": {
    "screenings": 2,
@@ -50,13 +55,18 @@
    "screenings": 1,
    "avg": 48.0,
    "total": 48
+  },
+  "ג'|צהריים (12-16)": {
+   "screenings": 1,
+   "avg": 26.0,
+   "total": 26
   }
  },
  "by_week": {
   "2026-W40": {
-   "screenings": 4,
-   "avg": 37.0,
-   "total": 148
+   "screenings": 5,
+   "avg": 34.8,
+   "total": 174
   }
  },
  "by_film": {
@@ -66,9 +76,9 @@
    "total": 83
   },
   "עצמאות": {
-   "screenings": 1,
-   "avg": 51.0,
-   "total": 51
+   "screenings": 2,
+   "avg": 38.5,
+   "total": 77
   },
   "אומהה": {
    "screenings": 1,
@@ -77,13 +87,6 @@
   }
  },
  "upcoming": [
-  {
-   "date": "2026-09-29",
-   "weekday": "ג'",
-   "start": "13:10",
-   "film": "עצמאות",
-   "sold_so_far": 26
-  },
   {
    "date": "2026-09-29",
    "weekday": "ג'",
@@ -352,8 +355,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 68,
-  "ok": 68,
+  "runs": 69,
+  "ok": 69,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
