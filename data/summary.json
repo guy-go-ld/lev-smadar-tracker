@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29 10:03",
+ "generated_at": "2026-09-29 10:31",
  "screenings_total": 8,
  "screenings_final": 3,
  "based_on": "final",
@@ -67,7 +67,7 @@
    "weekday": "ג'",
    "start": "10:50",
    "film": "פרימוורה",
-   "sold_so_far": 6
+   "sold_so_far": 16
   },
   {
    "date": "2026-09-29",
@@ -131,11 +131,221 @@
    "start": "21:00",
    "film": "עצמאות",
    "sold_so_far": 4
+  },
+  {
+   "date": "2026-10-01",
+   "weekday": "ה'",
+   "start": "14:30",
+   "film": "להתאהב בטוסקנה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-01",
+   "weekday": "ה'",
+   "start": "16:30",
+   "film": "עצמאות",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-01",
+   "weekday": "ה'",
+   "start": "18:45",
+   "film": "פרימוורה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-01",
+   "weekday": "ה'",
+   "start": "21:00",
+   "film": "דיגר",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-02",
+   "weekday": "ו'",
+   "start": "12:30",
+   "film": "פרימוורה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-02",
+   "weekday": "ו'",
+   "start": "14:50",
+   "film": "להתאהב בטוסקנה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-02",
+   "weekday": "ו'",
+   "start": "17:00",
+   "film": "עצמאות",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-02",
+   "weekday": "ו'",
+   "start": "19:15",
+   "film": "פרימוורה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-02",
+   "weekday": "ו'",
+   "start": "21:30",
+   "film": "דיגר",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-03",
+   "weekday": "ש'",
+   "start": "11:00",
+   "film": "פרימוורה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-03",
+   "weekday": "ש'",
+   "start": "13:15",
+   "film": "להתאהב בטוסקנה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-03",
+   "weekday": "ש'",
+   "start": "15:10",
+   "film": "עצמאות",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-03",
+   "weekday": "ש'",
+   "start": "17:25",
+   "film": "אומהה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-03",
+   "weekday": "ש'",
+   "start": "19:15",
+   "film": "פרימוורה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-03",
+   "weekday": "ש'",
+   "start": "21:30",
+   "film": "דיגר",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-04",
+   "weekday": "א'",
+   "start": "16:30",
+   "film": "פרימוורה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-04",
+   "weekday": "א'",
+   "start": "18:45",
+   "film": "עצמאות",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-04",
+   "weekday": "א'",
+   "start": "21:00",
+   "film": "דיגר",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-05",
+   "weekday": "ב'",
+   "start": "16:30",
+   "film": "להתאהב בטוסקנה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-05",
+   "weekday": "ב'",
+   "start": "18:25",
+   "film": "דיגר",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-05",
+   "weekday": "ב'",
+   "start": "21:00",
+   "film": "פרימוורה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-06",
+   "weekday": "ג'",
+   "start": "11:00",
+   "film": "פרימוורה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-06",
+   "weekday": "ג'",
+   "start": "13:15",
+   "film": "להתאהב בטוסקנה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-06",
+   "weekday": "ג'",
+   "start": "15:10",
+   "film": "עצמאות",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-06",
+   "weekday": "ג'",
+   "start": "17:25",
+   "film": "אומהה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-06",
+   "weekday": "ג'",
+   "start": "19:15",
+   "film": "פרימוורה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-06",
+   "weekday": "ג'",
+   "start": "21:30",
+   "film": "דיגר",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-07",
+   "weekday": "ד'",
+   "start": "16:50",
+   "film": "להתאהב בטוסקנה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-07",
+   "weekday": "ד'",
+   "start": "18:45",
+   "film": "עצמאות",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-07",
+   "weekday": "ד'",
+   "start": "21:00",
+   "film": "דיגר",
+   "sold_so_far": 2
   }
  ],
  "coverage_7d": {
-  "runs": 53,
-  "ok": 53,
+  "runs": 54,
+  "ok": 54,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
