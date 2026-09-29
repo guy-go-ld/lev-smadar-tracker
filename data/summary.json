@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29 15:01",
+ "generated_at": "2026-09-29 15:15",
  "screenings_total": 10,
  "screenings_final": 5,
  "based_on": "final",
@@ -92,7 +92,7 @@
    "weekday": "ג'",
    "start": "15:20",
    "film": "אומהה",
-   "sold_so_far": 13
+   "sold_so_far": 27
   },
   {
    "date": "2026-09-29",
@@ -106,7 +106,7 @@
    "weekday": "ג'",
    "start": "19:20",
    "film": "פרימוורה",
-   "sold_so_far": 24
+   "sold_so_far": 28
   },
   {
    "date": "2026-09-29",
@@ -355,8 +355,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 72,
-  "ok": 72,
+  "runs": 73,
+  "ok": 73,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
