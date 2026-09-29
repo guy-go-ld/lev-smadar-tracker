@@ -9,3 +9,4 @@ date,week,weekday,start,slot,film,tickets_est,last_seen_min_before,status,film_e
 2026-09-28,2026-W40,ב',21:00,ערב (19+),פרימוורה,35,1,final,Primavera,110,it,לב 1,github
 2026-09-29,2026-W40,ג',10:50,בוקר (<12),פרימוורה,48,1,final,Primavera,110,it,לב 1,github
 2026-09-29,2026-W40,ג',13:10,צהריים (12-16),עצמאות,26,1,final,Tell Me Everything,109,he,לב 1,github
+2026-09-29,2026-W40,ג',15:20,צהריים (12-16),אומהה,27,1,final,Omaha,83,en,לב 1,github
