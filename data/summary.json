@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30 16:06",
+ "generated_at": "2026-09-30 16:25",
  "screenings_total": 15,
  "screenings_final": 10,
  "based_on": "final",
@@ -112,7 +112,7 @@
    "weekday": "ד'",
    "start": "16:30",
    "film": "שנת הבגידה שלי",
-   "sold_so_far": 4
+   "sold_so_far": 7
   },
   {
    "date": "2026-09-30",
@@ -340,8 +340,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 147,
-  "ok": 147,
+  "runs": 148,
+  "ok": 148,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
