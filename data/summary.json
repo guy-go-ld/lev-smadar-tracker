@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30 17:53",
+ "generated_at": "2026-09-30 18:21",
  "screenings_total": 16,
  "screenings_final": 11,
  "based_on": "final",
@@ -122,7 +122,7 @@
    "weekday": "ד'",
    "start": "18:40",
    "film": "פרימוורה",
-   "sold_so_far": 34
+   "sold_so_far": 41
   },
   {
    "date": "2026-09-30",
@@ -343,8 +343,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 155,
-  "ok": 155,
+  "runs": 156,
+  "ok": 156,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
