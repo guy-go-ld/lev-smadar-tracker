@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-30 16:29",
- "screenings_total": 15,
- "screenings_final": 10,
+ "generated_at": "2026-09-30 16:57",
+ "screenings_total": 16,
+ "screenings_final": 11,
  "based_on": "final",
  "first_screening": "2026-09-27",
  "last_screening": "2026-09-30",
- "avg_per_screening": 35.1,
+ "avg_per_screening": 32.5,
  "by_weekday": {
   "ב'": {
    "screenings": 3,
@@ -18,9 +18,9 @@
    "total": 236
   },
   "ד'": {
-   "screenings": 1,
-   "avg": 15.0,
-   "total": 15
+   "screenings": 2,
+   "avg": 11.0,
+   "total": 22
   }
  },
  "by_slot": {
@@ -35,9 +35,9 @@
    "total": 68
   },
   "ערב מוקדם (16-19)": {
-   "screenings": 3,
-   "avg": 36.0,
-   "total": 108
+   "screenings": 4,
+   "avg": 28.8,
+   "total": 115
   },
   "ערב (19+)": {
    "screenings": 3,
@@ -80,13 +80,18 @@
    "screenings": 1,
    "avg": 15.0,
    "total": 15
+  },
+  "ד'|ערב מוקדם (16-19)": {
+   "screenings": 1,
+   "avg": 7.0,
+   "total": 7
   }
  },
  "by_week": {
   "2026-W40": {
-   "screenings": 10,
-   "avg": 35.1,
-   "total": 351
+   "screenings": 11,
+   "avg": 32.5,
+   "total": 358
   }
  },
  "by_film": {
@@ -104,16 +109,14 @@
    "screenings": 2,
    "avg": 20.5,
    "total": 41
+  },
+  "שנת הבגידה שלי": {
+   "screenings": 1,
+   "avg": 7.0,
+   "total": 7
   }
  },
  "upcoming": [
-  {
-   "date": "2026-09-30",
-   "weekday": "ד'",
-   "start": "16:30",
-   "film": "שנת הבגידה שלי",
-   "sold_so_far": 7
-  },
   {
    "date": "2026-09-30",
    "weekday": "ד'",
@@ -340,8 +343,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 152,
-  "ok": 152,
+  "runs": 153,
+  "ok": 153,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
