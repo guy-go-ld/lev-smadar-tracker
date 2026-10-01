@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-01 14:29",
- "screenings_total": 18,
- "screenings_final": 13,
+ "generated_at": "2026-10-01 14:57",
+ "screenings_total": 19,
+ "screenings_final": 14,
  "based_on": "final",
  "first_screening": "2026-09-27",
- "last_screening": "2026-09-30",
- "avg_per_screening": 33.8,
+ "last_screening": "2026-10-01",
+ "avg_per_screening": 32.4,
  "by_weekday": {
   "ב'": {
    "screenings": 3,
@@ -21,6 +21,11 @@
    "screenings": 4,
    "avg": 25.8,
    "total": 103
+  },
+  "ה'": {
+   "screenings": 1,
+   "avg": 15.0,
+   "total": 15
   }
  },
  "by_slot": {
@@ -30,9 +35,9 @@
    "total": 48
   },
   "צהריים (12-16)": {
-   "screenings": 3,
-   "avg": 22.7,
-   "total": 68
+   "screenings": 4,
+   "avg": 20.8,
+   "total": 83
   },
   "ערב מוקדם (16-19)": {
    "screenings": 5,
@@ -90,13 +95,18 @@
    "screenings": 1,
    "avg": 27.0,
    "total": 27
+  },
+  "ה'|צהריים (12-16)": {
+   "screenings": 1,
+   "avg": 15.0,
+   "total": 15
   }
  },
  "by_week": {
   "2026-W40": {
-   "screenings": 13,
-   "avg": 33.8,
-   "total": 439
+   "screenings": 14,
+   "avg": 32.4,
+   "total": 454
   }
  },
  "by_film": {
@@ -115,6 +125,11 @@
    "avg": 20.5,
    "total": 41
   },
+  "להתאהב בטוסקנה": {
+   "screenings": 1,
+   "avg": 15.0,
+   "total": 15
+  },
   "שנת הבגידה שלי": {
    "screenings": 1,
    "avg": 7.0,
@@ -122,13 +137,6 @@
   }
  },
  "upcoming": [
-  {
-   "date": "2026-10-01",
-   "weekday": "ה'",
-   "start": "14:30",
-   "film": "להתאהב בטוסקנה",
-   "sold_so_far": 15
-  },
   {
    "date": "2026-10-01",
    "weekday": "ה'",
@@ -141,7 +149,7 @@
    "weekday": "ה'",
    "start": "18:45",
    "film": "פרימוורה",
-   "sold_so_far": 7
+   "sold_so_far": 13
   },
   {
    "date": "2026-10-01",
@@ -169,7 +177,7 @@
    "weekday": "ו'",
    "start": "17:00",
    "film": "עצמאות",
-   "sold_so_far": 6
+   "sold_so_far": 8
   },
   {
    "date": "2026-10-02",
@@ -334,8 +342,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 212,
-  "ok": 212,
+  "runs": 213,
+  "ok": 213,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
