@@ -20,3 +20,4 @@ date,week,weekday,start,slot,film,tickets_est,last_seen_min_before,status,film_e
 2026-10-01,2026-W40,ה',14:30,צהריים (12-16),להתאהב בטוסקנה,15,1,final,Before We Leave Tuscany,91,en,לב 1,github
 2026-10-01,2026-W40,ה',16:30,ערב מוקדם (16-19),עצמאות,21,1,final,Tell Me Everything,109,he,לב 1,github
 2026-10-01,2026-W40,ה',18:45,ערב מוקדם (16-19),פרימוורה,29,1,final,Primavera,110,it,לב 1,github
+2026-10-01,2026-W40,ה',21:00,ערב (19+),דיגר,3,1,final,Digger,128,en,לב 1,github
