@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-03 11:21",
- "screenings_total": 28,
+ "generated_at": "2026-10-03 16:35",
+ "screenings_total": 30,
  "screenings_final": 18,
  "based_on": "final",
  "first_screening": "2026-09-27",
@@ -165,30 +165,16 @@
   {
    "date": "2026-10-03",
    "weekday": "ש'",
-   "start": "13:15",
-   "film": "להתאהב בטוסקנה",
-   "sold_so_far": 18
-  },
-  {
-   "date": "2026-10-03",
-   "weekday": "ש'",
-   "start": "15:10",
-   "film": "עצמאות",
-   "sold_so_far": 9
-  },
-  {
-   "date": "2026-10-03",
-   "weekday": "ש'",
    "start": "17:25",
    "film": "אומהה",
-   "sold_so_far": 10
+   "sold_so_far": 18
   },
   {
    "date": "2026-10-03",
    "weekday": "ש'",
    "start": "19:15",
    "film": "פרימוורה",
-   "sold_so_far": 6
+   "sold_so_far": 17
   },
   {
    "date": "2026-10-03",
@@ -216,7 +202,7 @@
    "weekday": "א'",
    "start": "21:00",
    "film": "דיגר",
-   "sold_so_far": 2
+   "sold_so_far": 5
   },
   {
    "date": "2026-10-05",
@@ -304,8 +290,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 285,
-  "ok": 285,
+  "runs": 286,
+  "ok": 286,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
@@ -347,6 +333,11 @@
     "start": "2026-10-03 05:18",
     "end": "2026-10-03 11:21",
     "minutes": 363
+   },
+   {
+    "start": "2026-10-03 11:21",
+    "end": "2026-10-03 16:35",
+    "minutes": 314
    }
   ]
  },
