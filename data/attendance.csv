@@ -29,3 +29,5 @@ date,week,weekday,start,slot,film,tickets_est,last_seen_min_before,status,film_e
 2026-10-03,2026-W40,ש',11:00,בוקר (<12),פרימוורה,10,342,partial,Primavera,110,it,לב 1,github
 2026-10-03,2026-W40,ש',13:15,צהריים (12-16),להתאהב בטוסקנה,18,114,partial,Before We Leave Tuscany,91,en,לב 1,github
 2026-10-03,2026-W40,ש',15:10,צהריים (12-16),עצמאות,9,229,partial,Tell Me Everything,109,he,לב 1,github
+2026-10-03,2026-W40,ש',17:25,ערב מוקדם (16-19),אומהה,18,50,partial,Omaha,83,en,לב 1,github
+2026-10-03,2026-W40,ש',19:15,ערב (19+),פרימוורה,17,160,partial,Primavera,110,it,לב 1,github
