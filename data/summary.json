@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-03 20:36",
- "screenings_total": 32,
+ "generated_at": "2026-10-03 23:12",
+ "screenings_total": 33,
  "screenings_final": 18,
  "based_on": "final",
  "first_screening": "2026-09-27",
@@ -163,13 +163,6 @@
  },
  "upcoming": [
   {
-   "date": "2026-10-03",
-   "weekday": "ש'",
-   "start": "21:30",
-   "film": "דיגר",
-   "sold_so_far": 2
-  },
-  {
    "date": "2026-10-04",
    "weekday": "א'",
    "start": "16:30",
@@ -276,15 +269,10 @@
   }
  ],
  "coverage_7d": {
-  "runs": 287,
-  "ok": 287,
+  "runs": 288,
+  "ok": 288,
   "expected_baseline": 336,
   "gaps_over_45min": [
-   {
-    "start": "2026-09-28 11:37",
-    "end": "2026-09-28 12:39",
-    "minutes": 62
-   },
    {
     "start": "2026-09-28 12:39",
     "end": "2026-09-28 14:01",
@@ -329,6 +317,11 @@
     "start": "2026-10-03 16:35",
     "end": "2026-10-03 20:36",
     "minutes": 241
+   },
+   {
+    "start": "2026-10-03 20:36",
+    "end": "2026-10-03 23:12",
+    "minutes": 156
    }
   ]
  },
