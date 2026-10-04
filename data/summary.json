@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-04 11:50",
- "screenings_total": 33,
+ "generated_at": "2026-10-04 17:33",
+ "screenings_total": 34,
  "screenings_final": 18,
  "based_on": "final",
  "first_screening": "2026-09-27",
- "last_screening": "2026-10-03",
+ "last_screening": "2026-10-04",
  "avg_per_screening": 28.5,
  "by_weekday": {
   "ב'": {
@@ -165,13 +165,6 @@
   {
    "date": "2026-10-04",
    "weekday": "א'",
-   "start": "16:30",
-   "film": "פרימוורה",
-   "sold_so_far": 2
-  },
-  {
-   "date": "2026-10-04",
-   "weekday": "א'",
    "start": "18:45",
    "film": "עצמאות",
    "sold_so_far": 6
@@ -266,18 +259,27 @@
    "start": "21:00",
    "film": "דיגר",
    "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-28",
+   "weekday": "ד'",
+   "start": "19:00",
+   "film": "טרום בכורה - הכשרון של גברת הייסמית'",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-11-10",
+   "weekday": "ג'",
+   "start": "17:00",
+   "film": "הוסטל ז'בוטינסקי + שיח יוצר",
+   "sold_so_far": 2
   }
  ],
  "coverage_7d": {
-  "runs": 291,
-  "ok": 291,
+  "runs": 292,
+  "ok": 292,
   "expected_baseline": 336,
   "gaps_over_45min": [
-   {
-    "start": "2026-10-02 17:57",
-    "end": "2026-10-02 22:52",
-    "minutes": 295
-   },
    {
     "start": "2026-10-02 22:52",
     "end": "2026-10-03 02:33",
@@ -322,6 +324,11 @@
     "start": "2026-10-04 05:40",
     "end": "2026-10-04 11:50",
     "minutes": 370
+   },
+   {
+    "start": "2026-10-04 11:50",
+    "end": "2026-10-04 17:33",
+    "minutes": 343
    }
   ]
  },

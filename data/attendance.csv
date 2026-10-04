@@ -32,3 +32,4 @@ date,week,weekday,start,slot,film,tickets_est,last_seen_min_before,status,film_e
 2026-10-03,2026-W40,ש',17:25,ערב מוקדם (16-19),אומהה,18,50,partial,Omaha,83,en,לב 1,github
 2026-10-03,2026-W40,ש',19:15,ערב (19+),פרימוורה,17,160,partial,Primavera,110,it,לב 1,github
 2026-10-03,2026-W40,ש',21:30,ערב (19+),דיגר,2,54,partial,Digger,128,en,לב 1,github
+2026-10-04,2026-W40,א',16:30,ערב מוקדם (16-19),פרימוורה,2,280,partial,Primavera,110,it,לב 1,github
