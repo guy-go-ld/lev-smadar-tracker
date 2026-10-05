@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-05 08:52",
- "screenings_total": 36,
+ "generated_at": "2026-10-05 16:44",
+ "screenings_total": 37,
  "screenings_final": 18,
  "based_on": "final",
  "first_screening": "2026-09-27",
- "last_screening": "2026-10-04",
+ "last_screening": "2026-10-05",
  "avg_per_screening": 28.5,
  "by_weekday": {
   "ב'": {
@@ -165,13 +165,6 @@
   {
    "date": "2026-10-05",
    "weekday": "ב'",
-   "start": "16:30",
-   "film": "להתאהב בטוסקנה",
-   "sold_so_far": 2
-  },
-  {
-   "date": "2026-10-05",
-   "weekday": "ב'",
    "start": "18:25",
    "film": "דיגר",
    "sold_so_far": 2
@@ -181,7 +174,7 @@
    "weekday": "ב'",
    "start": "21:00",
    "film": "פרימוורה",
-   "sold_so_far": 2
+   "sold_so_far": 7
   },
   {
    "date": "2026-10-06",
@@ -216,7 +209,7 @@
    "weekday": "ג'",
    "start": "19:15",
    "film": "פרימוורה",
-   "sold_so_far": 4
+   "sold_so_far": 6
   },
   {
    "date": "2026-10-06",
@@ -250,7 +243,7 @@
    "date": "2026-10-28",
    "weekday": "ד'",
    "start": "19:00",
-   "film": "טרום בכורה - הכשרון של גברת הייסמית'",
+   "film": "טרום בכורה - הכישרון של גברת הייסמית'",
    "sold_so_far": 2
   },
   {
@@ -262,15 +255,10 @@
   }
  ],
  "coverage_7d": {
-  "runs": 296,
-  "ok": 296,
+  "runs": 290,
+  "ok": 290,
   "expected_baseline": 336,
   "gaps_over_45min": [
-   {
-    "start": "2026-10-03 16:35",
-    "end": "2026-10-03 20:36",
-    "minutes": 241
-   },
    {
     "start": "2026-10-03 20:36",
     "end": "2026-10-03 23:12",
@@ -315,6 +303,11 @@
     "start": "2026-10-05 03:13",
     "end": "2026-10-05 08:52",
     "minutes": 339
+   },
+   {
+    "start": "2026-10-05 08:52",
+    "end": "2026-10-05 16:44",
+    "minutes": 472
    }
   ]
  },
