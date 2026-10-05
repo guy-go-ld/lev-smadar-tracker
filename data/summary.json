@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05 03:13",
+ "generated_at": "2026-10-05 08:52",
  "screenings_total": 36,
  "screenings_final": 18,
  "based_on": "final",
@@ -258,19 +258,14 @@
    "weekday": "ג'",
    "start": "17:00",
    "film": "הוסטל ז'בוטינסקי + שיח יוצר",
-   "sold_so_far": 2
+   "sold_so_far": 4
   }
  ],
  "coverage_7d": {
-  "runs": 295,
-  "ok": 295,
+  "runs": 296,
+  "ok": 296,
   "expected_baseline": 336,
   "gaps_over_45min": [
-   {
-    "start": "2026-10-03 11:21",
-    "end": "2026-10-03 16:35",
-    "minutes": 314
-   },
    {
     "start": "2026-10-03 16:35",
     "end": "2026-10-03 20:36",
@@ -315,6 +310,11 @@
     "start": "2026-10-05 00:44",
     "end": "2026-10-05 03:13",
     "minutes": 149
+   },
+   {
+    "start": "2026-10-05 03:13",
+    "end": "2026-10-05 08:52",
+    "minutes": 339
    }
   ]
  },
