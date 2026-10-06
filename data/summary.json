@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-06 18:15",
- "screenings_total": 43,
+ "generated_at": "2026-10-06 23:23",
+ "screenings_total": 45,
  "screenings_final": 18,
  "based_on": "final",
  "first_screening": "2026-09-27",
@@ -163,20 +163,6 @@
  },
  "upcoming": [
   {
-   "date": "2026-10-06",
-   "weekday": "ג'",
-   "start": "19:15",
-   "film": "פרימוורה",
-   "sold_so_far": 22
-  },
-  {
-   "date": "2026-10-06",
-   "weekday": "ג'",
-   "start": "21:30",
-   "film": "דיגר",
-   "sold_so_far": 2
-  },
-  {
    "date": "2026-10-07",
    "weekday": "ד'",
    "start": "16:50",
@@ -202,7 +188,7 @@
    "weekday": "ה'",
    "start": "16:20",
    "film": "פרימוורה",
-   "sold_so_far": 2
+   "sold_so_far": 5
   },
   {
    "date": "2026-10-08",
@@ -237,7 +223,7 @@
    "weekday": "ו'",
    "start": "21:00",
    "film": "מעשיות מקבילות",
-   "sold_so_far": 2
+   "sold_so_far": 4
   },
   {
    "date": "2026-10-10",
@@ -272,7 +258,7 @@
    "weekday": "ש'",
    "start": "21:00",
    "film": "עצמאות",
-   "sold_so_far": 2
+   "sold_so_far": 6
   },
   {
    "date": "2026-10-11",
@@ -360,15 +346,10 @@
   }
  ],
  "coverage_7d": {
-  "runs": 214,
-  "ok": 214,
+  "runs": 195,
+  "ok": 195,
   "expected_baseline": 336,
   "gaps_over_45min": [
-   {
-    "start": "2026-10-04 11:50",
-    "end": "2026-10-04 17:33",
-    "minutes": 343
-   },
    {
     "start": "2026-10-04 17:33",
     "end": "2026-10-04 21:20",
@@ -413,6 +394,11 @@
     "start": "2026-10-06 11:11",
     "end": "2026-10-06 18:15",
     "minutes": 424
+   },
+   {
+    "start": "2026-10-06 18:15",
+    "end": "2026-10-06 23:23",
+    "minutes": 308
    }
   ]
  },
