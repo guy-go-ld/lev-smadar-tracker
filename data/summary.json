@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07 08:45",
+ "generated_at": "2026-10-07 15:05",
  "screenings_total": 45,
  "screenings_final": 18,
  "based_on": "final",
@@ -209,7 +209,7 @@
    "weekday": "ו'",
    "start": "16:00",
    "film": "פרימוורה",
-   "sold_so_far": 2
+   "sold_so_far": 4
   },
   {
    "date": "2026-10-09",
@@ -346,15 +346,10 @@
   }
  ],
  "coverage_7d": {
-  "runs": 177,
-  "ok": 177,
+  "runs": 161,
+  "ok": 161,
   "expected_baseline": 336,
   "gaps_over_45min": [
-   {
-    "start": "2026-10-05 00:44",
-    "end": "2026-10-05 03:13",
-    "minutes": 149
-   },
    {
     "start": "2026-10-05 03:13",
     "end": "2026-10-05 08:52",
@@ -399,6 +394,11 @@
     "start": "2026-10-07 02:58",
     "end": "2026-10-07 08:45",
     "minutes": 347
+   },
+   {
+    "start": "2026-10-07 08:45",
+    "end": "2026-10-07 15:05",
+    "minutes": 380
    }
   ]
  },
