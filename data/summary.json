@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-07 15:05",
- "screenings_total": 45,
+ "generated_at": "2026-10-07 21:56",
+ "screenings_total": 48,
  "screenings_final": 18,
  "based_on": "final",
  "first_screening": "2026-09-27",
- "last_screening": "2026-10-06",
+ "last_screening": "2026-10-07",
  "avg_per_screening": 28.5,
  "by_weekday": {
   "ב'": {
@@ -163,27 +163,6 @@
  },
  "upcoming": [
   {
-   "date": "2026-10-07",
-   "weekday": "ד'",
-   "start": "16:50",
-   "film": "להתאהב בטוסקנה",
-   "sold_so_far": 2
-  },
-  {
-   "date": "2026-10-07",
-   "weekday": "ד'",
-   "start": "18:45",
-   "film": "עצמאות",
-   "sold_so_far": 4
-  },
-  {
-   "date": "2026-10-07",
-   "weekday": "ד'",
-   "start": "21:00",
-   "film": "דיגר",
-   "sold_so_far": 2
-  },
-  {
    "date": "2026-10-08",
    "weekday": "ה'",
    "start": "16:20",
@@ -230,7 +209,7 @@
    "weekday": "ש'",
    "start": "11:00",
    "film": "מעשיות מקבילות",
-   "sold_so_far": 2
+   "sold_so_far": 3
   },
   {
    "date": "2026-10-10",
@@ -244,7 +223,7 @@
    "weekday": "ש'",
    "start": "16:00",
    "film": "פרימוורה",
-   "sold_so_far": 2
+   "sold_so_far": 3
   },
   {
    "date": "2026-10-10",
@@ -300,7 +279,7 @@
    "weekday": "ג'",
    "start": "11:00",
    "film": "גלים של תקווה",
-   "sold_so_far": 2
+   "sold_so_far": 3
   },
   {
    "date": "2026-10-13",
@@ -346,15 +325,10 @@
   }
  ],
  "coverage_7d": {
-  "runs": 161,
-  "ok": 161,
+  "runs": 134,
+  "ok": 134,
   "expected_baseline": 336,
   "gaps_over_45min": [
-   {
-    "start": "2026-10-05 03:13",
-    "end": "2026-10-05 08:52",
-    "minutes": 339
-   },
    {
     "start": "2026-10-05 08:52",
     "end": "2026-10-05 16:44",
@@ -399,6 +373,11 @@
     "start": "2026-10-07 08:45",
     "end": "2026-10-07 15:05",
     "minutes": 380
+   },
+   {
+    "start": "2026-10-07 15:05",
+    "end": "2026-10-07 21:56",
+    "minutes": 411
    }
   ]
  },
