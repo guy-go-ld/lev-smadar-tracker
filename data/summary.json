@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09 05:21",
+ "generated_at": "2026-10-09 12:24",
  "screenings_total": 51,
  "screenings_final": 18,
  "based_on": "final",
@@ -167,42 +167,42 @@
    "weekday": "ו'",
    "start": "16:00",
    "film": "פרימוורה",
-   "sold_so_far": 4
+   "sold_so_far": 7
   },
   {
    "date": "2026-10-09",
    "weekday": "ו'",
    "start": "18:20",
    "film": "גלים של תקווה",
-   "sold_so_far": 5
+   "sold_so_far": 11
   },
   {
    "date": "2026-10-09",
    "weekday": "ו'",
    "start": "21:00",
    "film": "מעשיות מקבילות",
-   "sold_so_far": 5
+   "sold_so_far": 8
   },
   {
    "date": "2026-10-10",
    "weekday": "ש'",
    "start": "11:00",
    "film": "מעשיות מקבילות",
-   "sold_so_far": 10
+   "sold_so_far": 14
   },
   {
    "date": "2026-10-10",
    "weekday": "ש'",
    "start": "13:50",
    "film": "להתאהב בטוסקנה",
-   "sold_so_far": 2
+   "sold_so_far": 4
   },
   {
    "date": "2026-10-10",
    "weekday": "ש'",
    "start": "16:00",
    "film": "פרימוורה",
-   "sold_so_far": 3
+   "sold_so_far": 5
   },
   {
    "date": "2026-10-10",
@@ -304,15 +304,10 @@
   }
  ],
  "coverage_7d": {
-  "runs": 56,
-  "ok": 56,
+  "runs": 41,
+  "ok": 41,
   "expected_baseline": 336,
   "gaps_over_45min": [
-   {
-    "start": "2026-10-06 23:23",
-    "end": "2026-10-07 02:58",
-    "minutes": 215
-   },
    {
     "start": "2026-10-07 02:58",
     "end": "2026-10-07 08:45",
@@ -357,6 +352,11 @@
     "start": "2026-10-09 01:20",
     "end": "2026-10-09 05:21",
     "minutes": 241
+   },
+   {
+    "start": "2026-10-09 05:21",
+    "end": "2026-10-09 12:24",
+    "minutes": 423
    }
   ]
  },
