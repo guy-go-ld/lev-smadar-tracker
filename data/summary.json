@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-09 19:28",
- "screenings_total": 53,
+ "generated_at": "2026-10-10 00:11",
+ "screenings_total": 54,
  "screenings_final": 18,
  "based_on": "final",
  "first_screening": "2026-09-27",
@@ -163,18 +163,11 @@
  },
  "upcoming": [
   {
-   "date": "2026-10-09",
-   "weekday": "ו'",
-   "start": "21:00",
-   "film": "מעשיות מקבילות",
-   "sold_so_far": 9
-  },
-  {
    "date": "2026-10-10",
    "weekday": "ש'",
    "start": "11:00",
    "film": "מעשיות מקבילות",
-   "sold_so_far": 22
+   "sold_so_far": 26
   },
   {
    "date": "2026-10-10",
@@ -195,7 +188,7 @@
    "weekday": "ש'",
    "start": "18:20",
    "film": "גלים של תקווה",
-   "sold_so_far": 2
+   "sold_so_far": 5
   },
   {
    "date": "2026-10-10",
@@ -295,11 +288,6 @@
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
-    "start": "2026-10-07 08:45",
-    "end": "2026-10-07 15:05",
-    "minutes": 380
-   },
-   {
     "start": "2026-10-07 15:05",
     "end": "2026-10-07 21:56",
     "minutes": 411
@@ -343,6 +331,11 @@
     "start": "2026-10-09 12:24",
     "end": "2026-10-09 19:28",
     "minutes": 424
+   },
+   {
+    "start": "2026-10-09 19:28",
+    "end": "2026-10-10 00:11",
+    "minutes": 283
    }
   ]
  },
