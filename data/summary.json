@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-10 16:31",
- "screenings_total": 57,
+ "generated_at": "2026-10-10 20:59",
+ "screenings_total": 58,
  "screenings_final": 18,
  "based_on": "final",
  "first_screening": "2026-09-27",
@@ -165,16 +165,9 @@
   {
    "date": "2026-10-10",
    "weekday": "ש'",
-   "start": "18:20",
-   "film": "גלים של תקווה",
-   "sold_so_far": 12
-  },
-  {
-   "date": "2026-10-10",
-   "weekday": "ש'",
    "start": "21:00",
    "film": "עצמאות",
-   "sold_so_far": 6
+   "sold_so_far": 32
   },
   {
    "date": "2026-10-11",
@@ -262,15 +255,10 @@
   }
  ],
  "coverage_7d": {
-  "runs": 33,
-  "ok": 33,
+  "runs": 32,
+  "ok": 32,
   "expected_baseline": 336,
   "gaps_over_45min": [
-   {
-    "start": "2026-10-08 05:53",
-    "end": "2026-10-08 13:09",
-    "minutes": 436
-   },
    {
     "start": "2026-10-08 13:09",
     "end": "2026-10-08 20:24",
@@ -315,6 +303,11 @@
     "start": "2026-10-10 09:56",
     "end": "2026-10-10 16:31",
     "minutes": 395
+   },
+   {
+    "start": "2026-10-10 16:31",
+    "end": "2026-10-10 20:58",
+    "minutes": 267
    }
   ]
  },
