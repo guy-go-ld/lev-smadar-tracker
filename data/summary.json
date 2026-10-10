@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-10 20:59",
- "screenings_total": 58,
- "screenings_final": 18,
+ "generated_at": "2026-10-11 00:33",
+ "screenings_total": 59,
+ "screenings_final": 19,
  "based_on": "final",
  "first_screening": "2026-09-27",
  "last_screening": "2026-10-10",
- "avg_per_screening": 28.5,
+ "avg_per_screening": 28.7,
  "by_weekday": {
   "ב'": {
    "screenings": 3,
@@ -31,6 +31,11 @@
    "screenings": 1,
    "avg": 6.0,
    "total": 6
+  },
+  "ש'": {
+   "screenings": 1,
+   "avg": 32.0,
+   "total": 32
   }
  },
  "by_slot": {
@@ -50,9 +55,9 @@
    "total": 219
   },
   "ערב (19+)": {
-   "screenings": 5,
-   "avg": 31.4,
-   "total": 157
+   "screenings": 6,
+   "avg": 31.5,
+   "total": 189
   }
  },
  "by_weekday_slot": {
@@ -120,6 +125,11 @@
    "screenings": 1,
    "avg": 6.0,
    "total": 6
+  },
+  "ש'|ערב (19+)": {
+   "screenings": 1,
+   "avg": 32.0,
+   "total": 32
   }
  },
  "by_week": {
@@ -127,6 +137,11 @@
    "screenings": 18,
    "avg": 28.5,
    "total": 513
+  },
+  "2026-W41": {
+   "screenings": 1,
+   "avg": 32.0,
+   "total": 32
   }
  },
  "by_film": {
@@ -136,9 +151,9 @@
    "total": 243
   },
   "עצמאות": {
-   "screenings": 7,
-   "avg": 29.1,
-   "total": 204
+   "screenings": 8,
+   "avg": 29.5,
+   "total": 236
   },
   "אומהה": {
    "screenings": 2,
@@ -162,13 +177,6 @@
   }
  },
  "upcoming": [
-  {
-   "date": "2026-10-10",
-   "weekday": "ש'",
-   "start": "21:00",
-   "film": "עצמאות",
-   "sold_so_far": 32
-  },
   {
    "date": "2026-10-11",
    "weekday": "א'",
@@ -230,7 +238,7 @@
    "weekday": "ג'",
    "start": "18:15",
    "film": "מעשיות מקבילות",
-   "sold_so_far": 2
+   "sold_so_far": 5
   },
   {
    "date": "2026-10-13",
@@ -259,11 +267,6 @@
   "ok": 32,
   "expected_baseline": 336,
   "gaps_over_45min": [
-   {
-    "start": "2026-10-08 13:09",
-    "end": "2026-10-08 20:24",
-    "minutes": 435
-   },
    {
     "start": "2026-10-08 20:24",
     "end": "2026-10-09 01:20",
@@ -308,6 +311,11 @@
     "start": "2026-10-10 16:31",
     "end": "2026-10-10 20:58",
     "minutes": 267
+   },
+   {
+    "start": "2026-10-10 20:58",
+    "end": "2026-10-11 00:33",
+    "minutes": 215
    }
   ]
  },
