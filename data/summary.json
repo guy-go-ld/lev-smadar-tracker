@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11 13:52",
+ "generated_at": "2026-10-11 14:20",
  "screenings_total": 59,
  "screenings_final": 19,
  "based_on": "final",
@@ -280,7 +280,7 @@
    "weekday": "ד'",
    "start": "19:00",
    "film": "טרום בכורה - הכישרון של גברת הייסמית'",
-   "sold_so_far": 10
+   "sold_so_far": 12
   },
   {
    "date": "2026-11-10",
@@ -291,8 +291,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 32,
-  "ok": 32,
+  "runs": 33,
+  "ok": 33,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
