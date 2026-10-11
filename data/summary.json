@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11 19:25",
+ "generated_at": "2026-10-11 19:53",
  "screenings_total": 60,
  "screenings_final": 20,
  "based_on": "final",
@@ -274,7 +274,7 @@
    "weekday": "ד'",
    "start": "19:30",
    "film": "האהבות שלנו",
-   "sold_so_far": 6
+   "sold_so_far": 8
   },
   {
    "date": "2026-10-14",
@@ -299,8 +299,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 47,
-  "ok": 47,
+  "runs": 48,
+  "ok": 48,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
