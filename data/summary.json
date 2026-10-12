@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-12 20:59",
- "screenings_total": 63,
- "screenings_final": 23,
+ "generated_at": "2026-10-12 21:27",
+ "screenings_total": 64,
+ "screenings_final": 24,
  "based_on": "final",
  "first_screening": "2026-09-27",
  "last_screening": "2026-10-12",
- "avg_per_screening": 25.0,
+ "avg_per_screening": 24.2,
  "by_weekday": {
   "א'": {
    "screenings": 2,
@@ -13,9 +13,9 @@
    "total": 13
   },
   "ב'": {
-   "screenings": 5,
-   "avg": 23.6,
-   "total": 118
+   "screenings": 6,
+   "avg": 20.3,
+   "total": 122
   },
   "ג'": {
    "screenings": 6,
@@ -60,9 +60,9 @@
    "total": 246
   },
   "ערב (19+)": {
-   "screenings": 7,
-   "avg": 27.6,
-   "total": 193
+   "screenings": 8,
+   "avg": 24.6,
+   "total": 197
   }
  },
  "by_weekday_slot": {
@@ -72,9 +72,9 @@
    "total": 83
   },
   "ב'|ערב (19+)": {
-   "screenings": 1,
-   "avg": 35.0,
-   "total": 35
+   "screenings": 2,
+   "avg": 19.5,
+   "total": 39
   },
   "ג'|בוקר (<12)": {
    "screenings": 1,
@@ -159,9 +159,9 @@
    "total": 45
   },
   "2026-W42": {
-   "screenings": 2,
-   "avg": 9.0,
-   "total": 18
+   "screenings": 3,
+   "avg": 7.3,
+   "total": 22
   }
  },
  "by_film": {
@@ -190,15 +190,15 @@
    "avg": 8.5,
    "total": 17
   },
+  "גלים של תקווה": {
+   "screenings": 2,
+   "avg": 4.0,
+   "total": 8
+  },
   "שנת הבגידה שלי": {
    "screenings": 1,
    "avg": 7.0,
    "total": 7
-  },
-  "גלים של תקווה": {
-   "screenings": 1,
-   "avg": 4.0,
-   "total": 4
   },
   "דיגר": {
    "screenings": 1,
@@ -207,13 +207,6 @@
   }
  },
  "upcoming": [
-  {
-   "date": "2026-10-12",
-   "weekday": "ב'",
-   "start": "21:00",
-   "film": "גלים של תקווה",
-   "sold_so_far": 4
-  },
   {
    "date": "2026-10-13",
    "weekday": "ג'",
@@ -293,8 +286,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 114,
-  "ok": 114,
+  "runs": 115,
+  "ok": 115,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
