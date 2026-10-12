@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12 21:27",
+ "generated_at": "2026-10-12 21:55",
  "screenings_total": 64,
  "screenings_final": 24,
  "based_on": "final",
@@ -286,8 +286,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 115,
-  "ok": 115,
+  "runs": 116,
+  "ok": 116,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
