@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-12 16:19",
- "screenings_total": 61,
- "screenings_final": 21,
+ "generated_at": "2026-10-12 16:47",
+ "screenings_total": 62,
+ "screenings_final": 22,
  "based_on": "final",
  "first_screening": "2026-09-27",
- "last_screening": "2026-10-11",
- "avg_per_screening": 26.6,
+ "last_screening": "2026-10-12",
+ "avg_per_screening": 25.5,
  "by_weekday": {
   "א'": {
    "screenings": 2,
@@ -13,9 +13,9 @@
    "total": 13
   },
   "ב'": {
-   "screenings": 3,
-   "avg": 33.3,
-   "total": 100
+   "screenings": 4,
+   "avg": 25.5,
+   "total": 102
   },
   "ג'": {
    "screenings": 6,
@@ -55,9 +55,9 @@
    "total": 89
   },
   "ערב מוקדם (16-19)": {
-   "screenings": 8,
-   "avg": 28.5,
-   "total": 228
+   "screenings": 9,
+   "avg": 25.6,
+   "total": 230
   },
   "ערב (19+)": {
    "screenings": 7,
@@ -67,9 +67,9 @@
  },
  "by_weekday_slot": {
   "ב'|ערב מוקדם (16-19)": {
-   "screenings": 2,
-   "avg": 32.5,
-   "total": 65
+   "screenings": 3,
+   "avg": 22.3,
+   "total": 67
   },
   "ב'|ערב (19+)": {
    "screenings": 1,
@@ -157,6 +157,11 @@
    "screenings": 3,
    "avg": 15.0,
    "total": 45
+  },
+  "2026-W42": {
+   "screenings": 1,
+   "avg": 2.0,
+   "total": 2
   }
  },
  "by_film": {
@@ -176,9 +181,9 @@
    "total": 41
   },
   "להתאהב בטוסקנה": {
-   "screenings": 1,
-   "avg": 15.0,
-   "total": 15
+   "screenings": 2,
+   "avg": 8.5,
+   "total": 17
   },
   "מעשיות מקבילות": {
    "screenings": 1,
@@ -205,16 +210,9 @@
   {
    "date": "2026-10-12",
    "weekday": "ב'",
-   "start": "16:20",
-   "film": "להתאהב בטוסקנה",
-   "sold_so_far": 2
-  },
-  {
-   "date": "2026-10-12",
-   "weekday": "ב'",
    "start": "18:15",
    "film": "מעשיות מקבילות",
-   "sold_so_far": 3
+   "sold_so_far": 4
   },
   {
    "date": "2026-10-12",
