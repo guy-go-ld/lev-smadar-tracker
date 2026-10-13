@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-13 15:59",
- "screenings_total": 66,
- "screenings_final": 26,
+ "generated_at": "2026-10-13 16:27",
+ "screenings_total": 67,
+ "screenings_final": 27,
  "based_on": "final",
  "first_screening": "2026-09-27",
  "last_screening": "2026-10-13",
- "avg_per_screening": 23.8,
+ "avg_per_screening": 24.1,
  "by_weekday": {
   "א'": {
    "screenings": 2,
@@ -18,9 +18,9 @@
    "total": 122
   },
   "ג'": {
-   "screenings": 8,
-   "avg": 34.4,
-   "total": 275
+   "screenings": 9,
+   "avg": 34.0,
+   "total": 306
   },
   "ד'": {
    "screenings": 4,
@@ -55,9 +55,9 @@
    "total": 109
   },
   "ערב מוקדם (16-19)": {
-   "screenings": 10,
-   "avg": 24.6,
-   "total": 246
+   "screenings": 11,
+   "avg": 25.2,
+   "total": 277
   },
   "ערב (19+)": {
    "screenings": 8,
@@ -87,9 +87,9 @@
    "total": 73
   },
   "ג'|ערב מוקדם (16-19)": {
-   "screenings": 1,
-   "avg": 43.0,
-   "total": 43
+   "screenings": 2,
+   "avg": 37.0,
+   "total": 74
   },
   "ג'|ערב (19+)": {
    "screenings": 2,
@@ -159,16 +159,16 @@
    "total": 45
   },
   "2026-W42": {
-   "screenings": 5,
-   "avg": 12.2,
-   "total": 61
+   "screenings": 6,
+   "avg": 15.3,
+   "total": 92
   }
  },
  "by_film": {
   "פרימוורה": {
-   "screenings": 6,
-   "avg": 40.5,
-   "total": 243
+   "screenings": 7,
+   "avg": 39.1,
+   "total": 274
   },
   "עצמאות": {
    "screenings": 8,
@@ -210,16 +210,9 @@
   {
    "date": "2026-10-13",
    "weekday": "ג'",
-   "start": "16:00",
-   "film": "פרימוורה",
-   "sold_so_far": 31
-  },
-  {
-   "date": "2026-10-13",
-   "weekday": "ג'",
    "start": "18:15",
    "film": "מעשיות מקבילות",
-   "sold_so_far": 8
+   "sold_so_far": 10
   },
   {
    "date": "2026-10-13",
@@ -450,7 +443,7 @@
    "weekday": "ד'",
    "start": "19:00",
    "film": "טרום בכורה - הכישרון של גברת הייסמית'",
-   "sold_so_far": 11
+   "sold_so_far": 13
   },
   {
    "date": "2026-11-10",
@@ -461,8 +454,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 164,
-  "ok": 164,
+  "runs": 165,
+  "ok": 165,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
