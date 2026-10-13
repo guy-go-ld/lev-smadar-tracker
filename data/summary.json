@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13 16:55",
+ "generated_at": "2026-10-13 17:23",
  "screenings_total": 67,
  "screenings_final": 27,
  "based_on": "final",
@@ -212,7 +212,7 @@
    "weekday": "ג'",
    "start": "18:15",
    "film": "מעשיות מקבילות",
-   "sold_so_far": 11
+   "sold_so_far": 13
   },
   {
    "date": "2026-10-13",
@@ -240,7 +240,7 @@
    "weekday": "ד'",
    "start": "19:30",
    "film": "האהבות שלנו",
-   "sold_so_far": 18
+   "sold_so_far": 20
   },
   {
    "date": "2026-10-14",
@@ -454,8 +454,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 166,
-  "ok": 166,
+  "runs": 167,
+  "ok": 167,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
