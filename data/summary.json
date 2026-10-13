@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13 14:17",
+ "generated_at": "2026-10-13 14:45",
  "screenings_total": 66,
  "screenings_final": 26,
  "based_on": "final",
@@ -212,7 +212,7 @@
    "weekday": "ג'",
    "start": "16:00",
    "film": "פרימוורה",
-   "sold_so_far": 4
+   "sold_so_far": 6
   },
   {
    "date": "2026-10-13",
@@ -233,7 +233,7 @@
    "weekday": "ד'",
    "start": "15:15",
    "film": "עצמאות",
-   "sold_so_far": 8
+   "sold_so_far": 10
   },
   {
    "date": "2026-10-14",
@@ -303,7 +303,7 @@
    "weekday": "ו'",
    "start": "18:50",
    "film": "האהבות שלנו",
-   "sold_so_far": 2
+   "sold_so_far": 3
   },
   {
    "date": "2026-10-16",
@@ -450,7 +450,7 @@
    "weekday": "ד'",
    "start": "19:00",
    "film": "טרום בכורה - הכישרון של גברת הייסמית'",
-   "sold_so_far": 10
+   "sold_so_far": 11
   },
   {
    "date": "2026-11-10",
@@ -461,8 +461,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 156,
-  "ok": 156,
+  "runs": 157,
+  "ok": 157,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
