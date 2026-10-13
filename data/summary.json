@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13 09:07",
+ "generated_at": "2026-10-13 09:35",
  "screenings_total": 64,
  "screenings_final": 24,
  "based_on": "final",
@@ -219,7 +219,7 @@
    "weekday": "ג'",
    "start": "13:50",
    "film": "להתאהב בטוסקנה",
-   "sold_so_far": 2
+   "sold_so_far": 4
   },
   {
    "date": "2026-10-13",
@@ -475,8 +475,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 138,
-  "ok": 138,
+  "runs": 139,
+  "ok": 139,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
