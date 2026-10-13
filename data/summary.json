@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13 23:19",
+ "generated_at": "2026-10-13 23:47",
  "screenings_total": 69,
  "screenings_final": 29,
  "based_on": "final",
@@ -219,7 +219,7 @@
    "weekday": "ד'",
    "start": "17:30",
    "film": "לאן لوين",
-   "sold_so_far": 4
+   "sold_so_far": 8
   },
   {
    "date": "2026-10-14",
