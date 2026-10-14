@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14 13:47",
+ "generated_at": "2026-10-14 14:15",
  "screenings_total": 69,
  "screenings_final": 29,
  "based_on": "final",
@@ -212,14 +212,14 @@
    "weekday": "ד'",
    "start": "15:15",
    "film": "עצמאות",
-   "sold_so_far": 17
+   "sold_so_far": 18
   },
   {
    "date": "2026-10-14",
    "weekday": "ד'",
    "start": "17:30",
    "film": "לאן لوين",
-   "sold_so_far": 15
+   "sold_so_far": 17
   },
   {
    "date": "2026-10-14",
@@ -233,7 +233,7 @@
    "weekday": "ד'",
    "start": "22:00",
    "film": "עצמאות",
-   "sold_so_far": 6
+   "sold_so_far": 8
   },
   {
    "date": "2026-10-15",
@@ -440,8 +440,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 215,
-  "ok": 215,
+  "runs": 216,
+  "ok": 216,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
