@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14 17:06",
+ "generated_at": "2026-10-14 17:25",
  "screenings_total": 70,
  "screenings_final": 30,
  "based_on": "final",
@@ -212,14 +212,14 @@
    "weekday": "ד'",
    "start": "17:30",
    "film": "לאן لوين",
-   "sold_so_far": 30
+   "sold_so_far": 48
   },
   {
    "date": "2026-10-14",
    "weekday": "ד'",
    "start": "19:30",
    "film": "האהבות שלנו",
-   "sold_so_far": 45
+   "sold_so_far": 47
   },
   {
    "date": "2026-10-14",
@@ -433,8 +433,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 225,
-  "ok": 225,
+  "runs": 226,
+  "ok": 226,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
