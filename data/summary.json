@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14 08:11",
+ "generated_at": "2026-10-14 08:39",
  "screenings_total": 69,
  "screenings_final": 29,
  "based_on": "final",
@@ -226,7 +226,7 @@
    "weekday": "ד'",
    "start": "19:30",
    "film": "האהבות שלנו",
-   "sold_so_far": 28
+   "sold_so_far": 30
   },
   {
    "date": "2026-10-14",
@@ -429,7 +429,7 @@
    "weekday": "ד'",
    "start": "19:00",
    "film": "טרום בכורה - הכישרון של גברת הייסמית'",
-   "sold_so_far": 13
+   "sold_so_far": 15
   },
   {
    "date": "2026-11-10",
@@ -440,8 +440,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 204,
-  "ok": 204,
+  "runs": 205,
+  "ok": 205,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
