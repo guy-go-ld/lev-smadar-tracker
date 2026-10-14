@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14 20:53",
+ "generated_at": "2026-10-14 21:21",
  "screenings_total": 72,
  "screenings_final": 32,
  "based_on": "final",
@@ -222,7 +222,7 @@
    "weekday": "ד'",
    "start": "22:00",
    "film": "עצמאות",
-   "sold_so_far": 14
+   "sold_so_far": 17
   },
   {
    "date": "2026-10-15",
@@ -429,8 +429,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 242,
-  "ok": 242,
+  "runs": 243,
+  "ok": 243,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
