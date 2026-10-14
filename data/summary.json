@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-14 15:14",
- "screenings_total": 69,
- "screenings_final": 29,
+ "generated_at": "2026-10-14 15:42",
+ "screenings_total": 70,
+ "screenings_final": 30,
  "based_on": "final",
  "first_screening": "2026-09-27",
- "last_screening": "2026-10-13",
+ "last_screening": "2026-10-14",
  "avg_per_screening": 24.3,
  "by_weekday": {
   "א'": {
@@ -23,9 +23,9 @@
    "total": 360
   },
   "ד'": {
-   "screenings": 4,
-   "avg": 25.8,
-   "total": 103
+   "screenings": 5,
+   "avg": 25.6,
+   "total": 128
   },
   "ה'": {
    "screenings": 4,
@@ -50,9 +50,9 @@
    "total": 67
   },
   "צהריים (12-16)": {
-   "screenings": 6,
-   "avg": 18.2,
-   "total": 109
+   "screenings": 7,
+   "avg": 19.1,
+   "total": 134
   },
   "ערב מוקדם (16-19)": {
    "screenings": 12,
@@ -97,9 +97,9 @@
    "total": 100
   },
   "ד'|צהריים (12-16)": {
-   "screenings": 1,
-   "avg": 15.0,
-   "total": 15
+   "screenings": 2,
+   "avg": 20.0,
+   "total": 40
   },
   "ד'|ערב מוקדם (16-19)": {
    "screenings": 2,
@@ -159,9 +159,9 @@
    "total": 45
   },
   "2026-W42": {
-   "screenings": 8,
-   "avg": 18.2,
-   "total": 146
+   "screenings": 9,
+   "avg": 19.0,
+   "total": 171
   }
  },
  "by_film": {
@@ -171,9 +171,9 @@
    "total": 274
   },
   "עצמאות": {
-   "screenings": 9,
-   "avg": 27.1,
-   "total": 244
+   "screenings": 10,
+   "avg": 26.9,
+   "total": 269
   },
   "מעשיות מקבילות": {
    "screenings": 3,
@@ -210,16 +210,9 @@
   {
    "date": "2026-10-14",
    "weekday": "ד'",
-   "start": "15:15",
-   "film": "עצמאות",
-   "sold_so_far": 25
-  },
-  {
-   "date": "2026-10-14",
-   "weekday": "ד'",
    "start": "17:30",
    "film": "לאן لوين",
-   "sold_so_far": 19
+   "sold_so_far": 21
   },
   {
    "date": "2026-10-14",
@@ -429,7 +422,7 @@
    "weekday": "ד'",
    "start": "19:00",
    "film": "טרום בכורה - הכישרון של גברת הייסמית'",
-   "sold_so_far": 19
+   "sold_so_far": 17
   },
   {
    "date": "2026-11-10",
@@ -440,8 +433,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 221,
-  "ok": 221,
+  "runs": 222,
+  "ok": 222,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
