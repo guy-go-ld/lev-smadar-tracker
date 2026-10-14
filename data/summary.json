@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-14 17:29",
- "screenings_total": 70,
- "screenings_final": 30,
+ "generated_at": "2026-10-14 17:57",
+ "screenings_total": 71,
+ "screenings_final": 31,
  "based_on": "final",
  "first_screening": "2026-09-27",
  "last_screening": "2026-10-14",
- "avg_per_screening": 24.3,
+ "avg_per_screening": 25.1,
  "by_weekday": {
   "א'": {
    "screenings": 2,
@@ -23,9 +23,9 @@
    "total": 360
   },
   "ד'": {
-   "screenings": 5,
-   "avg": 25.6,
-   "total": 128
+   "screenings": 6,
+   "avg": 29.3,
+   "total": 176
   },
   "ה'": {
    "screenings": 4,
@@ -55,9 +55,9 @@
    "total": 134
   },
   "ערב מוקדם (16-19)": {
-   "screenings": 12,
-   "avg": 26.9,
-   "total": 323
+   "screenings": 13,
+   "avg": 28.5,
+   "total": 371
   },
   "ערב (19+)": {
    "screenings": 9,
@@ -102,9 +102,9 @@
    "total": 40
   },
   "ד'|ערב מוקדם (16-19)": {
-   "screenings": 2,
-   "avg": 30.5,
-   "total": 61
+   "screenings": 3,
+   "avg": 36.3,
+   "total": 109
   },
   "ד'|ערב (19+)": {
    "screenings": 1,
@@ -159,9 +159,9 @@
    "total": 45
   },
   "2026-W42": {
-   "screenings": 9,
-   "avg": 19.0,
-   "total": 171
+   "screenings": 10,
+   "avg": 21.9,
+   "total": 219
   }
  },
  "by_film": {
@@ -179,6 +179,11 @@
    "screenings": 3,
    "avg": 23.7,
    "total": 71
+  },
+  "לאן لوين": {
+   "screenings": 1,
+   "avg": 48.0,
+   "total": 48
   },
   "אומהה": {
    "screenings": 2,
@@ -210,16 +215,9 @@
   {
    "date": "2026-10-14",
    "weekday": "ד'",
-   "start": "17:30",
-   "film": "לאן لوين",
-   "sold_so_far": 48
-  },
-  {
-   "date": "2026-10-14",
-   "weekday": "ד'",
    "start": "19:30",
    "film": "האהבות שלנו",
-   "sold_so_far": 47
+   "sold_so_far": 49
   },
   {
    "date": "2026-10-14",
@@ -433,8 +431,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 230,
-  "ok": 230,
+  "runs": 231,
+  "ok": 231,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
