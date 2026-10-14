@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14 09:35",
+ "generated_at": "2026-10-14 10:03",
  "screenings_total": 69,
  "screenings_final": 29,
  "based_on": "final",
@@ -219,7 +219,7 @@
    "weekday": "ד'",
    "start": "17:30",
    "film": "לאן لوين",
-   "sold_so_far": 8
+   "sold_so_far": 9
   },
   {
    "date": "2026-10-14",
@@ -440,8 +440,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 206,
-  "ok": 206,
+  "runs": 207,
+  "ok": 207,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
