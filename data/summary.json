@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-14 21:59",
- "screenings_total": 72,
- "screenings_final": 32,
+ "generated_at": "2026-10-14 22:27",
+ "screenings_total": 73,
+ "screenings_final": 33,
  "based_on": "final",
  "first_screening": "2026-09-27",
  "last_screening": "2026-10-14",
- "avg_per_screening": 26.9,
+ "avg_per_screening": 26.8,
  "by_weekday": {
   "א'": {
    "screenings": 2,
@@ -23,9 +23,9 @@
    "total": 360
   },
   "ד'": {
-   "screenings": 7,
-   "avg": 37.1,
-   "total": 260
+   "screenings": 8,
+   "avg": 35.4,
+   "total": 283
   },
   "ה'": {
    "screenings": 4,
@@ -60,9 +60,9 @@
    "total": 371
   },
   "ערב (19+)": {
-   "screenings": 10,
-   "avg": 28.9,
-   "total": 289
+   "screenings": 11,
+   "avg": 28.4,
+   "total": 312
   }
  },
  "by_weekday_slot": {
@@ -107,9 +107,9 @@
    "total": 109
   },
   "ד'|ערב (19+)": {
-   "screenings": 2,
-   "avg": 55.5,
-   "total": 111
+   "screenings": 3,
+   "avg": 44.7,
+   "total": 134
   },
   "ה'|צהריים (12-16)": {
    "screenings": 1,
@@ -159,21 +159,21 @@
    "total": 45
   },
   "2026-W42": {
-   "screenings": 11,
-   "avg": 27.5,
-   "total": 303
+   "screenings": 12,
+   "avg": 27.2,
+   "total": 326
   }
  },
  "by_film": {
+  "עצמאות": {
+   "screenings": 11,
+   "avg": 26.5,
+   "total": 292
+  },
   "פרימוורה": {
    "screenings": 7,
    "avg": 39.1,
    "total": 274
-  },
-  "עצמאות": {
-   "screenings": 10,
-   "avg": 26.9,
-   "total": 269
   },
   "האהבות שלנו": {
    "screenings": 1,
@@ -217,13 +217,6 @@
   }
  },
  "upcoming": [
-  {
-   "date": "2026-10-14",
-   "weekday": "ד'",
-   "start": "22:00",
-   "film": "עצמאות",
-   "sold_so_far": 23
-  },
   {
    "date": "2026-10-15",
    "weekday": "ה'",
@@ -429,8 +422,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 248,
-  "ok": 248,
+  "runs": 249,
+  "ok": 249,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
