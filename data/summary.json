@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-15 18:39",
- "screenings_total": 74,
- "screenings_final": 34,
+ "generated_at": "2026-10-15 19:07",
+ "screenings_total": 75,
+ "screenings_final": 35,
  "based_on": "final",
  "first_screening": "2026-09-27",
  "last_screening": "2026-10-15",
- "avg_per_screening": 26.2,
+ "avg_per_screening": 25.7,
  "by_weekday": {
   "א'": {
    "screenings": 2,
@@ -28,9 +28,9 @@
    "total": 283
   },
   "ה'": {
-   "screenings": 5,
-   "avg": 15.0,
-   "total": 75
+   "screenings": 6,
+   "avg": 13.7,
+   "total": 82
   },
   "ו'": {
    "screenings": 1,
@@ -55,9 +55,9 @@
    "total": 134
   },
   "ערב מוקדם (16-19)": {
-   "screenings": 14,
-   "avg": 27.0,
-   "total": 378
+   "screenings": 15,
+   "avg": 25.7,
+   "total": 385
   },
   "ערב (19+)": {
    "screenings": 11,
@@ -117,9 +117,9 @@
    "total": 15
   },
   "ה'|ערב מוקדם (16-19)": {
-   "screenings": 3,
-   "avg": 19.0,
-   "total": 57
+   "screenings": 4,
+   "avg": 16.0,
+   "total": 64
   },
   "ה'|ערב (19+)": {
    "screenings": 1,
@@ -159,9 +159,9 @@
    "total": 45
   },
   "2026-W42": {
-   "screenings": 13,
-   "avg": 25.6,
-   "total": 333
+   "screenings": 14,
+   "avg": 24.3,
+   "total": 340
   }
  },
  "by_film": {
@@ -210,6 +210,11 @@
    "avg": 7.0,
    "total": 7
   },
+  "סודות מהקרמלין": {
+   "screenings": 1,
+   "avg": 7.0,
+   "total": 7
+  },
   "דיגר": {
    "screenings": 1,
    "avg": 3.0,
@@ -217,13 +222,6 @@
   }
  },
  "upcoming": [
-  {
-   "date": "2026-10-15",
-   "weekday": "ה'",
-   "start": "18:40",
-   "film": "סודות מהקרמלין",
-   "sold_so_far": 7
-  },
   {
    "date": "2026-10-15",
    "weekday": "ה'",
@@ -415,8 +413,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 298,
-  "ok": 298,
+  "runs": 299,
+  "ok": 299,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
