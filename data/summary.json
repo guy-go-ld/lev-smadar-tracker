@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-15 16:44",
- "screenings_total": 73,
- "screenings_final": 33,
+ "generated_at": "2026-10-15 17:12",
+ "screenings_total": 74,
+ "screenings_final": 34,
  "based_on": "final",
  "first_screening": "2026-09-27",
- "last_screening": "2026-10-14",
- "avg_per_screening": 26.8,
+ "last_screening": "2026-10-15",
+ "avg_per_screening": 26.2,
  "by_weekday": {
   "א'": {
    "screenings": 2,
@@ -28,9 +28,9 @@
    "total": 283
   },
   "ה'": {
-   "screenings": 4,
-   "avg": 17.0,
-   "total": 68
+   "screenings": 5,
+   "avg": 15.0,
+   "total": 75
   },
   "ו'": {
    "screenings": 1,
@@ -55,9 +55,9 @@
    "total": 134
   },
   "ערב מוקדם (16-19)": {
-   "screenings": 13,
-   "avg": 28.5,
-   "total": 371
+   "screenings": 14,
+   "avg": 27.0,
+   "total": 378
   },
   "ערב (19+)": {
    "screenings": 11,
@@ -117,9 +117,9 @@
    "total": 15
   },
   "ה'|ערב מוקדם (16-19)": {
-   "screenings": 2,
-   "avg": 25.0,
-   "total": 50
+   "screenings": 3,
+   "avg": 19.0,
+   "total": 57
   },
   "ה'|ערב (19+)": {
    "screenings": 1,
@@ -159,9 +159,9 @@
    "total": 45
   },
   "2026-W42": {
-   "screenings": 12,
-   "avg": 27.2,
-   "total": 326
+   "screenings": 13,
+   "avg": 25.6,
+   "total": 333
   }
  },
  "by_film": {
@@ -190,15 +190,15 @@
    "avg": 48.0,
    "total": 48
   },
+  "להתאהב בטוסקנה": {
+   "screenings": 4,
+   "avg": 11.0,
+   "total": 44
+  },
   "אומהה": {
    "screenings": 2,
    "avg": 20.5,
    "total": 41
-  },
-  "להתאהב בטוסקנה": {
-   "screenings": 3,
-   "avg": 12.3,
-   "total": 37
   },
   "גלים של תקווה": {
    "screenings": 3,
@@ -217,13 +217,6 @@
   }
  },
  "upcoming": [
-  {
-   "date": "2026-10-15",
-   "weekday": "ה'",
-   "start": "16:45",
-   "film": "להתאהב בטוסקנה",
-   "sold_so_far": 7
-  },
   {
    "date": "2026-10-15",
    "weekday": "ה'",
@@ -422,8 +415,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 290,
-  "ok": 290,
+  "runs": 291,
+  "ok": 291,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
