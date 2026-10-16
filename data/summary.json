@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16 09:09",
+ "generated_at": "2026-10-16 09:37",
  "screenings_total": 76,
  "screenings_final": 36,
  "based_on": "final",
@@ -234,7 +234,7 @@
    "weekday": "ו'",
    "start": "13:20",
    "film": "גלים של תקווה",
-   "sold_so_far": 4
+   "sold_so_far": 6
   },
   {
    "date": "2026-10-16",
@@ -406,8 +406,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 330,
-  "ok": 330,
+  "runs": 331,
+  "ok": 331,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
