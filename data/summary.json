@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16 12:23",
+ "generated_at": "2026-10-16 12:51",
  "screenings_total": 77,
  "screenings_final": 37,
  "based_on": "final",
@@ -274,7 +274,7 @@
    "weekday": "ש'",
    "start": "15:30",
    "film": "סודות מהקרמלין",
-   "sold_so_far": 2
+   "sold_so_far": 4
   },
   {
    "date": "2026-10-17",
@@ -408,11 +408,6 @@
   "ok": 341,
   "expected_baseline": 336,
   "gaps_over_45min": [
-   {
-    "start": "2026-10-09 12:24",
-    "end": "2026-10-09 19:28",
-    "minutes": 424
-   },
    {
     "start": "2026-10-09 19:28",
     "end": "2026-10-10 00:11",
