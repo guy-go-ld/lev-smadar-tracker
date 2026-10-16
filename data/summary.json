@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-16 13:19",
- "screenings_total": 77,
- "screenings_final": 37,
+ "generated_at": "2026-10-16 13:47",
+ "screenings_total": 78,
+ "screenings_final": 38,
  "based_on": "final",
  "first_screening": "2026-09-27",
  "last_screening": "2026-10-16",
- "avg_per_screening": 24.8,
+ "avg_per_screening": 24.5,
  "by_weekday": {
   "א'": {
    "screenings": 2,
@@ -33,9 +33,9 @@
    "total": 89
   },
   "ו'": {
-   "screenings": 2,
-   "avg": 9.0,
-   "total": 18
+   "screenings": 3,
+   "avg": 10.7,
+   "total": 32
   },
   "ש'": {
    "screenings": 1,
@@ -50,9 +50,9 @@
    "total": 79
   },
   "צהריים (12-16)": {
-   "screenings": 7,
-   "avg": 19.1,
-   "total": 134
+   "screenings": 8,
+   "avg": 18.5,
+   "total": 148
   },
   "ערב מוקדם (16-19)": {
    "screenings": 15,
@@ -127,9 +127,9 @@
    "total": 10
   },
   "ו'|צהריים (12-16)": {
-   "screenings": 1,
-   "avg": 6.0,
-   "total": 6
+   "screenings": 2,
+   "avg": 10.0,
+   "total": 20
   },
   "ש'|ערב (19+)": {
    "screenings": 1,
@@ -164,9 +164,9 @@
    "total": 45
   },
   "2026-W42": {
-   "screenings": 16,
-   "avg": 22.4,
-   "total": 359
+   "screenings": 17,
+   "avg": 21.9,
+   "total": 373
   }
  },
  "by_film": {
@@ -206,9 +206,9 @@
    "total": 41
   },
   "גלים של תקווה": {
-   "screenings": 3,
-   "avg": 9.0,
-   "total": 27
+   "screenings": 4,
+   "avg": 10.2,
+   "total": 41
   },
   "שנת הבגידה שלי": {
    "screenings": 1,
@@ -230,13 +230,6 @@
   {
    "date": "2026-10-16",
    "weekday": "ו'",
-   "start": "13:20",
-   "film": "גלים של תקווה",
-   "sold_so_far": 14
-  },
-  {
-   "date": "2026-10-16",
-   "weekday": "ו'",
    "start": "16:00",
    "film": "מעשיות מקבילות",
    "sold_so_far": 2
@@ -246,7 +239,7 @@
    "weekday": "ו'",
    "start": "18:50",
    "film": "האהבות שלנו",
-   "sold_so_far": 3
+   "sold_so_far": 8
   },
   {
    "date": "2026-10-16",
@@ -281,7 +274,7 @@
    "weekday": "ש'",
    "start": "18:20",
    "film": "מעשיות מקבילות",
-   "sold_so_far": 2
+   "sold_so_far": 3
   },
   {
    "date": "2026-10-17",
@@ -404,8 +397,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 346,
-  "ok": 346,
+  "runs": 347,
+  "ok": 347,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
