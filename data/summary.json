@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16 20:13",
+ "generated_at": "2026-10-16 20:41",
  "screenings_total": 80,
  "screenings_final": 40,
  "based_on": "final",
@@ -237,14 +237,14 @@
    "weekday": "ו'",
    "start": "21:15",
    "film": "סודות מהקרמלין",
-   "sold_so_far": 4
+   "sold_so_far": 6
   },
   {
    "date": "2026-10-17",
    "weekday": "ש'",
    "start": "10:50",
    "film": "האהבות שלנו",
-   "sold_so_far": 12
+   "sold_so_far": 14
   },
   {
    "date": "2026-10-17",
@@ -258,7 +258,7 @@
    "weekday": "ש'",
    "start": "15:30",
    "film": "סודות מהקרמלין",
-   "sold_so_far": 4
+   "sold_so_far": 6
   },
   {
    "date": "2026-10-17",
@@ -388,8 +388,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 368,
-  "ok": 368,
+  "runs": 369,
+  "ok": 369,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
