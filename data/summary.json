@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17 03:46",
+ "generated_at": "2026-10-17 04:14",
  "screenings_total": 81,
  "screenings_final": 41,
  "based_on": "final",
@@ -390,11 +390,6 @@
   "ok": 388,
   "expected_baseline": 336,
   "gaps_over_45min": [
-   {
-    "start": "2026-10-10 03:56",
-    "end": "2026-10-10 09:56",
-    "minutes": 360
-   },
    {
     "start": "2026-10-10 09:56",
     "end": "2026-10-10 16:31",
