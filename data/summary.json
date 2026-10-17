@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-17 10:49",
- "screenings_total": 81,
- "screenings_final": 41,
+ "generated_at": "2026-10-17 11:17",
+ "screenings_total": 82,
+ "screenings_final": 42,
  "based_on": "final",
  "first_screening": "2026-09-27",
- "last_screening": "2026-10-16",
- "avg_per_screening": 23.3,
+ "last_screening": "2026-10-17",
+ "avg_per_screening": 23.8,
  "by_weekday": {
   "א'": {
    "screenings": 2,
@@ -38,16 +38,16 @@
    "total": 56
   },
   "ש'": {
-   "screenings": 1,
-   "avg": 32.0,
-   "total": 32
+   "screenings": 2,
+   "avg": 39.0,
+   "total": 78
   }
  },
  "by_slot": {
   "בוקר (<12)": {
-   "screenings": 3,
-   "avg": 26.3,
-   "total": 79
+   "screenings": 4,
+   "avg": 31.2,
+   "total": 125
   },
   "צהריים (12-16)": {
    "screenings": 8,
@@ -160,6 +160,11 @@
    "screenings": 1,
    "avg": 11.0,
    "total": 11
+  },
+  "ש'|בוקר (<12)": {
+   "screenings": 1,
+   "avg": 46.0,
+   "total": 46
   }
  },
  "by_week": {
@@ -174,9 +179,9 @@
    "total": 45
   },
   "2026-W42": {
-   "screenings": 20,
-   "avg": 19.9,
-   "total": 397
+   "screenings": 21,
+   "avg": 21.1,
+   "total": 443
   }
  },
  "by_film": {
@@ -191,9 +196,9 @@
    "total": 286
   },
   "האהבות שלנו": {
-   "screenings": 3,
-   "avg": 33.3,
-   "total": 100
+   "screenings": 4,
+   "avg": 36.5,
+   "total": 146
   },
   "מעשיות מקבילות": {
    "screenings": 4,
@@ -240,30 +245,23 @@
   {
    "date": "2026-10-17",
    "weekday": "ש'",
-   "start": "10:50",
-   "film": "האהבות שלנו",
-   "sold_so_far": 46
-  },
-  {
-   "date": "2026-10-17",
-   "weekday": "ש'",
    "start": "13:15",
    "film": "פרימוורה",
-   "sold_so_far": 11
+   "sold_so_far": 13
   },
   {
    "date": "2026-10-17",
    "weekday": "ש'",
    "start": "15:30",
    "film": "סודות מהקרמלין",
-   "sold_so_far": 8
+   "sold_so_far": 12
   },
   {
    "date": "2026-10-17",
    "weekday": "ש'",
    "start": "18:20",
    "film": "מעשיות מקבילות",
-   "sold_so_far": 8
+   "sold_so_far": 12
   },
   {
    "date": "2026-10-17",
@@ -386,8 +384,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 405,
-  "ok": 405,
+  "runs": 406,
+  "ok": 406,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
