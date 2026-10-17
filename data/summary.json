@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17 12:41",
+ "generated_at": "2026-10-17 13:09",
  "screenings_total": 82,
  "screenings_final": 42,
  "based_on": "final",
@@ -247,14 +247,14 @@
    "weekday": "ש'",
    "start": "13:15",
    "film": "פרימוורה",
-   "sold_so_far": 17
+   "sold_so_far": 37
   },
   {
    "date": "2026-10-17",
    "weekday": "ש'",
    "start": "15:30",
    "film": "סודות מהקרמלין",
-   "sold_so_far": 12
+   "sold_so_far": 14
   },
   {
    "date": "2026-10-17",
@@ -384,8 +384,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 409,
-  "ok": 409,
+  "runs": 410,
+  "ok": 410,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
