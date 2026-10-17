@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17 11:45",
+ "generated_at": "2026-10-17 12:13",
  "screenings_total": 82,
  "screenings_final": 42,
  "based_on": "final",
@@ -261,7 +261,7 @@
    "weekday": "ש'",
    "start": "18:20",
    "film": "מעשיות מקבילות",
-   "sold_so_far": 12
+   "sold_so_far": 14
   },
   {
    "date": "2026-10-17",
@@ -310,7 +310,7 @@
    "weekday": "ב'",
    "start": "21:30",
    "film": "עצמאות",
-   "sold_so_far": 2
+   "sold_so_far": 4
   },
   {
    "date": "2026-10-20",
@@ -384,8 +384,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 407,
-  "ok": 407,
+  "runs": 408,
+  "ok": 408,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
