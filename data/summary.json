@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17 17:21",
+ "generated_at": "2026-10-17 17:49",
  "screenings_total": 84,
  "screenings_final": 44,
  "based_on": "final",
@@ -252,7 +252,7 @@
    "weekday": "ש'",
    "start": "18:20",
    "film": "מעשיות מקבילות",
-   "sold_so_far": 25
+   "sold_so_far": 26
   },
   {
    "date": "2026-10-17",
@@ -375,8 +375,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 427,
-  "ok": 427,
+  "runs": 428,
+  "ok": 428,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
