@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-17 15:29",
- "screenings_total": 83,
- "screenings_final": 43,
+ "generated_at": "2026-10-17 15:57",
+ "screenings_total": 84,
+ "screenings_final": 44,
  "based_on": "final",
  "first_screening": "2026-09-27",
  "last_screening": "2026-10-17",
- "avg_per_screening": 24.1,
+ "avg_per_screening": 24.2,
  "by_weekday": {
   "א'": {
    "screenings": 2,
@@ -38,9 +38,9 @@
    "total": 56
   },
   "ש'": {
-   "screenings": 3,
-   "avg": 38.3,
-   "total": 115
+   "screenings": 4,
+   "avg": 35.8,
+   "total": 143
   }
  },
  "by_slot": {
@@ -50,9 +50,9 @@
    "total": 125
   },
   "צהריים (12-16)": {
-   "screenings": 9,
-   "avg": 20.6,
-   "total": 185
+   "screenings": 10,
+   "avg": 21.3,
+   "total": 213
   },
   "ערב מוקדם (16-19)": {
    "screenings": 17,
@@ -167,9 +167,9 @@
    "total": 46
   },
   "ש'|צהריים (12-16)": {
-   "screenings": 1,
-   "avg": 37.0,
-   "total": 37
+   "screenings": 2,
+   "avg": 32.5,
+   "total": 65
   }
  },
  "by_week": {
@@ -184,9 +184,9 @@
    "total": 45
   },
   "2026-W42": {
-   "screenings": 22,
-   "avg": 21.8,
-   "total": 480
+   "screenings": 23,
+   "avg": 22.1,
+   "total": 508
   }
  },
  "by_film": {
@@ -215,6 +215,11 @@
    "avg": 48.0,
    "total": 48
   },
+  "סודות מהקרמלין": {
+   "screenings": 3,
+   "avg": 15.3,
+   "total": 46
+  },
   "להתאהב בטוסקנה": {
    "screenings": 4,
    "avg": 11.0,
@@ -230,11 +235,6 @@
    "avg": 10.2,
    "total": 41
   },
-  "סודות מהקרמלין": {
-   "screenings": 2,
-   "avg": 9.0,
-   "total": 18
-  },
   "שנת הבגידה שלי": {
    "screenings": 1,
    "avg": 7.0,
@@ -247,13 +247,6 @@
   }
  },
  "upcoming": [
-  {
-   "date": "2026-10-17",
-   "weekday": "ש'",
-   "start": "15:30",
-   "film": "סודות מהקרמלין",
-   "sold_so_far": 28
-  },
   {
    "date": "2026-10-17",
    "weekday": "ש'",
@@ -382,8 +375,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 424,
-  "ok": 424,
+  "runs": 425,
+  "ok": 425,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
