@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-18 20:49",
- "screenings_total": 88,
- "screenings_final": 48,
+ "generated_at": "2026-10-18 21:17",
+ "screenings_total": 89,
+ "screenings_final": 49,
  "based_on": "final",
  "first_screening": "2026-09-27",
  "last_screening": "2026-10-18",
- "avg_per_screening": 23.7,
+ "avg_per_screening": 23.3,
  "by_weekday": {
   "א'": {
-   "screenings": 4,
-   "avg": 7.5,
-   "total": 30
+   "screenings": 5,
+   "avg": 7.2,
+   "total": 36
   },
   "ב'": {
    "screenings": 6,
@@ -60,9 +60,9 @@
    "total": 451
   },
   "ערב (19+)": {
-   "screenings": 14,
-   "avg": 24.9,
-   "total": 349
+   "screenings": 15,
+   "avg": 23.7,
+   "total": 355
   }
  },
  "by_weekday_slot": {
@@ -142,9 +142,9 @@
    "total": 26
   },
   "א'|ערב (19+)": {
-   "screenings": 1,
-   "avg": 4.0,
-   "total": 4
+   "screenings": 2,
+   "avg": 5.0,
+   "total": 10
   },
   "ו'|בוקר (<12)": {
    "screenings": 1,
@@ -189,9 +189,9 @@
    "total": 45
   },
   "2026-W42": {
-   "screenings": 27,
-   "avg": 21.5,
-   "total": 580
+   "screenings": 28,
+   "avg": 20.9,
+   "total": 586
   }
  },
  "by_film": {
@@ -225,6 +225,11 @@
    "avg": 48.0,
    "total": 48
   },
+  "גלים של תקווה": {
+   "screenings": 5,
+   "avg": 9.4,
+   "total": 47
+  },
   "סודות מהקרמלין": {
    "screenings": 3,
    "avg": 15.3,
@@ -233,11 +238,6 @@
   "אומהה": {
    "screenings": 2,
    "avg": 20.5,
-   "total": 41
-  },
-  "גלים של תקווה": {
-   "screenings": 4,
-   "avg": 10.2,
    "total": 41
   },
   "שנת הבגידה שלי": {
@@ -252,13 +252,6 @@
   }
  },
  "upcoming": [
-  {
-   "date": "2026-10-18",
-   "weekday": "א'",
-   "start": "20:50",
-   "film": "גלים של תקווה",
-   "sold_so_far": 6
-  },
   {
    "date": "2026-10-19",
    "weekday": "ב'",
