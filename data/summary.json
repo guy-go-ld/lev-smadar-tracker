@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18 09:17",
+ "generated_at": "2026-10-18 09:45",
  "screenings_total": 86,
  "screenings_final": 46,
  "based_on": "final",
@@ -369,13 +369,7 @@
   "runs": 466,
   "ok": 466,
   "expected_baseline": 336,
-  "gaps_over_45min": [
-   {
-    "start": "2026-10-11 09:20",
-    "end": "2026-10-11 13:52",
-    "minutes": 272
-   }
-  ]
+  "gaps_over_45min": []
  },
  "method": "tickets = round((1-availRatio)*267) - 0; final = last seen <= 20 min before start"
 }
