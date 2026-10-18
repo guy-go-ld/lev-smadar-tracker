@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18 15:21",
+ "generated_at": "2026-10-18 15:49",
  "screenings_total": 86,
  "screenings_final": 46,
  "based_on": "final",
@@ -271,7 +271,7 @@
    "weekday": "א'",
    "start": "20:50",
    "film": "גלים של תקווה",
-   "sold_so_far": 2
+   "sold_so_far": 4
   },
   {
    "date": "2026-10-19",
@@ -355,7 +355,7 @@
    "weekday": "ד'",
    "start": "19:00",
    "film": "טרום בכורה - הכישרון של גברת הייסמית'",
-   "sold_so_far": 23
+   "sold_so_far": 25
   },
   {
    "date": "2026-11-10",
