@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-18 18:29",
- "screenings_total": 87,
- "screenings_final": 47,
+ "generated_at": "2026-10-18 18:57",
+ "screenings_total": 88,
+ "screenings_final": 48,
  "based_on": "final",
  "first_screening": "2026-09-27",
  "last_screening": "2026-10-18",
- "avg_per_screening": 24.0,
+ "avg_per_screening": 23.7,
  "by_weekday": {
   "א'": {
-   "screenings": 3,
-   "avg": 7.3,
-   "total": 22
+   "screenings": 4,
+   "avg": 7.5,
+   "total": 30
   },
   "ב'": {
    "screenings": 6,
@@ -55,9 +55,9 @@
    "total": 213
   },
   "ערב מוקדם (16-19)": {
-   "screenings": 19,
-   "avg": 23.3,
-   "total": 443
+   "screenings": 20,
+   "avg": 22.6,
+   "total": 451
   },
   "ערב (19+)": {
    "screenings": 14,
@@ -137,9 +137,9 @@
    "total": 51
   },
   "א'|ערב מוקדם (16-19)": {
-   "screenings": 2,
-   "avg": 9.0,
-   "total": 18
+   "screenings": 3,
+   "avg": 8.7,
+   "total": 26
   },
   "א'|ערב (19+)": {
    "screenings": 1,
@@ -189,9 +189,9 @@
    "total": 45
   },
   "2026-W42": {
-   "screenings": 26,
-   "avg": 22.0,
-   "total": 572
+   "screenings": 27,
+   "avg": 21.5,
+   "total": 580
   }
  },
  "by_film": {
@@ -206,9 +206,9 @@
    "total": 292
   },
   "האהבות שלנו": {
-   "screenings": 5,
-   "avg": 33.0,
-   "total": 165
+   "screenings": 6,
+   "avg": 28.8,
+   "total": 173
   },
   "מעשיות מקבילות": {
    "screenings": 5,
@@ -252,13 +252,6 @@
   }
  },
  "upcoming": [
-  {
-   "date": "2026-10-18",
-   "weekday": "א'",
-   "start": "18:30",
-   "film": "האהבות שלנו",
-   "sold_so_far": 8
-  },
   {
    "date": "2026-10-18",
    "weekday": "א'",
