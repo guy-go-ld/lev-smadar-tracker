@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20 10:05",
+ "generated_at": "2026-10-20 10:33",
  "screenings_total": 92,
  "screenings_final": 52,
  "based_on": "final",
@@ -262,7 +262,7 @@
    "weekday": "ג'",
    "start": "10:50",
    "film": "האהבות שלנו",
-   "sold_so_far": 2
+   "sold_so_far": 5
   },
   {
    "date": "2026-10-20",
