@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-20 13:14",
- "screenings_total": 93,
- "screenings_final": 53,
+ "generated_at": "2026-10-20 13:42",
+ "screenings_total": 94,
+ "screenings_final": 54,
  "based_on": "final",
  "first_screening": "2026-09-27",
  "last_screening": "2026-10-20",
- "avg_per_screening": 22.0,
+ "avg_per_screening": 21.8,
  "by_weekday": {
   "א'": {
    "screenings": 5,
@@ -18,9 +18,9 @@
    "total": 135
   },
   "ג'": {
-   "screenings": 12,
-   "avg": 30.8,
-   "total": 370
+   "screenings": 13,
+   "avg": 29.3,
+   "total": 381
   },
   "ד'": {
    "screenings": 8,
@@ -50,9 +50,9 @@
    "total": 135
   },
   "צהריים (12-16)": {
-   "screenings": 10,
-   "avg": 21.3,
-   "total": 213
+   "screenings": 11,
+   "avg": 20.4,
+   "total": 224
   },
   "ערב מוקדם (16-19)": {
    "screenings": 22,
@@ -82,9 +82,9 @@
    "total": 77
   },
   "ג'|צהריים (12-16)": {
-   "screenings": 3,
-   "avg": 24.3,
-   "total": 73
+   "screenings": 4,
+   "avg": 21.0,
+   "total": 84
   },
   "ג'|ערב מוקדם (16-19)": {
    "screenings": 3,
@@ -194,16 +194,16 @@
    "total": 586
   },
   "2026-W43": {
-   "screenings": 4,
-   "avg": 5.8,
-   "total": 23
+   "screenings": 5,
+   "avg": 6.8,
+   "total": 34
   }
  },
  "by_film": {
   "פרימוורה": {
-   "screenings": 9,
-   "avg": 35.9,
-   "total": 323
+   "screenings": 10,
+   "avg": 33.4,
+   "total": 334
   },
   "עצמאות": {
    "screenings": 12,
@@ -257,13 +257,6 @@
   }
  },
  "upcoming": [
-  {
-   "date": "2026-10-20",
-   "weekday": "ג'",
-   "start": "13:15",
-   "film": "פרימוורה",
-   "sold_so_far": 11
-  },
   {
    "date": "2026-10-20",
    "weekday": "ג'",
@@ -486,14 +479,14 @@
    "weekday": "ד'",
    "start": "19:00",
    "film": "טרום בכורה - הכישרון של גברת הייסמית'",
-   "sold_so_far": 31
+   "sold_so_far": 34
   },
   {
    "date": "2026-11-10",
    "weekday": "ג'",
    "start": "17:00",
    "film": "הוסטל ז'בוטינסקי + שיח יוצרת",
-   "sold_so_far": 8
+   "sold_so_far": 9
   }
  ],
  "coverage_7d": {
