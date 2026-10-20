@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-20 10:49",
- "screenings_total": 92,
- "screenings_final": 52,
+ "generated_at": "2026-10-20 11:17",
+ "screenings_total": 93,
+ "screenings_final": 53,
  "based_on": "final",
  "first_screening": "2026-09-27",
- "last_screening": "2026-10-19",
- "avg_per_screening": 22.2,
+ "last_screening": "2026-10-20",
+ "avg_per_screening": 22.0,
  "by_weekday": {
   "א'": {
    "screenings": 5,
@@ -18,9 +18,9 @@
    "total": 135
   },
   "ג'": {
-   "screenings": 11,
-   "avg": 32.7,
-   "total": 360
+   "screenings": 12,
+   "avg": 30.8,
+   "total": 370
   },
   "ד'": {
    "screenings": 8,
@@ -45,9 +45,9 @@
  },
  "by_slot": {
   "בוקר (<12)": {
-   "screenings": 4,
-   "avg": 31.2,
-   "total": 125
+   "screenings": 5,
+   "avg": 27.0,
+   "total": 135
   },
   "צהריים (12-16)": {
    "screenings": 10,
@@ -77,9 +77,9 @@
    "total": 43
   },
   "ג'|בוקר (<12)": {
-   "screenings": 2,
-   "avg": 33.5,
-   "total": 67
+   "screenings": 3,
+   "avg": 25.7,
+   "total": 77
   },
   "ג'|צהריים (12-16)": {
    "screenings": 3,
@@ -194,9 +194,9 @@
    "total": 586
   },
   "2026-W43": {
-   "screenings": 3,
-   "avg": 4.3,
-   "total": 13
+   "screenings": 4,
+   "avg": 5.8,
+   "total": 23
   }
  },
  "by_film": {
@@ -211,9 +211,9 @@
    "total": 296
   },
   "האהבות שלנו": {
-   "screenings": 7,
-   "avg": 25.4,
-   "total": 178
+   "screenings": 8,
+   "avg": 23.5,
+   "total": 188
   },
   "מעשיות מקבילות": {
    "screenings": 5,
@@ -257,13 +257,6 @@
   }
  },
  "upcoming": [
-  {
-   "date": "2026-10-20",
-   "weekday": "ג'",
-   "start": "10:50",
-   "film": "האהבות שלנו",
-   "sold_so_far": 10
-  },
   {
    "date": "2026-10-20",
    "weekday": "ג'",
@@ -318,7 +311,7 @@
    "weekday": "ה'",
    "start": "16:45",
    "film": "פרימוורה",
-   "sold_so_far": 2
+   "sold_so_far": 4
   },
   {
    "date": "2026-10-22",
@@ -504,8 +497,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 484,
-  "ok": 484,
+  "runs": 480,
+  "ok": 480,
   "expected_baseline": 336,
   "gaps_over_45min": []
  },
