@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-20 15:29",
- "screenings_total": 94,
- "screenings_final": 54,
+ "generated_at": "2026-10-20 15:57",
+ "screenings_total": 95,
+ "screenings_final": 55,
  "based_on": "final",
  "first_screening": "2026-09-27",
  "last_screening": "2026-10-20",
- "avg_per_screening": 21.8,
+ "avg_per_screening": 21.5,
  "by_weekday": {
   "א'": {
    "screenings": 5,
@@ -18,9 +18,9 @@
    "total": 135
   },
   "ג'": {
-   "screenings": 13,
-   "avg": 29.3,
-   "total": 381
+   "screenings": 14,
+   "avg": 27.6,
+   "total": 386
   },
   "ד'": {
    "screenings": 8,
@@ -50,9 +50,9 @@
    "total": 135
   },
   "צהריים (12-16)": {
-   "screenings": 11,
-   "avg": 20.4,
-   "total": 224
+   "screenings": 12,
+   "avg": 19.1,
+   "total": 229
   },
   "ערב מוקדם (16-19)": {
    "screenings": 22,
@@ -82,9 +82,9 @@
    "total": 77
   },
   "ג'|צהריים (12-16)": {
-   "screenings": 4,
-   "avg": 21.0,
-   "total": 84
+   "screenings": 5,
+   "avg": 17.8,
+   "total": 89
   },
   "ג'|ערב מוקדם (16-19)": {
    "screenings": 3,
@@ -194,9 +194,9 @@
    "total": 586
   },
   "2026-W43": {
-   "screenings": 5,
-   "avg": 6.8,
-   "total": 34
+   "screenings": 6,
+   "avg": 6.5,
+   "total": 39
   }
  },
  "by_film": {
@@ -220,15 +220,15 @@
    "avg": 22.2,
    "total": 111
   },
+  "סודות מהקרמלין": {
+   "screenings": 5,
+   "avg": 11.0,
+   "total": 55
+  },
   "להתאהב בטוסקנה": {
    "screenings": 5,
    "avg": 10.6,
    "total": 53
-  },
-  "סודות מהקרמלין": {
-   "screenings": 4,
-   "avg": 12.5,
-   "total": 50
   },
   "לאן لوين": {
    "screenings": 1,
@@ -260,13 +260,6 @@
   {
    "date": "2026-10-20",
    "weekday": "ג'",
-   "start": "15:30",
-   "film": "סודות מהקרמלין",
-   "sold_so_far": 5
-  },
-  {
-   "date": "2026-10-20",
-   "weekday": "ג'",
    "start": "18:20",
    "film": "מעשיות מקבילות",
    "sold_so_far": 3
@@ -276,7 +269,7 @@
    "weekday": "ג'",
    "start": "21:10",
    "film": "האהבות שלנו",
-   "sold_so_far": 4
+   "sold_so_far": 8
   },
   {
    "date": "2026-10-21",
@@ -490,8 +483,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 485,
-  "ok": 485,
+  "runs": 482,
+  "ok": 482,
   "expected_baseline": 336,
   "gaps_over_45min": []
  },
