@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20 17:49",
+ "generated_at": "2026-10-20 18:15",
  "screenings_total": 95,
  "screenings_final": 55,
  "based_on": "final",
@@ -262,7 +262,7 @@
    "weekday": "ג'",
    "start": "18:20",
    "film": "מעשיות מקבילות",
-   "sold_so_far": 12
+   "sold_so_far": 34
   },
   {
    "date": "2026-10-20",
@@ -472,7 +472,7 @@
    "weekday": "ד'",
    "start": "19:00",
    "film": "טרום בכורה - הכישרון של גברת הייסמית'",
-   "sold_so_far": 37
+   "sold_so_far": 39
   },
   {
    "date": "2026-11-10",
@@ -483,8 +483,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 481,
-  "ok": 481,
+  "runs": 476,
+  "ok": 476,
   "expected_baseline": 336,
   "gaps_over_45min": []
  },
