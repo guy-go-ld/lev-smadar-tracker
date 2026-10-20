@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20 11:45",
+ "generated_at": "2026-10-20 12:13",
  "screenings_total": 93,
  "screenings_final": 53,
  "based_on": "final",
@@ -297,7 +297,7 @@
    "weekday": "ד'",
    "start": "18:30",
    "film": "האהבות שלנו",
-   "sold_so_far": 4
+   "sold_so_far": 6
   },
   {
    "date": "2026-10-21",
@@ -360,7 +360,7 @@
    "weekday": "ו'",
    "start": "21:15",
    "film": "כבשה בקופסה",
-   "sold_so_far": 2
+   "sold_so_far": 4
   },
   {
    "date": "2026-10-24",
@@ -486,7 +486,7 @@
    "weekday": "ד'",
    "start": "19:00",
    "film": "טרום בכורה - הכישרון של גברת הייסמית'",
-   "sold_so_far": 27
+   "sold_so_far": 29
   },
   {
    "date": "2026-11-10",
