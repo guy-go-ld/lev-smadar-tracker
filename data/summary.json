@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20 09:09",
+ "generated_at": "2026-10-20 09:37",
  "screenings_total": 92,
  "screenings_final": 52,
  "based_on": "final",
@@ -311,6 +311,181 @@
    "weekday": "ד'",
    "start": "20:50",
    "film": "מעשיות מקבילות",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-22",
+   "weekday": "ה'",
+   "start": "16:45",
+   "film": "פרימוורה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-22",
+   "weekday": "ה'",
+   "start": "19:00",
+   "film": "כבשה בקופסה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-22",
+   "weekday": "ה'",
+   "start": "21:30",
+   "film": "האהבות שלנו",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-23",
+   "weekday": "ו'",
+   "start": "11:00",
+   "film": "סודות מהקרמלין",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-23",
+   "weekday": "ו'",
+   "start": "13:50",
+   "film": "מעשיות מקבילות",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-23",
+   "weekday": "ו'",
+   "start": "16:45",
+   "film": "להתאהב בטוסקנה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-23",
+   "weekday": "ו'",
+   "start": "18:50",
+   "film": "האהבות שלנו",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-23",
+   "weekday": "ו'",
+   "start": "21:15",
+   "film": "כבשה בקופסה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-24",
+   "weekday": "ש'",
+   "start": "11:00",
+   "film": "האהבות שלנו",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-24",
+   "weekday": "ש'",
+   "start": "13:30",
+   "film": "כבשה בקופסה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-24",
+   "weekday": "ש'",
+   "start": "16:10",
+   "film": "סודות מהקרמלין",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-24",
+   "weekday": "ש'",
+   "start": "19:00",
+   "film": "פרימוורה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-24",
+   "weekday": "ש'",
+   "start": "21:20",
+   "film": "מעשיות מקבילות",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-25",
+   "weekday": "א'",
+   "start": "16:30",
+   "film": "מעשיות מקבילות",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-25",
+   "weekday": "א'",
+   "start": "19:15",
+   "film": "כבשה בקופסה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-25",
+   "weekday": "א'",
+   "start": "21:45",
+   "film": "האהבות שלנו",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-26",
+   "weekday": "ב'",
+   "start": "16:45",
+   "film": "פרימוורה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-26",
+   "weekday": "ב'",
+   "start": "19:00",
+   "film": "האהבות שלנו",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-26",
+   "weekday": "ב'",
+   "start": "21:30",
+   "film": "כבשה בקופסה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-27",
+   "weekday": "ג'",
+   "start": "11:00",
+   "film": "האהבות שלנו",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-27",
+   "weekday": "ג'",
+   "start": "13:30",
+   "film": "כבשה בקופסה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-27",
+   "weekday": "ג'",
+   "start": "16:10",
+   "film": "סודות מהקרמלין",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-27",
+   "weekday": "ג'",
+   "start": "19:00",
+   "film": "פרימוורה",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-27",
+   "weekday": "ג'",
+   "start": "21:20",
+   "film": "מעשיות מקבילות",
+   "sold_so_far": 2
+  },
+  {
+   "date": "2026-10-28",
+   "weekday": "ד'",
+   "start": "16:00",
+   "film": "כבשה בקופסה",
    "sold_so_far": 2
   },
   {
