@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-21 16:14",
- "screenings_total": 97,
- "screenings_final": 35,
+ "generated_at": "2026-10-21 16:42",
+ "screenings_total": 98,
+ "screenings_final": 36,
  "screenings_excluded": 37,
  "excluded_events": {
   "חול המועד סוכות": {
@@ -25,8 +25,8 @@
  },
  "based_on": "final",
  "first_screening": "2026-09-27",
- "last_screening": "2026-10-20",
- "avg_per_screening": 13.5,
+ "last_screening": "2026-10-21",
+ "avg_per_screening": 13.3,
  "by_weekday": {
   "א'": {
    "screenings": 5,
@@ -42,6 +42,11 @@
    "screenings": 10,
    "avg": 18.2,
    "total": 182
+  },
+  "ד'": {
+   "screenings": 1,
+   "avg": 8.0,
+   "total": 8
   },
   "ה'": {
    "screenings": 3,
@@ -71,9 +76,9 @@
    "total": 103
   },
   "ערב מוקדם (16-19)": {
-   "screenings": 15,
-   "avg": 13.1,
-   "total": 197
+   "screenings": 16,
+   "avg": 12.8,
+   "total": 205
   },
   "ערב (19+)": {
    "screenings": 10,
@@ -171,6 +176,11 @@
    "screenings": 1,
    "avg": 34.0,
    "total": 34
+  },
+  "ד'|ערב מוקדם (16-19)": {
+   "screenings": 1,
+   "avg": 8.0,
+   "total": 8
   }
  },
  "by_week": {
@@ -185,9 +195,9 @@
    "total": 358
   },
   "2026-W43": {
-   "screenings": 8,
-   "avg": 9.4,
-   "total": 75
+   "screenings": 9,
+   "avg": 9.2,
+   "total": 83
   }
  },
  "by_film": {
@@ -202,9 +212,9 @@
    "total": 106
   },
   "פרימוורה": {
-   "screenings": 4,
-   "avg": 20.8,
-   "total": 83
+   "screenings": 5,
+   "avg": 18.2,
+   "total": 91
   },
   "סודות מהקרמלין": {
    "screenings": 5,
@@ -228,14 +238,6 @@
   }
  },
  "upcoming": [
-  {
-   "date": "2026-10-21",
-   "weekday": "ד'",
-   "start": "16:15",
-   "film": "פרימוורה",
-   "sold_so_far": 8,
-   "excluded": ""
-  },
   {
    "date": "2026-10-21",
    "weekday": "ד'",
@@ -457,7 +459,7 @@
    "weekday": "ד'",
    "start": "19:00",
    "film": "טרום בכורה - הכישרון של גברת הייסמית'",
-   "sold_so_far": 52,
+   "sold_so_far": 54,
    "excluded": ""
   },
   {
