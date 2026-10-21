@@ -133,7 +133,7 @@ td.n,th.n{text-align:left;white-space:nowrap}
   <div class="tw"><table class="heat"><thead><tr><th>יום</th><th class="n">בוקר (עד 12)</th><th class="n">צהריים (12-16)</th><th class="n">ערב מוקדם (16-19)</th><th class="n">ערב (19 ואילך)</th></tr></thead><tbody id="grid"></tbody></table></div>
   <h2>הקרנות שהתקיימו <small>החדשות למעלה</small></h2>
   <div class="tw"><table><thead><tr><th>תאריך</th><th>יום</th><th class="n">שעה</th><th>סרט</th><th class="n">כרטיסים</th><th>סטטוס</th><th class="n">הצילום האחרון נלקח</th></tr></thead><tbody id="past"></tbody></table></div>
-  <p class="note">שיטה: כרטיסים = (1 − אחוז הזמינות) × 267 מושבים, לפי הצילום האחרון לפני שההקרנה התחילה. <b>סופי</b> = הצילום האחרון עד 20 דקות לפני ההתחלה. <b>חלקי</b> = צילום מוקדם יותר, ולכן המספר הוא רצפה. מקור: ה-API הציבורי של מערכת הכרטוס של לב. <a href="https://github.com/guy-go-ld/lev-smadar-tracker">הנתונים הגולמיים</a>.</p>
+  <p class="note">שיטה: כרטיסים = (1 − אחוז הזמינות) × 267 מושבים, פחות 2 מושבים חסומים, לפי הצילום האחרון לפני שההקרנה התחילה. <b>סופי</b> = הצילום האחרון עד 20 דקות לפני ההתחלה. <b>חלקי</b> = צילום מוקדם יותר, ולכן המספר הוא רצפה. מקור: ה-API הציבורי של מערכת הכרטוס של לב. <a href="https://github.com/guy-go-ld/lev-smadar-tracker">הנתונים הגולמיים</a>.</p>
 </div>
 <script>
 (function(){
