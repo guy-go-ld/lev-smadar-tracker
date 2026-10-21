@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21 15:49",
+ "generated_at": "2026-10-21 16:10",
  "screenings_total": 97,
  "screenings_final": 35,
  "screenings_excluded": 37,
@@ -233,7 +233,7 @@
    "weekday": "ד'",
    "start": "16:15",
    "film": "פרימוורה",
-   "sold_so_far": 2,
+   "sold_so_far": 8,
    "excluded": ""
   },
   {
@@ -241,7 +241,7 @@
    "weekday": "ד'",
    "start": "18:30",
    "film": "האהבות שלנו",
-   "sold_so_far": 6,
+   "sold_so_far": 8,
    "excluded": ""
   },
   {
@@ -257,7 +257,7 @@
    "weekday": "ה'",
    "start": "16:45",
    "film": "פרימוורה",
-   "sold_so_far": 2,
+   "sold_so_far": 3,
    "excluded": ""
   },
   {
