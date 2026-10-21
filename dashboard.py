@@ -21,7 +21,8 @@ def main():
     if os.path.exists(path):
         with open(path, encoding="utf-8") as f:
             past = [dict(date=r["date"], weekday=r["weekday"], start=r["start"], film=r["film"],
-                         tickets=int(r["tickets_est"]), lag=int(r["last_seen_min_before"]), status=r["status"])
+                         tickets=int(r["tickets_est"]), lag=int(r["last_seen_min_before"]), status=r["status"],
+                         excluded=r.get("excluded", ""))
                     for r in csv.DictReader(f)]
     summary["past"] = sorted(past, key=lambda r: (r["date"], r["start"]), reverse=True)[:60]
     os.makedirs(DOCS, exist_ok=True)
@@ -95,6 +96,8 @@ thead th{font-size:14px;color:var(--muted);border-bottom:2px solid var(--ink)}
 td.n,th.n{text-align:left;white-space:nowrap}
 .tag{font-size:13px;font-weight:700;padding:1px 8px;white-space:nowrap}
 .tag.final{background:var(--teal);color:#fff} .tag.partial{background:var(--yellow);color:#1F2426}
+.tag.excl{background:var(--magenta);color:#fff;margin-inline-start:4px}
+tr.excl td{color:var(--muted)}
 .note{font-size:14.5px;color:var(--muted);margin:0;max-width:78ch}
 .avg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
 .avg > div{min-width:0}
@@ -131,6 +134,10 @@ td.n,th.n{text-align:left;white-space:nowrap}
   </div>
   <h3 style="margin:0;font-size:16px">יום ושעה ביחד <small style="font-weight:600;color:var(--muted)">ממוצע כרטיסים, ובסוגריים כמה הקרנות נמדדו</small></h3>
   <div class="tw"><table class="heat"><thead><tr><th>יום</th><th class="n">בוקר (עד 12)</th><th class="n">צהריים (12-16)</th><th class="n">ערב מוקדם (16-19)</th><th class="n">ערב (19 ואילך)</th></tr></thead><tbody id="grid"></tbody></table></div>
+  <div id="exclwrap" hidden>
+  <h3 style="margin:0;font-size:16px">אירועי קצה שהוחרגו מהממוצעים <small style="font-weight:600;color:var(--muted)">חגים וימי קולנוע מוזלים, מוצגים בנפרד</small></h3>
+  <div class="tw"><table><thead><tr><th>אירוע</th><th>תאריכים</th><th class="n">הקרנות</th><th class="n">ממוצע</th></tr></thead><tbody id="excl"></tbody></table></div>
+  </div>
   <h2>הקרנות שהתקיימו <small>החדשות למעלה</small></h2>
   <div class="tw"><table><thead><tr><th>תאריך</th><th>יום</th><th class="n">שעה</th><th>סרט</th><th class="n">כרטיסים</th><th>סטטוס</th><th class="n">הצילום האחרון נלקח</th></tr></thead><tbody id="past"></tbody></table></div>
   <p class="note">שיטה: כרטיסים = (1 − אחוז הזמינות) × 267 מושבים, פחות 2 מושבים חסומים, לפי הצילום האחרון לפני שההקרנה התחילה. <b>סופי</b> = הצילום האחרון עד 20 דקות לפני ההתחלה. <b>חלקי</b> = צילום מוקדם יותר, ולכן המספר הוא רצפה. מקור: ה-API הציבורי של מערכת הכרטוס של לב. <a href="https://github.com/guy-go-ld/lev-smadar-tracker">הנתונים הגולמיים</a>.</p>
@@ -171,7 +178,7 @@ td.n,th.n{text-align:left;white-space:nowrap}
     $("stats").innerHTML=[[past.length,"הקרנות שהתקיימו בנתונים"],[fin,"מתוכן עם אומדן סופי"],[d.avg_per_screening==null?"–":d.avg_per_screening,fin>0?"כרטיסים בממוצע להקרנה (סופי)":"כרטיסים בממוצע (רצפה, אין עדיין סופי)"]]
       .map(function(t){return '<div class="stat"><span class="v">'+esc(t[0])+'</span><span class="k">'+esc(t[1])+'</span></div>';}).join("");
     $("past").innerHTML=past.map(function(r){var f=r.status==="final";
-      return "<tr><td>"+esc(r.date)+"</td><td>"+esc(r.weekday)+'</td><td class="n">'+esc(r.start)+"</td><td>"+esc(r.film)+'</td><td class="n"><b>'+esc(r.tickets)+'</b></td><td><span class="tag '+(f?"final":"partial")+'">'+(f?"סופי":"חלקי (רצפה)")+'</span></td><td class="n">'+esc(r.lag)+" דק' לפני</td></tr>";}).join("")||'<tr><td colspan="7" class="note">אין עדיין הקרנות שהתקיימו</td></tr>';
+      return "<tr"+(r.excluded?' class="excl"':"")+"><td>"+esc(r.date)+"</td><td>"+esc(r.weekday)+'</td><td class="n">'+esc(r.start)+"</td><td>"+esc(r.film)+'</td><td class="n"><b>'+esc(r.tickets)+'</b></td><td><span class="tag '+(f?"final":"partial")+'">'+(f?"סופי":"חלקי (רצפה)")+'</span>'+(r.excluded?'<span class="tag excl" title="לא נכלל בממוצעים">'+esc(r.excluded)+'</span>':"")+'</td><td class="n">'+esc(r.lag)+" דק' לפני</td></tr>";}).join("")||'<tr><td colspan="7" class="note">אין עדיין הקרנות שהתקיימו</td></tr>';
     var DAYS=["א'","ב'","ג'","ד'","ה'","ו'","ש'"], SL=["בוקר (<12)","צהריים (12-16)","ערב מוקדם (16-19)","ערב (19+)"];
     var SLN={"בוקר (<12)":"בוקר (עד 12)","צהריים (12-16)":"צהריים (12-16)","ערב מוקדם (16-19)":"ערב מוקדם (16-19)","ערב (19+)":"ערב (19 ואילך)"};
     function wkLabel(k){var m=/^(\d{4})-W(\d{2})$/.exec(k);if(!m)return k;var y=+m[1],w=+m[2],j4=new Date(Date.UTC(y,0,4)),mon=new Date(j4.getTime()-((j4.getUTCDay()+6)%7)*864e5+(w-1)*7*864e5),end=new Date(mon.getTime()+6*864e5);return mon.getUTCDate()+"."+(mon.getUTCMonth()+1)+"-"+end.getUTCDate()+"."+(end.getUTCMonth()+1);}
@@ -186,7 +193,10 @@ td.n,th.n{text-align:left;white-space:nowrap}
     $("grid").innerHTML=DAYS.map(function(day){return "<tr><td><b>"+esc(day)+"</b></td>"+SL.map(function(sl){var v=g[day+"|"+sl];
       if(!v)return '<td class="n empty">–</td>';var a=Math.round((v.avg/gmx*0.55+0.08)*100);
       return '<td class="n" style="background:color-mix(in srgb,var(--teal) '+a+'%,transparent)"><b>'+v.avg+'</b> <span class="sc">('+v.screenings+')</span></td>';}).join("")+"</tr>";}).join("");
-    $("avgnote").textContent=d.based_on==="final"?"רק מהקרנות עם ספירה סופית ("+fin+")":"מכל ההקרנות (עדיין אין ספירה סופית, ולכן זו רצפה)";
+    $("avgnote").textContent=(d.based_on==="final"?"רק מהקרנות עם ספירה סופית ("+fin+")":"מכל ההקרנות (עדיין אין ספירה סופית, ולכן זו רצפה)")+(d.screenings_excluded?", בלי "+d.screenings_excluded+" הקרנות באירועי קצה":"");
+    var ex=d.excluded_events||{}, exk=Object.keys(ex);
+    $("exclwrap").hidden=!exk.length;
+    $("excl").innerHTML=exk.map(function(k){var v=ex[k],p=v.dates.split("..");return "<tr><td>"+esc(k)+"</td><td>"+esc(p[0]===p[1]?p[0]:p[0]+" עד "+p[1])+'</td><td class="n">'+v.screenings+'</td><td class="n"><b>'+v.avg+"</b></td></tr>";}).join("");
     tick();
   }
   function load(){

@@ -7,6 +7,10 @@ Outputs:
 - data/snapshots-flat.csv : the same data in the old local format (tools/lev_attendance.py reads it)
 - README.md               : the latest numbers, between the AUTO markers
 
+Edge events (holidays, discount cinema days) are listed in data/exclusions.csv (start_date,end_date,label).
+Screenings on those dates stay in attendance.csv with an `excluded` label, but are left out of every average,
+so they don't skew the model; summary.json reports them separately under `excluded_events`.
+
 Estimate: tickets = max(0, round((1 - availRatio) * 267) - 2) (2 blocked seats are always counted as sold), taken from the last time the
 screening was seen before it started. "final" when that was at most 20 minutes before the start.
 """
@@ -37,6 +41,21 @@ def tickets(avail):
     return max(0, round((1 - float(avail)) * SEATS) - BLOCKED)
 
 
+def load_exclusions():
+    out = []
+    for r in read(os.path.join(DATA, "exclusions.csv")):
+        if r.get("start_date"):
+            out.append((r["start_date"].strip(), (r.get("end_date") or r["start_date"]).strip(), r["label"].strip()))
+    return out
+
+
+def excluded_label(date, exclusions):
+    for a, b, label in exclusions:
+        if a <= date <= b:
+            return label
+    return ""
+
+
 def read(path):
     if not os.path.exists(path):
         return []
@@ -46,6 +65,7 @@ def read(path):
 
 def main():
     now = datetime.now(TZ).replace(tzinfo=None)
+    exclusions = load_exclusions()
     catalog = read(os.path.join(DATA, "presentations.csv"))
     changes = [r for p in sorted(glob.glob(os.path.join(DATA, "changes", "*.csv"))) for r in read(p)]
     runs = [r for p in sorted(glob.glob(os.path.join(DATA, "runs", "*.csv"))) for r in read(p)]
@@ -82,12 +102,13 @@ def main():
                              last_seen_min_before=max(lag, 0),
                              status="final" if lag <= FINAL_MIN else "partial", film_en=s["film_en"],
                              duration_min=s["duration"], language=s["language"], hall=s["hall"],
-                             source=s["source"]))
+                             source=s["source"], excluded=excluded_label(s["date"], exclusions)))
         elif s["start"] > now:
-            upcoming.append(dict(base, sold_so_far=base.pop("tickets_est")))
+            upcoming.append(dict(base, sold_so_far=base.pop("tickets_est"),
+                                 excluded=excluded_label(s["date"], exclusions)))
 
     fields = ["date", "week", "weekday", "start", "slot", "film", "tickets_est", "last_seen_min_before", "status",
-              "film_en", "duration_min", "language", "hall", "source"]
+              "film_en", "duration_min", "language", "hall", "source", "excluded"]
     with open(os.path.join(DATA, "attendance.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=fields)
         w.writeheader()
@@ -112,9 +133,17 @@ def main():
         w.writeheader()
         w.writerows(flat)
 
-    # aggregates (final estimates only, so partial numbers don't pull averages down)
-    final = [r for r in rows if r["status"] == "final"]
-    use = final if final else rows
+    # aggregates: regular days only (edge events excluded), final estimates only
+    regular = [r for r in rows if not r["excluded"]]
+    final = [r for r in regular if r["status"] == "final"]
+    use = final if final else regular
+    events = defaultdict(list)
+    for r in rows:
+        if r["excluded"]:
+            events[r["excluded"]].append(r)
+    excluded_events = {k: dict(screenings=len(v), dates=f"{v[0]['date']}..{v[-1]['date']}",
+                               avg=round(sum(x["tickets_est"] for x in v) / len(v), 1),
+                               total=sum(x["tickets_est"] for x in v)) for k, v in events.items()}
 
     def agg(key):
         g = defaultdict(list)
@@ -133,7 +162,8 @@ def main():
 
     summary = dict(
         generated_at=now.strftime(FMT),
-        screenings_total=len(rows), screenings_final=len(final),
+        screenings_total=len(rows), screenings_final=len(final), screenings_excluded=len(rows) - len(regular),
+        excluded_events=excluded_events,
         based_on="final" if final else "all (no final estimates yet)",
         first_screening=rows[0]["date"] if rows else None, last_screening=rows[-1]["date"] if rows else None,
         avg_per_screening=round(sum(r["tickets_est"] for r in use) / len(use), 1) if use else None,
@@ -155,10 +185,14 @@ def main():
     if os.path.exists(readme):
         lines = [f"עודכן: {summary['generated_at']} (שעון ישראל)", "",
                  f"- הקרנות שהסתיימו בנתונים: {len(rows)} (מתוכן {len(final)} עם אומדן סופי)",
-                 f"- ממוצע כרטיסים להקרנה: {summary['avg_per_screening']}",
+                 f"- ממוצע כרטיסים להקרנה: {summary['avg_per_screening']} (בלי {len(rows) - len(regular)} הקרנות באירועי קצה)",
                  f"- ריצות ב-7 הימים האחרונים: {len(ok_runs)} מוצלחות מתוך {len(recent_runs)} "
                  f"(בסיס של כל חצי שעה: {7 * 24 * 2}, ועוד ריצה לפני כל הקרנה)", "", "| יום | הקרנות | ממוצע כרטיסים |", "|---|---|---|"]
         lines += [f"| {d} | {v['screenings']} | {v['avg']} |" for d, v in summary["by_weekday"].items()]
+        if excluded_events:
+            lines += ["", "אירועי קצה שהוחרגו מהממוצעים (`data/exclusions.csv`):", "",
+                      "| אירוע | תאריכים | הקרנות | ממוצע כרטיסים |", "|---|---|---|---|"]
+            lines += [f"| {k} | {v['dates']} | {v['screenings']} | {v['avg']} |" for k, v in excluded_events.items()]
         txt = open(readme, encoding="utf-8").read()
         txt = re.sub(r"(<!-- AUTO-START -->).*(<!-- AUTO-END -->)", lambda m: m.group(1) + "\n" + "\n".join(lines)
                      + "\n" + m.group(2), txt, flags=re.S)
