@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21 11:37",
+ "generated_at": "2026-10-21 12:05",
  "screenings_total": 97,
  "screenings_final": 35,
  "screenings_excluded": 37,
@@ -465,7 +465,7 @@
    "weekday": "ג'",
    "start": "17:00",
    "film": "הוסטל ז'בוטינסקי + שיח יוצרת",
-   "sold_so_far": 9,
+   "sold_so_far": 10,
    "excluded": ""
   }
  ],
