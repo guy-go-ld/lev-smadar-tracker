@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-21 18:29",
- "screenings_total": 98,
- "screenings_final": 36,
+ "generated_at": "2026-10-21 18:57",
+ "screenings_total": 99,
+ "screenings_final": 37,
  "screenings_excluded": 37,
  "excluded_events": {
   "חול המועד סוכות": {
@@ -44,9 +44,9 @@
    "total": 182
   },
   "ד'": {
-   "screenings": 1,
-   "avg": 8.0,
-   "total": 8
+   "screenings": 2,
+   "avg": 10.0,
+   "total": 20
   },
   "ה'": {
    "screenings": 3,
@@ -76,9 +76,9 @@
    "total": 103
   },
   "ערב מוקדם (16-19)": {
-   "screenings": 16,
+   "screenings": 17,
    "avg": 12.8,
-   "total": 205
+   "total": 217
   },
   "ערב (19+)": {
    "screenings": 10,
@@ -178,9 +178,9 @@
    "total": 34
   },
   "ד'|ערב מוקדם (16-19)": {
-   "screenings": 1,
-   "avg": 8.0,
-   "total": 8
+   "screenings": 2,
+   "avg": 10.0,
+   "total": 20
   }
  },
  "by_week": {
@@ -195,9 +195,9 @@
    "total": 358
   },
   "2026-W43": {
-   "screenings": 9,
-   "avg": 9.2,
-   "total": 83
+   "screenings": 10,
+   "avg": 9.5,
+   "total": 95
   }
  },
  "by_film": {
@@ -207,9 +207,9 @@
    "total": 133
   },
   "האהבות שלנו": {
-   "screenings": 8,
-   "avg": 13.2,
-   "total": 106
+   "screenings": 9,
+   "avg": 13.1,
+   "total": 118
   },
   "פרימוורה": {
    "screenings": 5,
@@ -238,14 +238,6 @@
   }
  },
  "upcoming": [
-  {
-   "date": "2026-10-21",
-   "weekday": "ד'",
-   "start": "18:30",
-   "film": "האהבות שלנו",
-   "sold_so_far": 12,
-   "excluded": ""
-  },
   {
    "date": "2026-10-21",
    "weekday": "ד'",
@@ -435,7 +427,7 @@
    "weekday": "ג'",
    "start": "19:00",
    "film": "פרימוורה",
-   "sold_so_far": 0,
+   "sold_so_far": 3,
    "excluded": ""
   },
   {
@@ -459,7 +451,7 @@
    "weekday": "ד'",
    "start": "19:00",
    "film": "טרום בכורה - הכישרון של גברת הייסמית'",
-   "sold_so_far": 55,
+   "sold_so_far": 57,
    "excluded": ""
   },
   {
