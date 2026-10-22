@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22 12:41",
+ "generated_at": "2026-10-22 13:09",
  "screenings_total": 100,
  "screenings_final": 38,
  "screenings_excluded": 37,
@@ -320,7 +320,7 @@
    "weekday": "ש'",
    "start": "13:30",
    "film": "כבשה בקופסה",
-   "sold_so_far": 0,
+   "sold_so_far": 3,
    "excluded": ""
   },
   {
