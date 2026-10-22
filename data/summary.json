@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-22 18:59",
- "screenings_total": 101,
- "screenings_final": 39,
+ "generated_at": "2026-10-22 19:27",
+ "screenings_total": 102,
+ "screenings_final": 40,
  "screenings_excluded": 37,
  "excluded_events": {
   "חול המועד סוכות": {
@@ -49,9 +49,9 @@
    "total": 23
   },
   "ה'": {
-   "screenings": 4,
-   "avg": 5.2,
-   "total": 21
+   "screenings": 5,
+   "avg": 6.2,
+   "total": 31
   },
   "ו'": {
    "screenings": 5,
@@ -81,9 +81,9 @@
    "total": 223
   },
   "ערב (19+)": {
-   "screenings": 11,
-   "avg": 8.7,
-   "total": 96
+   "screenings": 12,
+   "avg": 8.8,
+   "total": 106
   }
  },
  "by_weekday_slot": {
@@ -138,9 +138,9 @@
    "total": 16
   },
   "ה'|ערב (19+)": {
-   "screenings": 1,
-   "avg": 5.0,
-   "total": 5
+   "screenings": 2,
+   "avg": 7.5,
+   "total": 15
   },
   "ו'|בוקר (<12)": {
    "screenings": 1,
@@ -200,9 +200,9 @@
    "total": 358
   },
   "2026-W43": {
-   "screenings": 12,
-   "avg": 8.7,
-   "total": 104
+   "screenings": 13,
+   "avg": 8.8,
+   "total": 114
   }
  },
  "by_film": {
@@ -240,23 +240,20 @@
    "screenings": 4,
    "avg": 7.5,
    "total": 30
+  },
+  "כבשה בקופסה": {
+   "screenings": 1,
+   "avg": 10.0,
+   "total": 10
   }
  },
  "upcoming": [
   {
    "date": "2026-10-22",
    "weekday": "ה'",
-   "start": "19:00",
-   "film": "כבשה בקופסה",
-   "sold_so_far": 10,
-   "excluded": ""
-  },
-  {
-   "date": "2026-10-22",
-   "weekday": "ה'",
    "start": "21:30",
    "film": "האהבות שלנו",
-   "sold_so_far": 4,
+   "sold_so_far": 6,
    "excluded": ""
   },
   {
@@ -448,7 +445,7 @@
    "weekday": "ג'",
    "start": "17:00",
    "film": "הוסטל ז'בוטינסקי + שיח יוצרת",
-   "sold_so_far": 10,
+   "sold_so_far": 12,
    "excluded": ""
   }
  ],
