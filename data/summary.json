@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-23 16:44",
- "screenings_total": 105,
- "screenings_final": 43,
+ "generated_at": "2026-10-23 17:12",
+ "screenings_total": 106,
+ "screenings_final": 44,
  "screenings_excluded": 37,
  "excluded_events": {
   "חול המועד סוכות": {
@@ -26,7 +26,7 @@
  "based_on": "final",
  "first_screening": "2026-09-27",
  "last_screening": "2026-10-23",
- "avg_per_screening": 12.2,
+ "avg_per_screening": 12.1,
  "by_weekday": {
   "א'": {
    "screenings": 5,
@@ -54,9 +54,9 @@
    "total": 37
   },
   "ו'": {
-   "screenings": 7,
-   "avg": 6.6,
-   "total": 46
+   "screenings": 8,
+   "avg": 7.0,
+   "total": 56
   },
   "ש'": {
    "screenings": 6,
@@ -76,9 +76,9 @@
    "total": 109
   },
   "ערב מוקדם (16-19)": {
-   "screenings": 18,
-   "avg": 12.4,
-   "total": 223
+   "screenings": 19,
+   "avg": 12.3,
+   "total": 233
   },
   "ערב (19+)": {
    "screenings": 13,
@@ -153,9 +153,9 @@
    "total": 18
   },
   "ו'|ערב מוקדם (16-19)": {
-   "screenings": 2,
-   "avg": 4.5,
-   "total": 9
+   "screenings": 3,
+   "avg": 6.3,
+   "total": 19
   },
   "ו'|ערב (19+)": {
    "screenings": 1,
@@ -200,9 +200,9 @@
    "total": 358
   },
   "2026-W43": {
-   "screenings": 16,
-   "avg": 7.9,
-   "total": 126
+   "screenings": 17,
+   "avg": 8.0,
+   "total": 136
   }
  },
  "by_film": {
@@ -226,6 +226,11 @@
    "avg": 7.5,
    "total": 45
   },
+  "להתאהב בטוסקנה": {
+   "screenings": 5,
+   "avg": 8.0,
+   "total": 40
+  },
   "עצמאות": {
    "screenings": 3,
    "avg": 12.7,
@@ -235,11 +240,6 @@
    "screenings": 5,
    "avg": 7.4,
    "total": 37
-  },
-  "להתאהב בטוסקנה": {
-   "screenings": 4,
-   "avg": 7.5,
-   "total": 30
   },
   "כבשה בקופסה": {
    "screenings": 1,
@@ -251,17 +251,9 @@
   {
    "date": "2026-10-23",
    "weekday": "ו'",
-   "start": "16:45",
-   "film": "להתאהב בטוסקנה",
-   "sold_so_far": 10,
-   "excluded": ""
-  },
-  {
-   "date": "2026-10-23",
-   "weekday": "ו'",
    "start": "18:50",
    "film": "האהבות שלנו",
-   "sold_so_far": 3,
+   "sold_so_far": 4,
    "excluded": ""
   },
   {
