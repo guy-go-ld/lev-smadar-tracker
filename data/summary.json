@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23 16:09",
+ "generated_at": "2026-10-23 16:37",
  "screenings_total": 105,
  "screenings_final": 43,
  "screenings_excluded": 37,
@@ -253,7 +253,7 @@
    "weekday": "ו'",
    "start": "16:45",
    "film": "להתאהב בטוסקנה",
-   "sold_so_far": 2,
+   "sold_so_far": 8,
    "excluded": ""
   },
   {
