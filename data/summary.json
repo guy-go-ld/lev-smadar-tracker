@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-23 18:49",
- "screenings_total": 106,
- "screenings_final": 44,
+ "generated_at": "2026-10-23 19:17",
+ "screenings_total": 107,
+ "screenings_final": 45,
  "screenings_excluded": 37,
  "excluded_events": {
   "חול המועד סוכות": {
@@ -26,7 +26,7 @@
  "based_on": "final",
  "first_screening": "2026-09-27",
  "last_screening": "2026-10-23",
- "avg_per_screening": 12.1,
+ "avg_per_screening": 12.2,
  "by_weekday": {
   "א'": {
    "screenings": 5,
@@ -54,9 +54,9 @@
    "total": 37
   },
   "ו'": {
-   "screenings": 8,
-   "avg": 7.0,
-   "total": 56
+   "screenings": 9,
+   "avg": 7.8,
+   "total": 70
   },
   "ש'": {
    "screenings": 6,
@@ -76,9 +76,9 @@
    "total": 109
   },
   "ערב מוקדם (16-19)": {
-   "screenings": 19,
+   "screenings": 20,
    "avg": 12.3,
-   "total": 233
+   "total": 247
   },
   "ערב (19+)": {
    "screenings": 13,
@@ -153,9 +153,9 @@
    "total": 18
   },
   "ו'|ערב מוקדם (16-19)": {
-   "screenings": 3,
-   "avg": 6.3,
-   "total": 19
+   "screenings": 4,
+   "avg": 8.2,
+   "total": 33
   },
   "ו'|ערב (19+)": {
    "screenings": 1,
@@ -200,9 +200,9 @@
    "total": 358
   },
   "2026-W43": {
-   "screenings": 17,
-   "avg": 8.0,
-   "total": 136
+   "screenings": 18,
+   "avg": 8.3,
+   "total": 150
   }
  },
  "by_film": {
@@ -212,9 +212,9 @@
    "total": 142
   },
   "האהבות שלנו": {
-   "screenings": 10,
-   "avg": 12.4,
-   "total": 124
+   "screenings": 11,
+   "avg": 12.5,
+   "total": 138
   },
   "פרימוורה": {
    "screenings": 6,
@@ -251,14 +251,6 @@
   {
    "date": "2026-10-23",
    "weekday": "ו'",
-   "start": "18:50",
-   "film": "האהבות שלנו",
-   "sold_so_far": 14,
-   "excluded": ""
-  },
-  {
-   "date": "2026-10-23",
-   "weekday": "ו'",
    "start": "21:15",
    "film": "כבשה בקופסה",
    "sold_so_far": 6,
@@ -277,7 +269,7 @@
    "weekday": "ש'",
    "start": "13:30",
    "film": "כבשה בקופסה",
-   "sold_so_far": 3,
+   "sold_so_far": 5,
    "excluded": ""
   },
   {
