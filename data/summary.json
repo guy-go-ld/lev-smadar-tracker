@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23 15:13",
+ "generated_at": "2026-10-23 15:41",
  "screenings_total": 105,
  "screenings_final": 43,
  "screenings_excluded": 37,
@@ -261,7 +261,7 @@
    "weekday": "ו'",
    "start": "18:50",
    "film": "האהבות שלנו",
-   "sold_so_far": 2,
+   "sold_so_far": 3,
    "excluded": ""
   },
   {
