@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-23 13:49",
- "screenings_total": 104,
- "screenings_final": 42,
+ "generated_at": "2026-10-23 14:17",
+ "screenings_total": 105,
+ "screenings_final": 43,
  "screenings_excluded": 37,
  "excluded_events": {
   "חול המועד סוכות": {
@@ -26,7 +26,7 @@
  "based_on": "final",
  "first_screening": "2026-09-27",
  "last_screening": "2026-10-23",
- "avg_per_screening": 12.3,
+ "avg_per_screening": 12.2,
  "by_weekday": {
   "א'": {
    "screenings": 5,
@@ -54,9 +54,9 @@
    "total": 37
   },
   "ו'": {
-   "screenings": 6,
-   "avg": 6.7,
-   "total": 40
+   "screenings": 7,
+   "avg": 6.6,
+   "total": 46
   },
   "ש'": {
    "screenings": 6,
@@ -71,9 +71,9 @@
    "total": 79
   },
   "צהריים (12-16)": {
-   "screenings": 6,
-   "avg": 17.2,
-   "total": 103
+   "screenings": 7,
+   "avg": 15.6,
+   "total": 109
   },
   "ערב מוקדם (16-19)": {
    "screenings": 18,
@@ -148,9 +148,9 @@
    "total": 10
   },
   "ו'|צהריים (12-16)": {
-   "screenings": 1,
-   "avg": 12.0,
-   "total": 12
+   "screenings": 2,
+   "avg": 9.0,
+   "total": 18
   },
   "ו'|ערב מוקדם (16-19)": {
    "screenings": 2,
@@ -200,16 +200,16 @@
    "total": 358
   },
   "2026-W43": {
-   "screenings": 15,
-   "avg": 8.0,
-   "total": 120
+   "screenings": 16,
+   "avg": 7.9,
+   "total": 126
   }
  },
  "by_film": {
   "מעשיות מקבילות": {
-   "screenings": 7,
-   "avg": 19.4,
-   "total": 136
+   "screenings": 8,
+   "avg": 17.8,
+   "total": 142
   },
   "האהבות שלנו": {
    "screenings": 10,
@@ -251,14 +251,6 @@
   {
    "date": "2026-10-23",
    "weekday": "ו'",
-   "start": "13:50",
-   "film": "מעשיות מקבילות",
-   "sold_so_far": 6,
-   "excluded": ""
-  },
-  {
-   "date": "2026-10-23",
-   "weekday": "ו'",
    "start": "16:45",
    "film": "להתאהב בטוסקנה",
    "sold_so_far": 2,
@@ -269,7 +261,7 @@
    "weekday": "ו'",
    "start": "18:50",
    "film": "האהבות שלנו",
-   "sold_so_far": 0,
+   "sold_so_far": 2,
    "excluded": ""
   },
   {
@@ -421,7 +413,7 @@
    "weekday": "ד'",
    "start": "19:00",
    "film": "טרום בכורה - הכישרון של גברת הייסמית'",
-   "sold_so_far": 62,
+   "sold_so_far": 64,
    "excluded": ""
   },
   {
