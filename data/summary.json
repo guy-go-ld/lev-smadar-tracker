@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-24 16:09",
- "screenings_total": 110,
- "screenings_final": 48,
+ "generated_at": "2026-10-24 16:37",
+ "screenings_total": 111,
+ "screenings_final": 49,
  "screenings_excluded": 37,
  "excluded_events": {
   "חול המועד סוכות": {
@@ -26,7 +26,7 @@
  "based_on": "final",
  "first_screening": "2026-09-27",
  "last_screening": "2026-10-24",
- "avg_per_screening": 13.1,
+ "avg_per_screening": 13.2,
  "by_weekday": {
   "א'": {
    "screenings": 5,
@@ -59,9 +59,9 @@
    "total": 81
   },
   "ש'": {
-   "screenings": 8,
-   "avg": 32.1,
-   "total": 257
+   "screenings": 9,
+   "avg": 30.8,
+   "total": 277
   }
  },
  "by_slot": {
@@ -76,9 +76,9 @@
    "total": 153
   },
   "ערב מוקדם (16-19)": {
-   "screenings": 20,
-   "avg": 12.3,
-   "total": 247
+   "screenings": 21,
+   "avg": 12.7,
+   "total": 267
   },
   "ערב (19+)": {
    "screenings": 14,
@@ -173,9 +173,9 @@
    "total": 105
   },
   "ש'|ערב מוקדם (16-19)": {
-   "screenings": 1,
-   "avg": 34.0,
-   "total": 34
+   "screenings": 2,
+   "avg": 27.0,
+   "total": 54
   },
   "ד'|ערב מוקדם (16-19)": {
    "screenings": 2,
@@ -200,9 +200,9 @@
    "total": 358
   },
   "2026-W43": {
-   "screenings": 21,
-   "avg": 11.0,
-   "total": 232
+   "screenings": 22,
+   "avg": 11.5,
+   "total": 252
   }
  },
  "by_film": {
@@ -221,15 +221,15 @@
    "avg": 16.2,
    "total": 97
   },
+  "סודות מהקרמלין": {
+   "screenings": 7,
+   "avg": 9.3,
+   "total": 65
+  },
   "כבשה בקופסה": {
    "screenings": 3,
    "avg": 21.7,
    "total": 65
-  },
-  "סודות מהקרמלין": {
-   "screenings": 6,
-   "avg": 7.5,
-   "total": 45
   },
   "להתאהב בטוסקנה": {
    "screenings": 5,
@@ -248,14 +248,6 @@
   }
  },
  "upcoming": [
-  {
-   "date": "2026-10-24",
-   "weekday": "ש'",
-   "start": "16:10",
-   "film": "סודות מהקרמלין",
-   "sold_so_far": 20,
-   "excluded": ""
-  },
   {
    "date": "2026-10-24",
    "weekday": "ש'",
