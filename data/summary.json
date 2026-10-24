@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24 09:50",
+ "generated_at": "2026-10-24 10:18",
  "screenings_total": 108,
  "screenings_final": 46,
  "screenings_excluded": 37,
@@ -253,7 +253,7 @@
    "weekday": "ש'",
    "start": "11:00",
    "film": "האהבות שלנו",
-   "sold_so_far": 14,
+   "sold_so_far": 16,
    "excluded": ""
   },
   {
@@ -261,7 +261,7 @@
    "weekday": "ש'",
    "start": "13:30",
    "film": "כבשה בקופסה",
-   "sold_so_far": 9,
+   "sold_so_far": 11,
    "excluded": ""
   },
   {
