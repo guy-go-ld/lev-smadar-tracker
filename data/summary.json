@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24 12:51",
+ "generated_at": "2026-10-24 13:19",
  "screenings_total": 109,
  "screenings_final": 47,
  "screenings_excluded": 37,
@@ -253,7 +253,7 @@
    "weekday": "ש'",
    "start": "13:30",
    "film": "כבשה בקופסה",
-   "sold_so_far": 21,
+   "sold_so_far": 31,
    "excluded": ""
   },
   {
@@ -269,7 +269,7 @@
    "weekday": "ש'",
    "start": "19:00",
    "film": "פרימוורה",
-   "sold_so_far": 9,
+   "sold_so_far": 10,
    "excluded": ""
   },
   {
@@ -394,8 +394,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 477,
-  "ok": 474,
+  "runs": 472,
+  "ok": 469,
   "expected_baseline": 336,
   "gaps_over_45min": []
  },
