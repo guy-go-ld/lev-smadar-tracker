@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-24 13:29",
- "screenings_total": 109,
- "screenings_final": 47,
+ "generated_at": "2026-10-24 13:57",
+ "screenings_total": 110,
+ "screenings_final": 48,
  "screenings_excluded": 37,
  "excluded_events": {
   "חול המועד סוכות": {
@@ -26,7 +26,7 @@
  "based_on": "final",
  "first_screening": "2026-09-27",
  "last_screening": "2026-10-24",
- "avg_per_screening": 12.4,
+ "avg_per_screening": 13.1,
  "by_weekday": {
   "א'": {
    "screenings": 5,
@@ -59,9 +59,9 @@
    "total": 81
   },
   "ש'": {
-   "screenings": 7,
-   "avg": 30.4,
-   "total": 213
+   "screenings": 8,
+   "avg": 32.1,
+   "total": 257
   }
  },
  "by_slot": {
@@ -71,9 +71,9 @@
    "total": 106
   },
   "צהריים (12-16)": {
-   "screenings": 7,
-   "avg": 15.6,
-   "total": 109
+   "screenings": 8,
+   "avg": 19.1,
+   "total": 153
   },
   "ערב מוקדם (16-19)": {
    "screenings": 20,
@@ -168,9 +168,9 @@
    "total": 71
   },
   "ש'|צהריים (12-16)": {
-   "screenings": 2,
-   "avg": 30.5,
-   "total": 61
+   "screenings": 3,
+   "avg": 35.0,
+   "total": 105
   },
   "ש'|ערב מוקדם (16-19)": {
    "screenings": 1,
@@ -200,9 +200,9 @@
    "total": 358
   },
   "2026-W43": {
-   "screenings": 20,
-   "avg": 9.4,
-   "total": 188
+   "screenings": 21,
+   "avg": 11.0,
+   "total": 232
   }
  },
  "by_film": {
@@ -220,6 +220,11 @@
    "screenings": 6,
    "avg": 16.2,
    "total": 97
+  },
+  "כבשה בקופסה": {
+   "screenings": 3,
+   "avg": 21.7,
+   "total": 65
   },
   "סודות מהקרמלין": {
    "screenings": 6,
@@ -240,22 +245,9 @@
    "screenings": 5,
    "avg": 7.4,
    "total": 37
-  },
-  "כבשה בקופסה": {
-   "screenings": 2,
-   "avg": 10.5,
-   "total": 21
   }
  },
  "upcoming": [
-  {
-   "date": "2026-10-24",
-   "weekday": "ש'",
-   "start": "13:30",
-   "film": "כבשה בקופסה",
-   "sold_so_far": 44,
-   "excluded": ""
-  },
   {
    "date": "2026-10-24",
    "weekday": "ש'",
