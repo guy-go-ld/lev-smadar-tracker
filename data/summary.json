@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24 15:21",
+ "generated_at": "2026-10-24 15:49",
  "screenings_total": 110,
  "screenings_final": 48,
  "screenings_excluded": 37,
@@ -373,7 +373,7 @@
    "weekday": "ד'",
    "start": "19:00",
    "film": "טרום בכורה - הכישרון של גברת הייסמית'",
-   "sold_so_far": 68,
+   "sold_so_far": 70,
    "excluded": ""
   },
   {
@@ -386,8 +386,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 477,
-  "ok": 474,
+  "runs": 473,
+  "ok": 470,
   "expected_baseline": 336,
   "gaps_over_45min": []
  },
