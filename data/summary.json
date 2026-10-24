@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24 14:25",
+ "generated_at": "2026-10-24 14:53",
  "screenings_total": 110,
  "screenings_final": 48,
  "screenings_excluded": 37,
@@ -253,7 +253,7 @@
    "weekday": "ש'",
    "start": "16:10",
    "film": "סודות מהקרמלין",
-   "sold_so_far": 7,
+   "sold_so_far": 10,
    "excluded": ""
   },
   {
