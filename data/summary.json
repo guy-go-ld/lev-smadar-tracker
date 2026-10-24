@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24 20:23",
+ "generated_at": "2026-10-24 20:51",
  "screenings_total": 112,
  "screenings_final": 50,
  "screenings_excluded": 37,
@@ -253,7 +253,7 @@
    "weekday": "ש'",
    "start": "21:20",
    "film": "מעשיות מקבילות",
-   "sold_so_far": 4,
+   "sold_so_far": 6,
    "excluded": ""
   },
   {
