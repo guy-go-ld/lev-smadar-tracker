@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25 15:03",
+ "generated_at": "2026-10-25 15:31",
  "screenings_total": 113,
  "screenings_final": 51,
  "screenings_excluded": 37,
@@ -253,7 +253,7 @@
    "weekday": "א'",
    "start": "16:30",
    "film": "מעשיות מקבילות",
-   "sold_so_far": 2,
+   "sold_so_far": 4,
    "excluded": ""
   },
   {
@@ -349,7 +349,7 @@
    "weekday": "ד'",
    "start": "19:00",
    "film": "טרום בכורה - הכישרון של גברת הייסמית'",
-   "sold_so_far": 84,
+   "sold_so_far": 82,
    "excluded": ""
   },
   {
