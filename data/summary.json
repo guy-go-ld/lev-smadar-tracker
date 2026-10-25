@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25 08:59",
+ "generated_at": "2026-10-25 09:27",
  "screenings_total": 113,
  "screenings_final": 51,
  "screenings_excluded": 37,
@@ -309,7 +309,7 @@
    "weekday": "ג'",
    "start": "13:30",
    "film": "כבשה בקופסה",
-   "sold_so_far": 0,
+   "sold_so_far": 3,
    "excluded": ""
   },
   {
@@ -349,7 +349,7 @@
    "weekday": "ד'",
    "start": "19:00",
    "film": "טרום בכורה - הכישרון של גברת הייסמית'",
-   "sold_so_far": 74,
+   "sold_so_far": 76,
    "excluded": ""
   },
   {
