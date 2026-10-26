@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26 15:56",
+ "generated_at": "2026-10-26 16:24",
  "screenings_total": 116,
  "screenings_final": 54,
  "screenings_excluded": 37,
@@ -253,7 +253,7 @@
    "weekday": "ב'",
    "start": "16:45",
    "film": "פרימוורה",
-   "sold_so_far": 0,
+   "sold_so_far": 2,
    "excluded": ""
   },
   {
@@ -261,7 +261,7 @@
    "weekday": "ב'",
    "start": "19:00",
    "film": "האהבות שלנו",
-   "sold_so_far": 6,
+   "sold_so_far": 10,
    "excluded": ""
   },
   {
@@ -338,8 +338,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 477,
-  "ok": 474,
+  "runs": 472,
+  "ok": 469,
   "expected_baseline": 336,
   "gaps_over_45min": []
  },
