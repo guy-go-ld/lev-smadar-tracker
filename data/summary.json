@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26 09:52",
+ "generated_at": "2026-10-26 10:20",
  "screenings_total": 116,
  "screenings_final": 54,
  "screenings_excluded": 37,
@@ -253,7 +253,7 @@
    "weekday": "ב'",
    "start": "16:45",
    "film": "פרימוורה",
-   "sold_so_far": 2,
+   "sold_so_far": 0,
    "excluded": ""
   },
   {
