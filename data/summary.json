@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-27 08:12",
- "screenings_total": 119,
+ "generated_at": "2026-10-27 14:23",
+ "screenings_total": 121,
  "screenings_final": 57,
  "screenings_excluded": 37,
  "excluded_events": {
@@ -25,7 +25,7 @@
  },
  "based_on": "final",
  "first_screening": "2026-09-27",
- "last_screening": "2026-10-26",
+ "last_screening": "2026-10-27",
  "avg_per_screening": 13.1,
  "by_weekday": {
   "א'": {
@@ -256,22 +256,6 @@
   {
    "date": "2026-10-27",
    "weekday": "ג'",
-   "start": "11:00",
-   "film": "האהבות שלנו",
-   "sold_so_far": 8,
-   "excluded": ""
-  },
-  {
-   "date": "2026-10-27",
-   "weekday": "ג'",
-   "start": "13:30",
-   "film": "כבשה בקופסה",
-   "sold_so_far": 7,
-   "excluded": ""
-  },
-  {
-   "date": "2026-10-27",
-   "weekday": "ג'",
    "start": "16:10",
    "film": "סודות מהקרמלין",
    "sold_so_far": 0,
@@ -282,7 +266,7 @@
    "weekday": "ג'",
    "start": "19:00",
    "film": "פרימוורה",
-   "sold_so_far": 3,
+   "sold_so_far": 7,
    "excluded": ""
   },
   {
@@ -306,7 +290,7 @@
    "weekday": "ד'",
    "start": "19:00",
    "film": "טרום בכורה - הכישרון של גברת הייסמית'",
-   "sold_so_far": 93,
+   "sold_so_far": 96,
    "excluded": ""
   },
   {
@@ -319,8 +303,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 461,
-  "ok": 458,
+  "runs": 439,
+  "ok": 436,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
@@ -332,6 +316,11 @@
     "start": "2026-10-27 03:01",
     "end": "2026-10-27 08:12",
     "minutes": 311
+   },
+   {
+    "start": "2026-10-27 08:12",
+    "end": "2026-10-27 14:23",
+    "minutes": 371
    }
   ]
  },

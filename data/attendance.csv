@@ -118,3 +118,5 @@ date,week,weekday,start,slot,film,tickets_est,last_seen_min_before,status,film_e
 2026-10-26,2026-W44,ב',16:45,ערב מוקדם (16-19),פרימוורה,4,1,final,Primavera,110,it,לב 1,github,
 2026-10-26,2026-W44,ב',19:00,ערב (19+),האהבות שלנו,19,1,final,Our Loves,117,he,לב 1,github,
 2026-10-26,2026-W44,ב',21:30,ערב (19+),כבשה בקופסה,5,1,final,Sheep in the Box,126,ja,לב 1,github,
+2026-10-27,2026-W44,ג',11:00,בוקר (<12),האהבות שלנו,8,168,partial,Our Loves,117,he,לב 1,github,
+2026-10-27,2026-W44,ג',13:30,צהריים (12-16),כבשה בקופסה,7,318,partial,Sheep in the Box,126,ja,לב 1,github,
