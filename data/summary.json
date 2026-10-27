@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-27 14:23",
- "screenings_total": 121,
+ "generated_at": "2026-10-27 20:10",
+ "screenings_total": 123,
  "screenings_final": 57,
  "screenings_excluded": 37,
  "excluded_events": {
@@ -256,22 +256,6 @@
   {
    "date": "2026-10-27",
    "weekday": "ג'",
-   "start": "16:10",
-   "film": "סודות מהקרמלין",
-   "sold_so_far": 0,
-   "excluded": ""
-  },
-  {
-   "date": "2026-10-27",
-   "weekday": "ג'",
-   "start": "19:00",
-   "film": "פרימוורה",
-   "sold_so_far": 7,
-   "excluded": ""
-  },
-  {
-   "date": "2026-10-27",
-   "weekday": "ג'",
    "start": "21:20",
    "film": "מעשיות מקבילות",
    "sold_so_far": 0,
@@ -290,7 +274,7 @@
    "weekday": "ד'",
    "start": "19:00",
    "film": "טרום בכורה - הכישרון של גברת הייסמית'",
-   "sold_so_far": 96,
+   "sold_so_far": 94,
    "excluded": ""
   },
   {
@@ -303,8 +287,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 439,
-  "ok": 436,
+  "runs": 420,
+  "ok": 417,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
@@ -321,6 +305,11 @@
     "start": "2026-10-27 08:12",
     "end": "2026-10-27 14:23",
     "minutes": 371
+   },
+   {
+    "start": "2026-10-27 14:23",
+    "end": "2026-10-27 20:10",
+    "minutes": 347
    }
   ]
  },
