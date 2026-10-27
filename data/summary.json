@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26 23:49",
+ "generated_at": "2026-10-27 03:01",
  "screenings_total": 119,
  "screenings_final": 57,
  "screenings_excluded": 37,
@@ -319,10 +319,16 @@
   }
  ],
  "coverage_7d": {
-  "runs": 476,
-  "ok": 473,
+  "runs": 471,
+  "ok": 468,
   "expected_baseline": 336,
-  "gaps_over_45min": []
+  "gaps_over_45min": [
+   {
+    "start": "2026-10-26 23:49",
+    "end": "2026-10-27 03:01",
+    "minutes": 192
+   }
+  ]
  },
  "method": "tickets = round((1-availRatio)*267) - 2; final = last seen <= 20 min before start"
 }
