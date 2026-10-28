@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-28 16:14",
- "screenings_total": 125,
+ "generated_at": "2026-10-28 21:39",
+ "screenings_total": 126,
  "screenings_final": 57,
  "screenings_excluded": 37,
  "excluded_events": {
@@ -254,14 +254,6 @@
  },
  "upcoming": [
   {
-   "date": "2026-10-28",
-   "weekday": "ד'",
-   "start": "19:00",
-   "film": "טרום בכורה - הכישרון של גברת הייסמית'",
-   "sold_so_far": 95,
-   "excluded": ""
-  },
-  {
    "date": "2026-10-29",
    "weekday": "ה'",
    "start": "16:30",
@@ -346,7 +338,7 @@
    "weekday": "ש'",
    "start": "16:10",
    "film": "פרימוורה",
-   "sold_so_far": 0,
+   "sold_so_far": 2,
    "excluded": ""
   },
   {
@@ -487,8 +479,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 372,
-  "ok": 369,
+  "runs": 354,
+  "ok": 351,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
@@ -530,6 +522,11 @@
     "start": "2026-10-28 09:19",
     "end": "2026-10-28 16:14",
     "minutes": 415
+   },
+   {
+    "start": "2026-10-28 16:14",
+    "end": "2026-10-28 21:39",
+    "minutes": 325
    }
   ]
  },
