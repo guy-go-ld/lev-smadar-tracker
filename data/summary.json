@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28 03:29",
+ "generated_at": "2026-10-28 09:19",
  "screenings_total": 124,
  "screenings_final": 57,
  "screenings_excluded": 37,
@@ -270,6 +270,222 @@
    "excluded": ""
   },
   {
+   "date": "2026-10-29",
+   "weekday": "ה'",
+   "start": "16:30",
+   "film": "הסתברות לאהבה",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-10-29",
+   "weekday": "ה'",
+   "start": "18:30",
+   "film": "הזר",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-10-29",
+   "weekday": "ה'",
+   "start": "21:00",
+   "film": "כבשה בקופסה",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-10-30",
+   "weekday": "ו'",
+   "start": "11:00",
+   "film": "מעשיות מקבילות",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-10-30",
+   "weekday": "ו'",
+   "start": "13:50",
+   "film": "האהבות שלנו",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-10-30",
+   "weekday": "ו'",
+   "start": "16:20",
+   "film": "כבשה בקופסה",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-10-30",
+   "weekday": "ו'",
+   "start": "19:00",
+   "film": "הסתברות לאהבה",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-10-30",
+   "weekday": "ו'",
+   "start": "21:00",
+   "film": "הזר",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-10-31",
+   "weekday": "ש'",
+   "start": "11:00",
+   "film": "הזר",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-10-31",
+   "weekday": "ש'",
+   "start": "13:30",
+   "film": "כבשה בקופסה",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-10-31",
+   "weekday": "ש'",
+   "start": "16:10",
+   "film": "פרימוורה",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-10-31",
+   "weekday": "ש'",
+   "start": "18:30",
+   "film": "הסתברות לאהבה",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-10-31",
+   "weekday": "ש'",
+   "start": "20:30",
+   "film": "האהבות שלנו",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-11-01",
+   "weekday": "א'",
+   "start": "16:30",
+   "film": "האהבות שלנו",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-11-01",
+   "weekday": "א'",
+   "start": "18:50",
+   "film": "הסתברות לאהבה",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-11-01",
+   "weekday": "א'",
+   "start": "20:50",
+   "film": "הזר",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-11-02",
+   "weekday": "ב'",
+   "start": "16:30",
+   "film": "הזר",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-11-02",
+   "weekday": "ב'",
+   "start": "19:00",
+   "film": "כבשה בקופסה",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-11-02",
+   "weekday": "ב'",
+   "start": "21:30",
+   "film": "הסתברות לאהבה",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-11-03",
+   "weekday": "ג'",
+   "start": "11:00",
+   "film": "הסתברות לאהבה",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-11-03",
+   "weekday": "ג'",
+   "start": "13:00",
+   "film": "פרימוורה",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-11-03",
+   "weekday": "ג'",
+   "start": "15:20",
+   "film": "כבשה בקופסה",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-11-03",
+   "weekday": "ג'",
+   "start": "18:00",
+   "film": "הזר",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-11-03",
+   "weekday": "ג'",
+   "start": "20:30",
+   "film": "האהבות שלנו",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-11-04",
+   "weekday": "ד'",
+   "start": "16:30",
+   "film": "הסתברות לאהבה",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-11-04",
+   "weekday": "ד'",
+   "start": "18:30",
+   "film": "הזר",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
+   "date": "2026-11-04",
+   "weekday": "ד'",
+   "start": "21:00",
+   "film": "כבשה בקופסה",
+   "sold_so_far": 0,
+   "excluded": ""
+  },
+  {
    "date": "2026-11-10",
    "weekday": "ג'",
    "start": "17:00",
@@ -279,8 +495,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 402,
-  "ok": 399,
+  "runs": 390,
+  "ok": 387,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
@@ -312,6 +528,11 @@
     "start": "2026-10-28 00:18",
     "end": "2026-10-28 03:29",
     "minutes": 191
+   },
+   {
+    "start": "2026-10-28 03:29",
+    "end": "2026-10-28 09:19",
+    "minutes": 350
    }
   ]
  },
