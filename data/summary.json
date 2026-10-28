@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-28 09:19",
- "screenings_total": 124,
+ "generated_at": "2026-10-28 16:14",
+ "screenings_total": 125,
  "screenings_final": 57,
  "screenings_excluded": 37,
  "excluded_events": {
@@ -25,7 +25,7 @@
  },
  "based_on": "final",
  "first_screening": "2026-09-27",
- "last_screening": "2026-10-27",
+ "last_screening": "2026-10-28",
  "avg_per_screening": 13.1,
  "by_weekday": {
   "א'": {
@@ -256,17 +256,9 @@
   {
    "date": "2026-10-28",
    "weekday": "ד'",
-   "start": "16:00",
-   "film": "כבשה בקופסה",
-   "sold_so_far": 0,
-   "excluded": ""
-  },
-  {
-   "date": "2026-10-28",
-   "weekday": "ד'",
    "start": "19:00",
    "film": "טרום בכורה - הכישרון של גברת הייסמית'",
-   "sold_so_far": 98,
+   "sold_so_far": 95,
    "excluded": ""
   },
   {
@@ -330,7 +322,7 @@
    "weekday": "ו'",
    "start": "21:00",
    "film": "הזר",
-   "sold_so_far": 0,
+   "sold_so_far": 2,
    "excluded": ""
   },
   {
@@ -338,7 +330,7 @@
    "weekday": "ש'",
    "start": "11:00",
    "film": "הזר",
-   "sold_so_far": 0,
+   "sold_so_far": 1,
    "excluded": ""
   },
   {
@@ -495,8 +487,8 @@
   }
  ],
  "coverage_7d": {
-  "runs": 390,
-  "ok": 387,
+  "runs": 372,
+  "ok": 369,
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
@@ -533,6 +525,11 @@
     "start": "2026-10-28 03:29",
     "end": "2026-10-28 09:19",
     "minutes": 350
+   },
+   {
+    "start": "2026-10-28 09:19",
+    "end": "2026-10-28 16:14",
+    "minutes": 415
    }
   ]
  },
