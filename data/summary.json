@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-29 18:17",
- "screenings_total": 127,
- "screenings_final": 57,
+ "generated_at": "2026-10-29 23:15",
+ "screenings_total": 129,
+ "screenings_final": 58,
  "screenings_excluded": 37,
  "excluded_events": {
   "חול המועד סוכות": {
@@ -26,7 +26,7 @@
  "based_on": "final",
  "first_screening": "2026-09-27",
  "last_screening": "2026-10-29",
- "avg_per_screening": 13.1,
+ "avg_per_screening": 13.0,
  "by_weekday": {
   "א'": {
    "screenings": 8,
@@ -49,9 +49,9 @@
    "total": 23
   },
   "ה'": {
-   "screenings": 6,
-   "avg": 6.2,
-   "total": 37
+   "screenings": 7,
+   "avg": 6.7,
+   "total": 47
   },
   "ו'": {
    "screenings": 10,
@@ -76,9 +76,9 @@
    "total": 153
   },
   "ערב מוקדם (16-19)": {
-   "screenings": 23,
-   "avg": 12.3,
-   "total": 283
+   "screenings": 24,
+   "avg": 12.2,
+   "total": 293
   },
   "ערב (19+)": {
    "screenings": 20,
@@ -133,9 +133,9 @@
    "total": 22
   },
   "ה'|ערב מוקדם (16-19)": {
-   "screenings": 3,
-   "avg": 5.3,
-   "total": 16
+   "screenings": 4,
+   "avg": 6.5,
+   "total": 26
   },
   "ה'|ערב (19+)": {
    "screenings": 3,
@@ -205,9 +205,9 @@
    "total": 319
   },
   "2026-W44": {
-   "screenings": 3,
-   "avg": 9.3,
-   "total": 28
+   "screenings": 4,
+   "avg": 9.5,
+   "total": 38
   }
  },
  "by_film": {
@@ -250,25 +250,14 @@
    "screenings": 5,
    "avg": 7.4,
    "total": 37
+  },
+  "הזר": {
+   "screenings": 1,
+   "avg": 10.0,
+   "total": 10
   }
  },
  "upcoming": [
-  {
-   "date": "2026-10-29",
-   "weekday": "ה'",
-   "start": "18:30",
-   "film": "הזר",
-   "sold_so_far": 10,
-   "excluded": ""
-  },
-  {
-   "date": "2026-10-29",
-   "weekday": "ה'",
-   "start": "21:00",
-   "film": "כבשה בקופסה",
-   "sold_so_far": 2,
-   "excluded": ""
-  },
   {
    "date": "2026-10-30",
    "weekday": "ו'",
@@ -314,7 +303,7 @@
    "weekday": "ש'",
    "start": "11:00",
    "film": "הזר",
-   "sold_so_far": 5,
+   "sold_so_far": 7,
    "excluded": ""
   },
   {
@@ -471,15 +460,10 @@
   }
  ],
  "coverage_7d": {
-  "runs": 309,
-  "ok": 306,
+  "runs": 291,
+  "ok": 288,
   "expected_baseline": 336,
   "gaps_over_45min": [
-   {
-    "start": "2026-10-27 14:23",
-    "end": "2026-10-27 20:10",
-    "minutes": 347
-   },
    {
     "start": "2026-10-27 20:10",
     "end": "2026-10-28 00:18",
@@ -524,6 +508,11 @@
     "start": "2026-10-29 11:18",
     "end": "2026-10-29 18:17",
     "minutes": 419
+   },
+   {
+    "start": "2026-10-29 18:17",
+    "end": "2026-10-29 23:15",
+    "minutes": 298
    }
   ]
  },
