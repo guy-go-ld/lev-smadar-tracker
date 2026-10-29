@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-29 11:18",
- "screenings_total": 126,
+ "generated_at": "2026-10-29 18:17",
+ "screenings_total": 127,
  "screenings_final": 57,
  "screenings_excluded": 37,
  "excluded_events": {
@@ -25,7 +25,7 @@
  },
  "based_on": "final",
  "first_screening": "2026-09-27",
- "last_screening": "2026-10-28",
+ "last_screening": "2026-10-29",
  "avg_per_screening": 13.1,
  "by_weekday": {
   "א'": {
@@ -256,17 +256,9 @@
   {
    "date": "2026-10-29",
    "weekday": "ה'",
-   "start": "16:30",
-   "film": "הסתברות לאהבה",
-   "sold_so_far": 0,
-   "excluded": ""
-  },
-  {
-   "date": "2026-10-29",
-   "weekday": "ה'",
    "start": "18:30",
    "film": "הזר",
-   "sold_so_far": 0,
+   "sold_so_far": 10,
    "excluded": ""
   },
   {
@@ -274,7 +266,7 @@
    "weekday": "ה'",
    "start": "21:00",
    "film": "כבשה בקופסה",
-   "sold_so_far": 0,
+   "sold_so_far": 2,
    "excluded": ""
   },
   {
@@ -298,7 +290,7 @@
    "weekday": "ו'",
    "start": "16:20",
    "film": "כבשה בקופסה",
-   "sold_so_far": 2,
+   "sold_so_far": 4,
    "excluded": ""
   },
   {
@@ -322,7 +314,7 @@
    "weekday": "ש'",
    "start": "11:00",
    "film": "הזר",
-   "sold_so_far": 1,
+   "sold_so_far": 5,
    "excluded": ""
   },
   {
@@ -330,7 +322,7 @@
    "weekday": "ש'",
    "start": "13:30",
    "film": "כבשה בקופסה",
-   "sold_so_far": 0,
+   "sold_so_far": 2,
    "excluded": ""
   },
   {
@@ -479,15 +471,10 @@
   }
  ],
  "coverage_7d": {
-  "runs": 327,
-  "ok": 324,
+  "runs": 309,
+  "ok": 306,
   "expected_baseline": 336,
   "gaps_over_45min": [
-   {
-    "start": "2026-10-27 08:12",
-    "end": "2026-10-27 14:23",
-    "minutes": 371
-   },
    {
     "start": "2026-10-27 14:23",
     "end": "2026-10-27 20:10",
@@ -532,6 +519,11 @@
     "start": "2026-10-29 04:51",
     "end": "2026-10-29 11:18",
     "minutes": 387
+   },
+   {
+    "start": "2026-10-29 11:18",
+    "end": "2026-10-29 18:17",
+    "minutes": 419
    }
   ]
  },
