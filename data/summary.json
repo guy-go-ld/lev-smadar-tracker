@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-30 09:09",
- "screenings_total": 129,
+ "generated_at": "2026-10-30 16:13",
+ "screenings_total": 131,
  "screenings_final": 58,
  "screenings_excluded": 37,
  "excluded_events": {
@@ -25,7 +25,7 @@
  },
  "based_on": "final",
  "first_screening": "2026-09-27",
- "last_screening": "2026-10-29",
+ "last_screening": "2026-10-30",
  "avg_per_screening": 13.0,
  "by_weekday": {
   "א'": {
@@ -261,25 +261,9 @@
   {
    "date": "2026-10-30",
    "weekday": "ו'",
-   "start": "11:00",
-   "film": "מעשיות מקבילות",
-   "sold_so_far": 0,
-   "excluded": ""
-  },
-  {
-   "date": "2026-10-30",
-   "weekday": "ו'",
-   "start": "13:50",
-   "film": "האהבות שלנו",
-   "sold_so_far": 0,
-   "excluded": ""
-  },
-  {
-   "date": "2026-10-30",
-   "weekday": "ו'",
    "start": "16:20",
    "film": "כבשה בקופסה",
-   "sold_so_far": 4,
+   "sold_so_far": 10,
    "excluded": ""
   },
   {
@@ -287,7 +271,7 @@
    "weekday": "ו'",
    "start": "19:00",
    "film": "הסתברות לאהבה",
-   "sold_so_far": 2,
+   "sold_so_far": 6,
    "excluded": ""
   },
   {
@@ -295,7 +279,7 @@
    "weekday": "ו'",
    "start": "21:00",
    "film": "הזר",
-   "sold_so_far": 2,
+   "sold_so_far": 6,
    "excluded": ""
   },
   {
@@ -303,7 +287,7 @@
    "weekday": "ש'",
    "start": "11:00",
    "film": "הזר",
-   "sold_so_far": 9,
+   "sold_so_far": 15,
    "excluded": ""
   },
   {
@@ -319,7 +303,7 @@
    "weekday": "ש'",
    "start": "16:10",
    "film": "פרימוורה",
-   "sold_so_far": 2,
+   "sold_so_far": 4,
    "excluded": ""
   },
   {
@@ -447,7 +431,7 @@
    "weekday": "ד'",
    "start": "21:00",
    "film": "כבשה בקופסה",
-   "sold_so_far": 0,
+   "sold_so_far": 2,
    "excluded": ""
   },
   {
@@ -455,20 +439,15 @@
    "weekday": "ג'",
    "start": "17:00",
    "film": "הוסטל ז'בוטינסקי + שיח יוצרת",
-   "sold_so_far": 12,
+   "sold_so_far": 14,
    "excluded": ""
   }
  ],
  "coverage_7d": {
-  "runs": 271,
-  "ok": 268,
+  "runs": 249,
+  "ok": 246,
   "expected_baseline": 336,
   "gaps_over_45min": [
-   {
-    "start": "2026-10-28 03:29",
-    "end": "2026-10-28 09:19",
-    "minutes": 350
-   },
    {
     "start": "2026-10-28 09:19",
     "end": "2026-10-28 16:14",
@@ -513,6 +492,11 @@
     "start": "2026-10-30 03:09",
     "end": "2026-10-30 09:09",
     "minutes": 360
+   },
+   {
+    "start": "2026-10-30 09:09",
+    "end": "2026-10-30 16:13",
+    "minutes": 424
    }
   ]
  },
