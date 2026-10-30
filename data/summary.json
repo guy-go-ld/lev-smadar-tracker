@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30 21:28",
+ "generated_at": "2026-10-31 01:09",
  "screenings_total": 134,
  "screenings_final": 59,
  "screenings_excluded": 37,
@@ -263,7 +263,7 @@
    "weekday": "ש'",
    "start": "11:00",
    "film": "הזר",
-   "sold_so_far": 17,
+   "sold_so_far": 19,
    "excluded": ""
   },
   {
@@ -420,15 +420,10 @@
   }
  ],
  "coverage_7d": {
-  "runs": 225,
-  "ok": 225,
+  "runs": 218,
+  "ok": 218,
   "expected_baseline": 336,
   "gaps_over_45min": [
-   {
-    "start": "2026-10-28 16:14",
-    "end": "2026-10-28 21:39",
-    "minutes": 325
-   },
    {
     "start": "2026-10-28 21:39",
     "end": "2026-10-29 01:35",
@@ -473,6 +468,11 @@
     "start": "2026-10-30 16:13",
     "end": "2026-10-30 21:28",
     "minutes": 315
+   },
+   {
+    "start": "2026-10-30 21:28",
+    "end": "2026-10-31 01:09",
+    "minutes": 221
    }
   ]
  },
