@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-30 16:13",
- "screenings_total": 131,
- "screenings_final": 58,
+ "generated_at": "2026-10-30 21:28",
+ "screenings_total": 134,
+ "screenings_final": 59,
  "screenings_excluded": 37,
  "excluded_events": {
   "חול המועד סוכות": {
@@ -26,7 +26,7 @@
  "based_on": "final",
  "first_screening": "2026-09-27",
  "last_screening": "2026-10-30",
- "avg_per_screening": 13.0,
+ "avg_per_screening": 12.9,
  "by_weekday": {
   "א'": {
    "screenings": 8,
@@ -54,9 +54,9 @@
    "total": 47
   },
   "ו'": {
-   "screenings": 10,
-   "avg": 8.1,
-   "total": 81
+   "screenings": 11,
+   "avg": 8.3,
+   "total": 91
   },
   "ש'": {
    "screenings": 11,
@@ -76,9 +76,9 @@
    "total": 153
   },
   "ערב מוקדם (16-19)": {
-   "screenings": 24,
-   "avg": 12.2,
-   "total": 293
+   "screenings": 25,
+   "avg": 12.1,
+   "total": 303
   },
   "ערב (19+)": {
    "screenings": 20,
@@ -153,9 +153,9 @@
    "total": 18
   },
   "ו'|ערב מוקדם (16-19)": {
-   "screenings": 4,
-   "avg": 8.2,
-   "total": 33
+   "screenings": 5,
+   "avg": 8.6,
+   "total": 43
   },
   "ו'|ערב (19+)": {
    "screenings": 2,
@@ -205,9 +205,9 @@
    "total": 319
   },
   "2026-W44": {
-   "screenings": 4,
-   "avg": 9.5,
-   "total": 38
+   "screenings": 5,
+   "avg": 9.6,
+   "total": 48
   }
  },
  "by_film": {
@@ -227,9 +227,9 @@
    "total": 139
   },
   "כבשה בקופסה": {
-   "screenings": 5,
-   "avg": 15.4,
-   "total": 77
+   "screenings": 6,
+   "avg": 14.5,
+   "total": 87
   },
   "סודות מהקרמלין": {
    "screenings": 7,
@@ -259,35 +259,11 @@
  },
  "upcoming": [
   {
-   "date": "2026-10-30",
-   "weekday": "ו'",
-   "start": "16:20",
-   "film": "כבשה בקופסה",
-   "sold_so_far": 10,
-   "excluded": ""
-  },
-  {
-   "date": "2026-10-30",
-   "weekday": "ו'",
-   "start": "19:00",
-   "film": "הסתברות לאהבה",
-   "sold_so_far": 6,
-   "excluded": ""
-  },
-  {
-   "date": "2026-10-30",
-   "weekday": "ו'",
-   "start": "21:00",
-   "film": "הזר",
-   "sold_so_far": 6,
-   "excluded": ""
-  },
-  {
    "date": "2026-10-31",
    "weekday": "ש'",
    "start": "11:00",
    "film": "הזר",
-   "sold_so_far": 15,
+   "sold_so_far": 17,
    "excluded": ""
   },
   {
@@ -303,7 +279,7 @@
    "weekday": "ש'",
    "start": "16:10",
    "film": "פרימוורה",
-   "sold_so_far": 4,
+   "sold_so_far": 6,
    "excluded": ""
   },
   {
@@ -359,7 +335,7 @@
    "weekday": "ב'",
    "start": "19:00",
    "film": "כבשה בקופסה",
-   "sold_so_far": 0,
+   "sold_so_far": 2,
    "excluded": ""
   },
   {
@@ -439,20 +415,15 @@
    "weekday": "ג'",
    "start": "17:00",
    "film": "הוסטל ז'בוטינסקי + שיח יוצרת",
-   "sold_so_far": 14,
+   "sold_so_far": 15,
    "excluded": ""
   }
  ],
  "coverage_7d": {
-  "runs": 249,
-  "ok": 246,
+  "runs": 225,
+  "ok": 225,
   "expected_baseline": 336,
   "gaps_over_45min": [
-   {
-    "start": "2026-10-28 09:19",
-    "end": "2026-10-28 16:14",
-    "minutes": 415
-   },
    {
     "start": "2026-10-28 16:14",
     "end": "2026-10-28 21:39",
@@ -497,6 +468,11 @@
     "start": "2026-10-30 09:09",
     "end": "2026-10-30 16:13",
     "minutes": 424
+   },
+   {
+    "start": "2026-10-30 16:13",
+    "end": "2026-10-30 21:28",
+    "minutes": 315
    }
   ]
  },

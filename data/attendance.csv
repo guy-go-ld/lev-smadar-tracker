@@ -130,3 +130,6 @@ date,week,weekday,start,slot,film,tickets_est,last_seen_min_before,status,film_e
 2026-10-29,2026-W44,ה',21:00,ערב (19+),כבשה בקופסה,2,163,partial,Sheep in the Box,126,ja,לב 1,github,
 2026-10-30,2026-W44,ו',11:00,בוקר (<12),מעשיות מקבילות,0,111,partial,Parallel Tales,139,fr,לב 1,github,
 2026-10-30,2026-W44,ו',13:50,צהריים (12-16),האהבות שלנו,0,281,partial,Our Loves,117,he,לב 1,github,
+2026-10-30,2026-W44,ו',16:20,ערב מוקדם (16-19),כבשה בקופסה,10,7,final,Sheep in the Box,126,ja,לב 1,github,
+2026-10-30,2026-W44,ו',19:00,ערב (19+),הסתברות לאהבה,6,167,partial,,94,he,לב 1,github,
+2026-10-30,2026-W44,ו',21:00,ערב (19+),הזר,6,287,partial,The Stranger,122,fr,לב 1,github,
