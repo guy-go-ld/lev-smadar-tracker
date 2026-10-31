@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-31 16:50",
- "screenings_total": 137,
+ "generated_at": "2026-10-31 21:00",
+ "screenings_total": 139,
  "screenings_final": 60,
  "screenings_excluded": 37,
  "excluded_events": {
@@ -259,22 +259,6 @@
  },
  "upcoming": [
   {
-   "date": "2026-10-31",
-   "weekday": "ש'",
-   "start": "18:30",
-   "film": "הסתברות לאהבה",
-   "sold_so_far": 6,
-   "excluded": ""
-  },
-  {
-   "date": "2026-10-31",
-   "weekday": "ש'",
-   "start": "20:30",
-   "film": "האהבות שלנו",
-   "sold_so_far": 6,
-   "excluded": ""
-  },
-  {
    "date": "2026-11-01",
    "weekday": "א'",
    "start": "16:30",
@@ -396,15 +380,10 @@
   }
  ],
  "coverage_7d": {
-  "runs": 174,
-  "ok": 174,
+  "runs": 162,
+  "ok": 162,
   "expected_baseline": 336,
   "gaps_over_45min": [
-   {
-    "start": "2026-10-29 11:18",
-    "end": "2026-10-29 18:17",
-    "minutes": 419
-   },
    {
     "start": "2026-10-29 18:17",
     "end": "2026-10-29 23:15",
@@ -449,6 +428,11 @@
     "start": "2026-10-31 10:45",
     "end": "2026-10-31 16:50",
     "minutes": 365
+   },
+   {
+    "start": "2026-10-31 16:50",
+    "end": "2026-10-31 21:00",
+    "minutes": 250
    }
   ]
  },

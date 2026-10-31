@@ -136,3 +136,5 @@ date,week,weekday,start,slot,film,tickets_est,last_seen_min_before,status,film_e
 2026-10-31,2026-W44,ש',11:00,בוקר (<12),הזר,38,15,final,The Stranger,122,fr,לב 1,github,
 2026-10-31,2026-W44,ש',13:30,צהריים (12-16),כבשה בקופסה,4,165,partial,Sheep in the Box,126,ja,לב 1,github,
 2026-10-31,2026-W44,ש',16:10,ערב מוקדם (16-19),פרימוורה,10,325,partial,Primavera,110,it,לב 1,github,
+2026-10-31,2026-W44,ש',18:30,ערב מוקדם (16-19),הסתברות לאהבה,6,100,partial,,94,he,לב 1,github,
+2026-10-31,2026-W44,ש',20:30,ערב (19+),האהבות שלנו,6,220,partial,Our Loves,117,he,לב 1,github,
