@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-31 10:45",
- "screenings_total": 134,
- "screenings_final": 59,
+ "generated_at": "2026-10-31 16:50",
+ "screenings_total": 137,
+ "screenings_final": 60,
  "screenings_excluded": 37,
  "excluded_events": {
   "חול המועד סוכות": {
@@ -25,8 +25,8 @@
  },
  "based_on": "final",
  "first_screening": "2026-09-27",
- "last_screening": "2026-10-30",
- "avg_per_screening": 12.9,
+ "last_screening": "2026-10-31",
+ "avg_per_screening": 13.4,
  "by_weekday": {
   "א'": {
    "screenings": 8,
@@ -59,16 +59,16 @@
    "total": 91
   },
   "ש'": {
-   "screenings": 11,
-   "avg": 29.5,
-   "total": 325
+   "screenings": 12,
+   "avg": 30.2,
+   "total": 363
   }
  },
  "by_slot": {
   "בוקר (<12)": {
-   "screenings": 6,
-   "avg": 17.7,
-   "total": 106
+   "screenings": 7,
+   "avg": 20.6,
+   "total": 144
   },
   "צהריים (12-16)": {
    "screenings": 8,
@@ -163,9 +163,9 @@
    "total": 20
   },
   "ש'|בוקר (<12)": {
-   "screenings": 2,
-   "avg": 35.5,
-   "total": 71
+   "screenings": 3,
+   "avg": 36.3,
+   "total": 109
   },
   "ש'|צהריים (12-16)": {
    "screenings": 3,
@@ -205,9 +205,9 @@
    "total": 319
   },
   "2026-W44": {
-   "screenings": 5,
-   "avg": 9.6,
-   "total": 48
+   "screenings": 6,
+   "avg": 14.3,
+   "total": 86
   }
  },
  "by_film": {
@@ -236,6 +236,11 @@
    "avg": 9.3,
    "total": 65
   },
+  "הזר": {
+   "screenings": 2,
+   "avg": 24.0,
+   "total": 48
+  },
   "להתאהב בטוסקנה": {
    "screenings": 5,
    "avg": 8.0,
@@ -250,44 +255,15 @@
    "screenings": 5,
    "avg": 7.4,
    "total": 37
-  },
-  "הזר": {
-   "screenings": 1,
-   "avg": 10.0,
-   "total": 10
   }
  },
  "upcoming": [
   {
    "date": "2026-10-31",
    "weekday": "ש'",
-   "start": "11:00",
-   "film": "הזר",
-   "sold_so_far": 38,
-   "excluded": ""
-  },
-  {
-   "date": "2026-10-31",
-   "weekday": "ש'",
-   "start": "13:30",
-   "film": "כבשה בקופסה",
-   "sold_so_far": 4,
-   "excluded": ""
-  },
-  {
-   "date": "2026-10-31",
-   "weekday": "ש'",
-   "start": "16:10",
-   "film": "פרימוורה",
-   "sold_so_far": 10,
-   "excluded": ""
-  },
-  {
-   "date": "2026-10-31",
-   "weekday": "ש'",
    "start": "18:30",
    "film": "הסתברות לאהבה",
-   "sold_so_far": 2,
+   "sold_so_far": 6,
    "excluded": ""
   },
   {
@@ -295,7 +271,7 @@
    "weekday": "ש'",
    "start": "20:30",
    "film": "האהבות שלנו",
-   "sold_so_far": 2,
+   "sold_so_far": 6,
    "excluded": ""
   },
   {
@@ -420,15 +396,10 @@
   }
  ],
  "coverage_7d": {
-  "runs": 200,
-  "ok": 200,
+  "runs": 174,
+  "ok": 174,
   "expected_baseline": 336,
   "gaps_over_45min": [
-   {
-    "start": "2026-10-29 04:51",
-    "end": "2026-10-29 11:18",
-    "minutes": 387
-   },
    {
     "start": "2026-10-29 11:18",
     "end": "2026-10-29 18:17",
@@ -473,6 +444,11 @@
     "start": "2026-10-31 04:25",
     "end": "2026-10-31 10:45",
     "minutes": 380
+   },
+   {
+    "start": "2026-10-31 10:45",
+    "end": "2026-10-31 16:50",
+    "minutes": 365
    }
   ]
  },
