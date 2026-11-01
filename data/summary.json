@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-01 16:57",
- "screenings_total": 140,
+ "generated_at": "2026-11-01 21:30",
+ "screenings_total": 142,
  "screenings_final": 60,
  "screenings_excluded": 37,
  "excluded_events": {
@@ -259,22 +259,6 @@
  },
  "upcoming": [
   {
-   "date": "2026-11-01",
-   "weekday": "א'",
-   "start": "18:50",
-   "film": "הסתברות לאהבה",
-   "sold_so_far": 2,
-   "excluded": ""
-  },
-  {
-   "date": "2026-11-01",
-   "weekday": "א'",
-   "start": "20:50",
-   "film": "הזר",
-   "sold_so_far": 5,
-   "excluded": ""
-  },
-  {
    "date": "2026-11-02",
    "weekday": "ב'",
    "start": "16:30",
@@ -372,15 +356,10 @@
   }
  ],
  "coverage_7d": {
-  "runs": 115,
-  "ok": 115,
+  "runs": 103,
+  "ok": 103,
   "expected_baseline": 336,
   "gaps_over_45min": [
-   {
-    "start": "2026-10-30 16:13",
-    "end": "2026-10-30 21:28",
-    "minutes": 315
-   },
    {
     "start": "2026-10-30 21:28",
     "end": "2026-10-31 01:09",
@@ -425,6 +404,11 @@
     "start": "2026-11-01 09:56",
     "end": "2026-11-01 16:57",
     "minutes": 421
+   },
+   {
+    "start": "2026-11-01 16:57",
+    "end": "2026-11-01 21:30",
+    "minutes": 273
    }
   ]
  },
