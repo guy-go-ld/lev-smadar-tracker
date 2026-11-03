@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-03 11:28",
- "screenings_total": 146,
+ "generated_at": "2026-11-03 19:16",
+ "screenings_total": 149,
  "screenings_final": 60,
  "screenings_excluded": 37,
  "excluded_events": {
@@ -261,33 +261,9 @@
   {
    "date": "2026-11-03",
    "weekday": "ג'",
-   "start": "13:00",
-   "film": "פרימוורה",
-   "sold_so_far": 0,
-   "excluded": ""
-  },
-  {
-   "date": "2026-11-03",
-   "weekday": "ג'",
-   "start": "15:20",
-   "film": "כבשה בקופסה",
-   "sold_so_far": 4,
-   "excluded": ""
-  },
-  {
-   "date": "2026-11-03",
-   "weekday": "ג'",
-   "start": "18:00",
-   "film": "הזר",
-   "sold_so_far": 3,
-   "excluded": ""
-  },
-  {
-   "date": "2026-11-03",
-   "weekday": "ג'",
    "start": "20:30",
    "film": "האהבות שלנו",
-   "sold_so_far": 6,
+   "sold_so_far": 9,
    "excluded": ""
   },
   {
@@ -505,11 +481,6 @@
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
-    "start": "2026-11-01 00:25",
-    "end": "2026-11-01 03:24",
-    "minutes": 179
-   },
-   {
     "start": "2026-11-01 03:24",
     "end": "2026-11-01 09:56",
     "minutes": 392
@@ -553,6 +524,11 @@
     "start": "2026-11-03 04:04",
     "end": "2026-11-03 11:28",
     "minutes": 444
+   },
+   {
+    "start": "2026-11-03 11:28",
+    "end": "2026-11-03 19:16",
+    "minutes": 468
    }
   ]
  },
