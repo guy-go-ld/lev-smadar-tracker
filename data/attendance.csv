@@ -144,3 +144,4 @@ date,week,weekday,start,slot,film,tickets_est,last_seen_min_before,status,film_e
 2026-11-02,2026-W45,ב',16:30,ערב מוקדם (16-19),הזר,2,281,partial,The Stranger,122,fr,לב 1,github,
 2026-11-02,2026-W45,ב',19:00,ערב (19+),כבשה בקופסה,2,431,partial,Sheep in the Box,126,ja,לב 1,github,
 2026-11-02,2026-W45,ב',21:30,ערב (19+),הסתברות לאהבה,2,581,partial,,94,he,לב 1,github,
+2026-11-03,2026-W45,ג',11:00,בוקר (<12),הסתברות לאהבה,0,416,partial,,94,he,לב 1,github,
