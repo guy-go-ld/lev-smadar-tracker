@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04 04:34",
+ "generated_at": "2026-11-04 11:50",
  "screenings_total": 150,
  "screenings_final": 60,
  "screenings_excluded": 37,
@@ -263,7 +263,7 @@
    "weekday": "ד'",
    "start": "16:30",
    "film": "הסתברות לאהבה",
-   "sold_so_far": 0,
+   "sold_so_far": 1,
    "excluded": ""
   },
   {
@@ -279,7 +279,7 @@
    "weekday": "ד'",
    "start": "21:00",
    "film": "כבשה בקופסה",
-   "sold_so_far": 2,
+   "sold_so_far": 4,
    "excluded": ""
   },
   {
@@ -335,7 +335,7 @@
    "weekday": "ש'",
    "start": "11:00",
    "film": "הזר",
-   "sold_so_far": 0,
+   "sold_so_far": 2,
    "excluded": ""
   },
   {
@@ -423,7 +423,7 @@
    "weekday": "ג'",
    "start": "17:00",
    "film": "הוסטל ז'בוטינסקי + שיח יוצרת",
-   "sold_so_far": 18,
+   "sold_so_far": 19,
    "excluded": ""
   },
   {
@@ -473,11 +473,6 @@
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
-    "start": "2026-11-01 16:57",
-    "end": "2026-11-01 21:30",
-    "minutes": 273
-   },
-   {
     "start": "2026-11-01 21:30",
     "end": "2026-11-02 01:01",
     "minutes": 211
@@ -521,6 +516,11 @@
     "start": "2026-11-04 00:23",
     "end": "2026-11-04 04:34",
     "minutes": 251
+   },
+   {
+    "start": "2026-11-04 04:34",
+    "end": "2026-11-04 11:50",
+    "minutes": 436
    }
   ]
  },
