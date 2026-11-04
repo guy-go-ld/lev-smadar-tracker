@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-04 11:50",
- "screenings_total": 150,
+ "generated_at": "2026-11-04 19:41",
+ "screenings_total": 152,
  "screenings_final": 60,
  "screenings_excluded": 37,
  "excluded_events": {
@@ -25,7 +25,7 @@
  },
  "based_on": "final",
  "first_screening": "2026-09-27",
- "last_screening": "2026-11-03",
+ "last_screening": "2026-11-04",
  "avg_per_screening": 13.4,
  "by_weekday": {
   "א'": {
@@ -261,22 +261,6 @@
   {
    "date": "2026-11-04",
    "weekday": "ד'",
-   "start": "16:30",
-   "film": "הסתברות לאהבה",
-   "sold_so_far": 1,
-   "excluded": ""
-  },
-  {
-   "date": "2026-11-04",
-   "weekday": "ד'",
-   "start": "18:30",
-   "film": "הזר",
-   "sold_so_far": 3,
-   "excluded": ""
-  },
-  {
-   "date": "2026-11-04",
-   "weekday": "ד'",
    "start": "21:00",
    "film": "כבשה בקופסה",
    "sold_so_far": 4,
@@ -327,7 +311,7 @@
    "weekday": "ו'",
    "start": "21:15",
    "film": "סוס פרא תשע",
-   "sold_so_far": 0,
+   "sold_so_far": 2,
    "excluded": ""
   },
   {
@@ -351,7 +335,7 @@
    "weekday": "ש'",
    "start": "16:00",
    "film": "פרימוורה",
-   "sold_so_far": 0,
+   "sold_so_far": 2,
    "excluded": ""
   },
   {
@@ -423,7 +407,7 @@
    "weekday": "ג'",
    "start": "17:00",
    "film": "הוסטל ז'בוטינסקי + שיח יוצרת",
-   "sold_so_far": 19,
+   "sold_so_far": 23,
    "excluded": ""
   },
   {
@@ -473,11 +457,6 @@
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
-    "start": "2026-11-01 21:30",
-    "end": "2026-11-02 01:01",
-    "minutes": 211
-   },
-   {
     "start": "2026-11-02 01:01",
     "end": "2026-11-02 04:23",
     "minutes": 202
@@ -521,6 +500,11 @@
     "start": "2026-11-04 04:34",
     "end": "2026-11-04 11:50",
     "minutes": 436
+   },
+   {
+    "start": "2026-11-04 11:50",
+    "end": "2026-11-04 19:41",
+    "minutes": 471
    }
   ]
  },
