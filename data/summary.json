@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-05 13:18",
- "screenings_total": 153,
+ "generated_at": "2026-11-05 20:51",
+ "screenings_total": 154,
  "screenings_final": 60,
  "screenings_excluded": 37,
  "excluded_events": {
@@ -25,7 +25,7 @@
  },
  "based_on": "final",
  "first_screening": "2026-09-27",
- "last_screening": "2026-11-04",
+ "last_screening": "2026-11-05",
  "avg_per_screening": 13.4,
  "by_weekday": {
   "א'": {
@@ -261,17 +261,9 @@
   {
    "date": "2026-11-05",
    "weekday": "ה'",
-   "start": "16:15",
-   "film": "סוס פרא תשע",
-   "sold_so_far": 0,
-   "excluded": ""
-  },
-  {
-   "date": "2026-11-05",
-   "weekday": "ה'",
    "start": "22:15",
    "film": "סוס פרא תשע",
-   "sold_so_far": 0,
+   "sold_so_far": 2,
    "excluded": ""
   },
   {
@@ -311,7 +303,7 @@
    "weekday": "ש'",
    "start": "11:00",
    "film": "הזר",
-   "sold_so_far": 7,
+   "sold_so_far": 9,
    "excluded": ""
   },
   {
@@ -319,7 +311,7 @@
    "weekday": "ש'",
    "start": "13:30",
    "film": "סוס פרא תשע",
-   "sold_so_far": 4,
+   "sold_so_far": 6,
    "excluded": ""
   },
   {
@@ -391,7 +383,7 @@
    "weekday": "ג'",
    "start": "14:00",
    "film": "סוס פרא תשע",
-   "sold_so_far": 0,
+   "sold_so_far": 2,
    "excluded": ""
   },
   {
@@ -399,7 +391,7 @@
    "weekday": "ג'",
    "start": "17:00",
    "film": "הוסטל ז'בוטינסקי + שיח יוצרת",
-   "sold_so_far": 23,
+   "sold_so_far": 24,
    "excluded": ""
   },
   {
@@ -407,7 +399,7 @@
    "weekday": "ג'",
    "start": "19:00",
    "film": "הזר",
-   "sold_so_far": 0,
+   "sold_so_far": 2,
    "excluded": ""
   },
   {
@@ -448,11 +440,6 @@
   "ok": 30,
   "expected_baseline": 336,
   "gaps_over_45min": [
-   {
-    "start": "2026-11-02 21:53",
-    "end": "2026-11-03 04:04",
-    "minutes": 371
-   },
    {
     "start": "2026-11-03 04:04",
     "end": "2026-11-03 11:28",
@@ -497,6 +484,11 @@
     "start": "2026-11-05 05:20",
     "end": "2026-11-05 13:18",
     "minutes": 478
+   },
+   {
+    "start": "2026-11-05 13:18",
+    "end": "2026-11-05 20:51",
+    "minutes": 453
    }
   ]
  },
