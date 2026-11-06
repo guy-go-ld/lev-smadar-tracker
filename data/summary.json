@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-06 08:20",
- "screenings_total": 155,
+ "generated_at": "2026-11-06 16:28",
+ "screenings_total": 157,
  "screenings_final": 60,
  "screenings_excluded": 37,
  "excluded_events": {
@@ -25,7 +25,7 @@
  },
  "based_on": "final",
  "first_screening": "2026-09-27",
- "last_screening": "2026-11-05",
+ "last_screening": "2026-11-06",
  "avg_per_screening": 13.4,
  "by_weekday": {
   "א'": {
@@ -261,25 +261,9 @@
   {
    "date": "2026-11-06",
    "weekday": "ו'",
-   "start": "13:50",
-   "film": "עצמאות",
-   "sold_so_far": 0,
-   "excluded": ""
-  },
-  {
-   "date": "2026-11-06",
-   "weekday": "ו'",
-   "start": "16:10",
-   "film": "סוס פרא תשע",
-   "sold_so_far": 0,
-   "excluded": ""
-  },
-  {
-   "date": "2026-11-06",
-   "weekday": "ו'",
    "start": "18:40",
    "film": "הזר",
-   "sold_so_far": 0,
+   "sold_so_far": 3,
    "excluded": ""
   },
   {
@@ -287,7 +271,7 @@
    "weekday": "ו'",
    "start": "21:15",
    "film": "סוס פרא תשע",
-   "sold_so_far": 2,
+   "sold_so_far": 4,
    "excluded": ""
   },
   {
@@ -303,7 +287,7 @@
    "weekday": "ש'",
    "start": "13:30",
    "film": "סוס פרא תשע",
-   "sold_so_far": 6,
+   "sold_so_far": 9,
    "excluded": ""
   },
   {
@@ -311,7 +295,7 @@
    "weekday": "ש'",
    "start": "16:00",
    "film": "פרימוורה",
-   "sold_so_far": 2,
+   "sold_so_far": 6,
    "excluded": ""
   },
   {
@@ -327,7 +311,7 @@
    "weekday": "ש'",
    "start": "20:50",
    "film": "סוס פרא תשע",
-   "sold_so_far": 2,
+   "sold_so_far": 6,
    "excluded": ""
   },
   {
@@ -428,15 +412,10 @@
   }
  ],
  "coverage_7d": {
-  "runs": 30,
-  "ok": 30,
+  "runs": 29,
+  "ok": 29,
   "expected_baseline": 336,
   "gaps_over_45min": [
-   {
-    "start": "2026-11-03 19:16",
-    "end": "2026-11-04 00:23",
-    "minutes": 307
-   },
    {
     "start": "2026-11-04 00:23",
     "end": "2026-11-04 04:34",
@@ -481,6 +460,11 @@
     "start": "2026-11-06 01:55",
     "end": "2026-11-06 08:20",
     "minutes": 385
+   },
+   {
+    "start": "2026-11-06 08:20",
+    "end": "2026-11-06 16:28",
+    "minutes": 488
    }
   ]
  },
