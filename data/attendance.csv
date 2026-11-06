@@ -156,3 +156,5 @@ date,week,weekday,start,slot,film,tickets_est,last_seen_min_before,status,film_e
 2026-11-05,2026-W45,ה',22:15,ערב (19+),סוס פרא תשע,2,84,partial,Wild Horse Nine,118,en,לב 1,github,
 2026-11-06,2026-W45,ו',13:50,צהריים (12-16),עצמאות,0,330,partial,Tell Me Everything,109,he,לב 1,github,
 2026-11-06,2026-W45,ו',16:10,ערב מוקדם (16-19),סוס פרא תשע,0,470,partial,Wild Horse Nine,118,en,לב 1,github,
+2026-11-06,2026-W45,ו',18:40,ערב מוקדם (16-19),הזר,3,132,partial,The Stranger,122,fr,לב 1,github,
+2026-11-06,2026-W45,ו',21:15,ערב (19+),סוס פרא תשע,4,287,partial,Wild Horse Nine,118,en,לב 1,github,
