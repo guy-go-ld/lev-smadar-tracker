@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09 22:11",
+ "generated_at": "2026-11-10 04:46",
  "screenings_total": 168,
  "screenings_final": 61,
  "screenings_excluded": 37,
@@ -289,7 +289,7 @@
    "weekday": "ג'",
    "start": "17:00",
    "film": "הוסטל ז'בוטינסקי + שיח יוצרת",
-   "sold_so_far": 44,
+   "sold_so_far": 45,
    "excluded": ""
   },
   {
@@ -297,7 +297,7 @@
    "weekday": "ג'",
    "start": "19:00",
    "film": "הזר",
-   "sold_so_far": 11,
+   "sold_so_far": 12,
    "excluded": ""
   },
   {
@@ -363,11 +363,6 @@
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
-    "start": "2026-11-07 15:18",
-    "end": "2026-11-07 20:07",
-    "minutes": 289
-   },
-   {
     "start": "2026-11-07 20:07",
     "end": "2026-11-07 23:49",
     "minutes": 222
@@ -411,6 +406,11 @@
     "start": "2026-11-09 11:43",
     "end": "2026-11-09 22:11",
     "minutes": 628
+   },
+   {
+    "start": "2026-11-09 22:11",
+    "end": "2026-11-10 04:46",
+    "minutes": 395
    }
   ]
  },
