@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-10 04:46",
- "screenings_total": 168,
+ "generated_at": "2026-11-10 12:30",
+ "screenings_total": 169,
  "screenings_final": 61,
  "screenings_excluded": 37,
  "excluded_events": {
@@ -25,7 +25,7 @@
  },
  "based_on": "final",
  "first_screening": "2026-09-27",
- "last_screening": "2026-11-09",
+ "last_screening": "2026-11-10",
  "avg_per_screening": 13.2,
  "by_weekday": {
   "א'": {
@@ -271,17 +271,9 @@
   {
    "date": "2026-11-10",
    "weekday": "ג'",
-   "start": "11:00",
-   "film": "האהבות שלנו",
-   "sold_so_far": 0,
-   "excluded": ""
-  },
-  {
-   "date": "2026-11-10",
-   "weekday": "ג'",
    "start": "14:00",
    "film": "סוס פרא תשע",
-   "sold_so_far": 2,
+   "sold_so_far": 0,
    "excluded": ""
   },
   {
@@ -289,7 +281,7 @@
    "weekday": "ג'",
    "start": "17:00",
    "film": "הוסטל ז'בוטינסקי + שיח יוצרת",
-   "sold_so_far": 45,
+   "sold_so_far": 53,
    "excluded": ""
   },
   {
@@ -297,7 +289,7 @@
    "weekday": "ג'",
    "start": "19:00",
    "film": "הזר",
-   "sold_so_far": 12,
+   "sold_so_far": 16,
    "excluded": ""
   },
   {
@@ -305,7 +297,7 @@
    "weekday": "ג'",
    "start": "21:30",
    "film": "סוס פרא תשע",
-   "sold_so_far": 0,
+   "sold_so_far": 2,
    "excluded": ""
   },
   {
@@ -363,11 +355,6 @@
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
-    "start": "2026-11-07 20:07",
-    "end": "2026-11-07 23:49",
-    "minutes": 222
-   },
-   {
     "start": "2026-11-07 23:49",
     "end": "2026-11-08 02:58",
     "minutes": 189
@@ -411,6 +398,11 @@
     "start": "2026-11-09 22:11",
     "end": "2026-11-10 04:46",
     "minutes": 395
+   },
+   {
+    "start": "2026-11-10 04:46",
+    "end": "2026-11-10 12:30",
+    "minutes": 464
    }
   ]
  },
