@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12 02:41",
+ "generated_at": "2026-11-12 09:45",
  "screenings_total": 176,
  "screenings_final": 61,
  "screenings_excluded": 37,
@@ -281,7 +281,7 @@
    "weekday": "ה'",
    "start": "19:20",
    "film": "הכישרון של גברת הייסמית'",
-   "sold_so_far": 5,
+   "sold_so_far": 9,
    "excluded": ""
   },
   {
@@ -337,7 +337,7 @@
    "weekday": "ש'",
    "start": "11:00",
    "film": "הכישרון של גברת הייסמית'",
-   "sold_so_far": 0,
+   "sold_so_far": 3,
    "excluded": ""
   },
   {
@@ -491,11 +491,6 @@
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
-    "start": "2026-11-09 04:05",
-    "end": "2026-11-09 11:43",
-    "minutes": 458
-   },
-   {
     "start": "2026-11-09 11:43",
     "end": "2026-11-09 22:11",
     "minutes": 628
@@ -539,6 +534,11 @@
     "start": "2026-11-11 20:06",
     "end": "2026-11-12 02:41",
     "minutes": 395
+   },
+   {
+    "start": "2026-11-12 02:41",
+    "end": "2026-11-12 09:45",
+    "minutes": 424
    }
   ]
  },
