@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-12 18:21",
- "screenings_total": 177,
+ "generated_at": "2026-11-13 00:21",
+ "screenings_total": 179,
  "screenings_final": 61,
  "screenings_excluded": 37,
  "excluded_events": {
@@ -269,22 +269,6 @@
  },
  "upcoming": [
   {
-   "date": "2026-11-12",
-   "weekday": "ה'",
-   "start": "19:20",
-   "film": "הכישרון של גברת הייסמית'",
-   "sold_so_far": 20,
-   "excluded": ""
-  },
-  {
-   "date": "2026-11-12",
-   "weekday": "ה'",
-   "start": "21:30",
-   "film": "יער פרא",
-   "sold_so_far": 16,
-   "excluded": ""
-  },
-  {
    "date": "2026-11-13",
    "weekday": "ו'",
    "start": "11:00",
@@ -483,11 +467,6 @@
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
-    "start": "2026-11-09 22:11",
-    "end": "2026-11-10 04:46",
-    "minutes": 395
-   },
-   {
     "start": "2026-11-10 04:46",
     "end": "2026-11-10 12:30",
     "minutes": 464
@@ -531,6 +510,11 @@
     "start": "2026-11-12 09:45",
     "end": "2026-11-12 18:21",
     "minutes": 516
+   },
+   {
+    "start": "2026-11-12 18:21",
+    "end": "2026-11-13 00:21",
+    "minutes": 360
    }
   ]
  },
