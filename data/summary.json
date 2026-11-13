@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13 00:21",
+ "generated_at": "2026-11-13 04:45",
  "screenings_total": 179,
  "screenings_final": 61,
  "screenings_excluded": 37,
@@ -467,11 +467,6 @@
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
-    "start": "2026-11-10 04:46",
-    "end": "2026-11-10 12:30",
-    "minutes": 464
-   },
-   {
     "start": "2026-11-10 12:30",
     "end": "2026-11-10 20:12",
     "minutes": 462
@@ -515,6 +510,11 @@
     "start": "2026-11-12 18:21",
     "end": "2026-11-13 00:21",
     "minutes": 360
+   },
+   {
+    "start": "2026-11-13 00:21",
+    "end": "2026-11-13 04:45",
+    "minutes": 264
    }
   ]
  },
