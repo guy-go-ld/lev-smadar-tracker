@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-13 12:06",
- "screenings_total": 180,
+ "generated_at": "2026-11-13 19:43",
+ "screenings_total": 183,
  "screenings_final": 61,
  "screenings_excluded": 37,
  "excluded_events": {
@@ -271,30 +271,6 @@
   {
    "date": "2026-11-13",
    "weekday": "ו'",
-   "start": "13:45",
-   "film": "הזר",
-   "sold_so_far": 1,
-   "excluded": ""
-  },
-  {
-   "date": "2026-11-13",
-   "weekday": "ו'",
-   "start": "16:15",
-   "film": "סוס פרא תשע",
-   "sold_so_far": 4,
-   "excluded": ""
-  },
-  {
-   "date": "2026-11-13",
-   "weekday": "ו'",
-   "start": "18:45",
-   "film": "הכישרון של גברת הייסמית'",
-   "sold_so_far": 0,
-   "excluded": ""
-  },
-  {
-   "date": "2026-11-13",
-   "weekday": "ו'",
    "start": "21:00",
    "film": "יער פרא",
    "sold_so_far": 2,
@@ -459,11 +435,6 @@
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
-    "start": "2026-11-10 20:12",
-    "end": "2026-11-11 01:28",
-    "minutes": 316
-   },
-   {
     "start": "2026-11-11 01:28",
     "end": "2026-11-11 04:57",
     "minutes": 209
@@ -507,6 +478,11 @@
     "start": "2026-11-13 04:45",
     "end": "2026-11-13 12:06",
     "minutes": 441
+   },
+   {
+    "start": "2026-11-13 12:06",
+    "end": "2026-11-13 19:43",
+    "minutes": 457
    }
   ]
  },
