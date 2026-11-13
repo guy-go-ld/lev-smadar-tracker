@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-13 19:43",
- "screenings_total": 183,
+ "generated_at": "2026-11-14 00:54",
+ "screenings_total": 184,
  "screenings_final": 61,
  "screenings_excluded": 37,
  "excluded_events": {
@@ -269,14 +269,6 @@
  },
  "upcoming": [
   {
-   "date": "2026-11-13",
-   "weekday": "ו'",
-   "start": "21:00",
-   "film": "יער פרא",
-   "sold_so_far": 2,
-   "excluded": ""
-  },
-  {
    "date": "2026-11-14",
    "weekday": "ש'",
    "start": "11:00",
@@ -435,11 +427,6 @@
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
-    "start": "2026-11-11 01:28",
-    "end": "2026-11-11 04:57",
-    "minutes": 209
-   },
-   {
     "start": "2026-11-11 04:57",
     "end": "2026-11-11 12:41",
     "minutes": 464
@@ -483,6 +470,11 @@
     "start": "2026-11-13 12:06",
     "end": "2026-11-13 19:43",
     "minutes": 457
+   },
+   {
+    "start": "2026-11-13 19:43",
+    "end": "2026-11-14 00:54",
+    "minutes": 311
    }
   ]
  },
