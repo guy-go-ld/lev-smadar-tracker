@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-15 17:00",
- "screenings_total": 190,
+ "generated_at": "2026-11-15 22:20",
+ "screenings_total": 192,
  "screenings_final": 61,
  "screenings_excluded": 37,
  "excluded_events": {
@@ -269,22 +269,6 @@
  },
  "upcoming": [
   {
-   "date": "2026-11-15",
-   "weekday": "א'",
-   "start": "18:40",
-   "film": "הזר",
-   "sold_so_far": 0,
-   "excluded": ""
-  },
-  {
-   "date": "2026-11-15",
-   "weekday": "א'",
-   "start": "21:10",
-   "film": "סוס פרא תשע",
-   "sold_so_far": 0,
-   "excluded": ""
-  },
-  {
    "date": "2026-11-16",
    "weekday": "ב'",
    "start": "16:30",
@@ -387,11 +371,6 @@
   "expected_baseline": 336,
   "gaps_over_45min": [
    {
-    "start": "2026-11-13 04:45",
-    "end": "2026-11-13 12:06",
-    "minutes": 441
-   },
-   {
     "start": "2026-11-13 12:06",
     "end": "2026-11-13 19:43",
     "minutes": 457
@@ -435,6 +414,11 @@
     "start": "2026-11-15 09:44",
     "end": "2026-11-15 17:00",
     "minutes": 436
+   },
+   {
+    "start": "2026-11-15 17:00",
+    "end": "2026-11-15 22:20",
+    "minutes": 320
    }
   ]
  },
