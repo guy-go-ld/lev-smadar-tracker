@@ -194,3 +194,7 @@ date,week,weekday,start,slot,film,tickets_est,last_seen_min_before,status,film_e
 2026-11-16,2026-W47,ב',16:30,ערב מוקדם (16-19),יער פרא,0,5649,partial,Wildwood,139,en,לב 1,github,
 2026-11-16,2026-W47,ב',19:15,ערב (19+),הכישרון של גברת הייסמית',0,5190,partial,A Talent for Murder,106,en,לב 1,github,
 2026-11-16,2026-W47,ב',21:30,ערב (19+),סוס פרא תשע,0,5325,partial,Wild Horse Nine,118,en,לב 1,github,
+2026-11-17,2026-W47,ג',11:00,בוקר (<12),הכישרון של גברת הייסמית',0,6759,partial,A Talent for Murder,106,en,לב 1,github,
+2026-11-17,2026-W47,ג',13:20,צהריים (12-16),סוס פרא תשע,0,6275,partial,Wild Horse Nine,118,en,לב 1,github,
+2026-11-17,2026-W47,ג',16:00,ערב מוקדם (16-19),הכישרון של גברת הייסמית',0,7059,partial,A Talent for Murder,106,en,לב 1,github,
+2026-11-17,2026-W47,ג',18:15,ערב מוקדם (16-19),הזר,0,7194,partial,The Stranger,122,fr,לב 1,github,
